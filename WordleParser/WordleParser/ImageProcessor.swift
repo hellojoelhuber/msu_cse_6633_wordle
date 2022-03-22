@@ -30,39 +30,47 @@ struct ImageProcessor {
         
         var travelingPixel: RGBA<UInt8> = RGBA(0xE0E0E0FF)
         
-        for name in imageNames {
-            let image = Image<RGBA<UInt8>>(named: name)!
-            let imageHeight = image.height
-            let imageWidth = image.width
-            var y = 32
-            var x = 32
-            
-            
-            grid = "\n\n\(name) \(image.width) x \(image.height)\n"
-            while (y < imageHeight) {
-                while (x < imageWidth) {
-                    travelingPixel = image[x, y]
-                    if travelingPixel == ImageProcessor.blackPixel {
-                        grid += "⬛️"
-                    } else if travelingPixel == ImageProcessor.whitePixel {
-                        grid += "⬜️"
-                    } else if travelingPixel == ImageProcessor.greenPixel {
-                        grid += "🟩"
-                    } else if travelingPixel == ImageProcessor.yellowPixel {
-                        grid += "🟨"
-                    } else {
-                        grid += "🔷"
+        let start_time = DispatchTime.now()
+        for _ in 0..<20 {
+            for name in imageNames {
+                let image = Image<RGBA<UInt8>>(named: name)!
+                let imageHeight = image.height
+                let imageWidth = image.width
+                var y = 32
+                var x = 32
+                
+                
+                grid = "\n\n\(name) \(image.width) x \(image.height)\n"
+                while (y < imageHeight) {
+                    while (x < imageWidth) {
+                        travelingPixel = image[x, y]
+                        if travelingPixel == ImageProcessor.blackPixel {
+                            grid += "⬛️"
+                        } else if travelingPixel == ImageProcessor.whitePixel {
+                            grid += "⬜️"
+                        } else if travelingPixel == ImageProcessor.greenPixel {
+                            grid += "🟩"
+                        } else if travelingPixel == ImageProcessor.yellowPixel {
+                            grid += "🟨"
+                        } else {
+                            grid += "🔷"
+                        }
+                        
+        //                print(travelingPixel)
+                        x += 68
                     }
-                    
-    //                print(travelingPixel)
-                    x += 68
+                    grid += "\n"
+                    x = 32
+                    y += 68
                 }
-                grid += "\n"
-                x = 32
-                y += 68
+                print(grid)
             }
-            print(grid)
         }
+        let end_time = DispatchTime.now()
+        let nanoTime = end_time.uptimeNanoseconds - start_time.uptimeNanoseconds
+        let timeInterval = Double(nanoTime) / 1_000_000_000
+        
+        print("Total elapsed time was : \(timeInterval).")
         
     }
     
