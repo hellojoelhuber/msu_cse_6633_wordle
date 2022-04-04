@@ -1,0 +1,1081 @@
+{
+"WordSet1": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["g", "r", "i", "c", "a"],
+
+"known": {},
+
+"matches": ["cigar"]
+
+},
+
+{"includes": ["g", "r", "i", "c", "a"],
+
+"known": {"second": "r"},
+
+"matches": ["craig"]
+
+}]
+},
+"WordSet2": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["b", "r", "u", "e", "t"],
+
+"known": {"fifth": "t"},
+
+"matches": ["rebut"]
+
+},
+
+{"includes": ["b", "r", "u", "e", "t"],
+
+"known": {"fifth": "t"},
+
+"matches": ["buret"]
+
+}]
+},
+"WordSet3": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["e", "v", "d", "a"],
+
+"known": {},
+
+"matches": ["evade", "deave"]
+
+},
+
+{"includes": ["e", "v", "d", "a"],
+
+"known": {"first": "v", "fifth": "d"},
+
+"matches": ["vaded"]
+},
+
+{"includes": ["e", "v", "d", "a"],
+
+"known": {"fifth": "d"},
+
+"matches": ["eaved"]
+
+}]
+},
+"WordSet4": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["e", "r", "v", "s"],
+
+"known": {},
+
+"matches": ["serve", "sever"]
+
+},
+
+{"includes": ["e", "r", "v", "s"],
+
+"known": {"first": "v", "third": "e", "fifth": "s"},
+
+"matches": ["veers"]
+},
+
+{"includes": ["e", "r", "v", "s"],
+
+"known": {"first": "v"},
+
+"matches": ["verse"]
+},
+
+{"includes": ["e", "r", "v", "s"],
+
+"known": {"third": "e", "fifth": "s"},
+
+"matches": ["erevs"]
+
+}]
+},
+"WordSet5": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["e", "t", "h", "a"],
+
+"known": {},
+
+"matches": ["heath"]
+
+},
+
+{"includes": ["e", "t", "h", "a"],
+
+"known": {"second": "a"},
+
+"matches": ["eathe"]
+
+},
+
+{"includes": ["e", "t", "h", "a"],
+
+"known": {"third": "e"},
+
+"matches": ["theta"]
+
+}]
+},
+"WordSet6": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["o", "l", "e", "m", "d"],
+
+"known": {"second": "o"},
+
+"matches": ["model"]
+
+},
+
+{"includes": ["o", "l", "e", "m", "d"],
+
+"known": {"second": "o", "fifth": "d"},
+
+"matches": ["moled", "lomed"]
+
+}]
+},
+"WordSet7": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "r", "k", "m"],
+
+"known": {"second": "a"},
+
+"matches": ["karma", "makar", "marka"]
+
+}]
+},
+"WordSet8": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["i", "n", "k", "t", "s"],
+
+"known": {"third": "i", "fourth": "n", "fifth": "k"},
+
+"matches": ["stink"]
+
+},
+{"includes": ["i", "n", "k", "t", "s"],
+
+"known": {"third": "i", "fourth": "n"},
+
+"matches": ["skint"]
+
+},
+{"includes": ["i", "n", "k", "t", "s"],
+
+"known": {"third": "i", "fifth": "s"},
+
+"matches": ["knits"]
+
+},
+{"includes": ["i", "n", "k", "t", "s"],
+
+"known": {"fifth": "s"},
+
+"matches": ["tinks"]
+
+}]
+},
+"WordSet9": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["g", "r", "e", "d", "a"],
+
+"known": {"first": "g", "second": "r"},
+
+"matches": ["grade"]
+
+},
+{"includes": ["g", "r", "e", "d", "a"],
+
+"known": {"second": "a", "fifth": "d"},
+
+"matches": ["raged"]
+
+},
+{"includes": ["i", "n", "k", "t", "s"],
+
+"known": {"second": "a"},
+
+"matches": ["ragde"]
+
+}]
+},
+"WordSet10": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["u", "i", "t", "e", "q"],
+
+"known": {"second": "u", "third": "i", "fifth": "t"},
+
+"matches": ["quiet"]
+
+},
+{"includes": ["u", "i", "t", "e", "q"],
+
+"known": {"second": "u", "third": "i"},
+
+"matches": ["quite"]
+
+}]
+},
+"WordSet11": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["r", "j", "m", "o", "a"],
+
+"known": {"second": "a"},
+
+"matches": ["major"]
+
+},
+{"includes": ["u", "i", "t", "e", "q"],
+
+"known": {"second": "o"},
+
+"matches": ["joram"]
+
+}]
+},
+"WordSet12": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["e", "t", "h", "d", "a"],
+
+"known": {},
+
+"matches": ["death"]
+
+},
+{"includes": ["e", "t", "h", "d", "a"],
+
+"known": {"second": "a", "fifth": "d"},
+
+"matches": ["hated"]
+
+}]
+},
+"WordSet12": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["l", "t", "o", "s"],
+
+"known": {},
+
+"matches": ["stool"]
+
+},
+{"includes": ["l", "t", "o", "s"],
+
+"known": {"second": "l"},
+
+"matches": ["sloot"]
+
+},
+{"includes": ["l", "t", "o", "s"],
+
+"known": {"second": "o", "fifth": "s"},
+
+"matches": ["tolts", "tolls", "tools", "tolts", "lotos", "loots"]
+
+},
+{"includes": ["l", "t", "o", "s"],
+
+"known": {"second": "o"},
+
+"matches": ["sotol"]
+
+}]
+},
+"WordSet13": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "y", "m", "r"],
+
+"known": {"second": "a", "fifth": "y"},
+
+"matches": ["marry", "rammy"]
+
+}]
+},
+"WordSet14": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "y", "m", "r"],
+
+"known": {"second": "a", "fifth": "y"},
+
+"matches": ["marry", "rammy"]
+
+}]
+},
+"WordSet15": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["e", "r", "a", "c", "t"],
+
+"known": {"third": "c", "fifth": "t"},
+
+"matches": ["react"]
+
+},
+{"includes": ["e", "r", "a", "c", "t"],
+
+"known": {},
+
+"matches": ["recta", "crate", "trace"]
+
+},
+{"includes": ["e", "r", "a", "c", "t"],
+
+"known": {"second": "a"},
+
+"matches": ["carte", "cater"]
+
+},
+{"includes": ["e", "r", "a", "c", "t"],
+
+"known": {"second": "a", "fifth": "t"},
+
+"matches": ["caret"]
+
+}]
+},
+"WordSet16": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["r", "i", "e", "p", "d"],
+
+"known": {"second": "r", "third": "c"},
+
+"matches": ["pride", "pried"]
+
+},
+{"includes": ["r", "i", "e", "p", "d"],
+
+"known": {},
+
+"matches": ["redip"]
+
+},
+{"includes": ["r", "i", "e", "p", "d"],
+
+"known": {"fifth": "d"},
+
+"matches": ["riped"]
+
+}]
+},
+"WordSet17": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["l", "s", "o", "f"],
+
+"known": {"second": "l", "fifth": "s"},
+
+"matches": ["floss"]
+
+},
+{"includes": ["l", "s", "o", "f"],
+
+"known": {"second": "l", "fifth": "s"},
+
+"matches": ["fools", "loofs"]
+
+}]
+},
+"WordSet18": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["t", "s", "a", "f"],
+
+"known": {},
+
+"matches": ["staff"]
+
+},
+{"includes": ["t", "s", "a", "f"],
+
+"known": {"second": "a", "fifth": "s"},
+
+"matches": ["fasts"]
+
+}]
+},
+"WordSet19": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "a"},
+
+"matches": ["parer", "parae", "paper", "raper", "rappe"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "r"},
+
+"matches": ["arepa"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {},
+
+"matches": ["peare", "perea"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "a", "fourth": "p"},
+
+"matches": ["rappe"]
+
+}]
+},
+"WordSet19": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "a"},
+
+"matches": ["parer", "parae", "paper", "raper", "rappe"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "r"},
+
+"matches": ["arepa"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {},
+
+"matches": ["peare", "perea"]
+
+},
+{"includes": ["a", "e", "p", "r"],
+
+"known": {"second": "a", "fourth": "p"},
+
+"matches": ["rappe"]
+
+}]
+},
+"WordSet20": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "e", "d", "b", "o"],
+
+"known": {},
+
+"matches": ["adobe", "abode"]
+
+}]
+},
+"WordSet21": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["o", "e", "r", "s", "w"],
+
+"known": {"second": "o"},
+
+"matches": ["sower"]
+
+},
+{"includes": ["o", "e", "r", "s", "w"],
+
+"known": {"first": "w", "second": "o"},
+
+"matches": ["worse"]
+
+},
+{"includes": ["o", "e", "r", "s", "w"],
+
+"known": {},
+
+"matches": ["serow", "owres", "resow"]
+
+},
+{"includes": ["o", "e", "r", "s", "w"],
+
+"known": {"first": "w"},
+
+"matches": ["weros"]
+
+}]
+},
+"WordSet22": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": {"fifth": "y"},
+
+"matches": ["repay"]
+
+},
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": { "second": "a"},
+
+"matches": ["payer"]
+
+},
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": {"third": "a", "fifth": "y"},
+
+"matches": ["apery"]
+
+}]
+},
+"WordSet23": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": {"fifth": "y"},
+
+"matches": ["repay"]
+
+},
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": { "second": "a"},
+
+"matches": ["payer"]
+
+},
+{"includes": ["y", "e", "r", "p", "a"],
+
+"known": {"third": "a", "fifth": "y"},
+
+"matches": ["apery"]
+
+}]
+},
+"WordSet24": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["i", "e", "s", "p", "k"],
+
+"known": {"third": "i"},
+
+"matches": ["spike"]
+
+},
+{"includes": ["i", "e", "s", "p", "k"],
+
+"known": { "fifth": "s"},
+
+"matches": ["pikes", "kipes", "kepis"]
+
+}]
+},
+"WordSet25": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["l", "e", "s", "h", "f"],
+
+"known": {"second": "l", "third": "e"},
+
+"matches": ["flesh"]
+
+},
+{"includes": ["l", "e", "s", "h", "f"],
+
+"known": { "third": "e"},
+
+"matches": ["shelf"]
+
+}]
+},
+"WordSet26": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["l", "e", "s", "h", "f"],
+
+"known": {"second": "l", "third": "e"},
+
+"matches": ["flesh"]
+
+},
+{"includes": ["l", "e", "s", "h", "f"],
+
+"known": { "third": "e"},
+
+"matches": ["shelf"]
+
+}]
+},
+"WordSet26": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["o", "t", "r", "h", "f"],
+
+"known": {"second": "o"},
+
+"matches": ["forth"]
+
+},
+{"includes": ["o", "t", "r", "h", "f"],
+
+"known": {},
+
+"matches": ["froth"]
+
+}]
+},
+"WordSet27": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["s", "t", "r", "i", "f"],
+
+"known": {"fifth": "t"},
+
+"matches": ["first"]
+
+},
+{"includes": ["s", "t", "r", "i", "f"],
+
+"known": {"second": "r", "third": "i", "fifth": "t"},
+
+"matches": ["frist"]
+
+},
+{"includes": ["s", "t", "r", "i", "f"],
+
+"known": {"second": "r", "third": "i", "fifth": "s"},
+
+"matches": ["frits"]
+
+},
+{"includes": ["s", "t", "r", "i", "f"],
+
+"known": {"fifth": "s"},
+
+"matches": ["rifts"]
+
+}]
+},
+"WordSet28": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["n", "d", "t", "a", "s"],
+
+"known": {"fourth": "n","fifth": "d"},
+
+"matches": ["stand"]
+
+},
+{"includes": ["n", "d", "t", "a", "s"],
+
+"known": {"second": "a", "fifth": "s"},
+
+"matches": ["frist"]
+
+}]
+},
+"WordSet29": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["n", "e", "r", "a", "y"],
+"known": {},
+"matches": ["yearn"]
+
+},
+{"includes": ["n", "e", "r", "a", "y"],
+"known": {"fifth": "y"},
+"matches": ["renay"]
+
+},
+{"includes": ["n", "e", "r", "a", "y"],
+"known": {"second": "a"},
+"matches": ["rayne"]
+
+}]
+},
+"WordSet30": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["n", "i", "r", "a", "d"],
+"known": {"second": "r"},
+"matches": ["drain"]
+
+},
+{"includes": ["n", "i", "r", "a", "d"],
+"known": {},
+"matches": ["dinar"]
+
+},
+{"includes": ["n", "i", "r", "a", "d"],
+"known": {"second": "a"},
+"matches": ["ranid", "nadir"]
+
+}]
+},
+"WordSet31": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["b", "i", "r", "e"],
+"known": {"first": "b", "second": "r", "third": "i"},
+"matches": ["bribe", "brier"]
+
+}]
+},
+"WordSet32": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "l", "n", "e", "p"],
+"known": {"second": "a"},
+"matches": ["panel"]
+
+},{"includes": ["a", "l", "n", "e", "p"],
+"known": {},
+"matches": ["penal"]
+
+},{"includes": ["a", "l", "n", "e", "p"],
+"known": {"second": "l"},
+"matches": ["plane"]
+
+},{"includes": ["a", "l", "n", "e", "p"],
+"known": {"second": "l", "third": "e"},
+"matches": ["plena"]
+}]
+},
+"WordSet33": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "l", "o", "f"],
+"known": {"second": "o", "fourth": "f"},
+"matches": ["loofa"]
+
+},{"includes": ["a", "l", "o", "f"],
+"known": {},
+"matches": ["offal"]
+
+},{"includes": ["a", "l", "o", "f"],
+"known": {"second": "l"},
+"matches": ["aloof"]
+
+}]
+},
+"WordSet34": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["a", "g", "e", "r"],
+"known": {"second": "a"},
+"matches": ["ragee", "rager", "eager", "eagre"]
+
+},{"includes": ["a", "g", "e", "r"],
+"known": {},
+"matches": ["agree", "agger", "regar", "eggar"]
+
+},{"includes": ["a", "g", "e", "r"],
+"known": {"first": "g"},
+"matches": ["geare"]
+
+},{"includes": ["a", "g", "e", "r"],
+"known": {"first": "g", "second": "a"},
+"matches": ["gager", "garre"]
+
+}]
+},
+"WordSet35": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["g", "r", "a", "u", "e"],
+
+"known": {"second": "r"},
+
+"matches": ["argue"]
+
+},
+
+{"includes": ["g", "r", "a", "u", "e"],
+
+"known": {"second": "u"},
+
+"matches": ["auger", "rugae"]
+
+}]
+},
+"WordSet36": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["b", "l", "e", "d"],
+
+"known": {"first": "b", "second": "l", "third": "e", "fifth": "d"},
+
+"matches": ["bleed"]
+
+},
+
+{"includes": ["b", "l", "e", "d"],
+
+"known": {"first": "b"},
+
+"matches": ["bedel"]
+
+},
+
+{"includes": ["b", "l", "e", "d"],
+
+"known": {},
+
+"matches": ["debel"]
+
+}]
+},
+"WordSet37": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["t", "l", "e", "d", "a"],
+
+"known": {},
+
+"matches": ["delta"]
+
+},
+
+{"includes": ["t", "l", "e", "d", "a"],
+
+"known": {"fifth": "t"},
+
+"matches": ["dealt"]
+
+},
+
+{"includes": ["t", "l", "e", "d", "a"],
+
+"known": {"second": "a", "fifth": "t"},
+
+"matches": ["lated"]
+
+}]
+},
+"WordSet38": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["t", "o", "e", "m"],
+
+"known": {"second": "o"},
+
+"matches": ["totem", "motte", "motet"]
+
+},
+
+{"includes": ["t", "o", "e", "m"],
+
+"known": {},
+
+"matches": ["emote"]
+
+}]
+},
+"WordSet39": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["r", "o", "e", "w"],
+
+"known": {"first": "w", "second": "o"},
+
+"matches": ["wooer"]
+
+},
+
+{"includes": ["r", "o", "e", "w"],
+
+"known": {"second": "o"},
+
+"matches": ["rower"]
+
+}]
+},
+"WordSet40": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["r", "o", "e", "w"],
+
+"known": {"first": "w", "second": "o"},
+
+"matches": ["wooer"]
+
+},
+
+{"includes": ["r", "o", "e", "w"],
+
+"known": {"second": "o"},
+
+"matches": ["rower"]
+
+}]
+},
+"WordSet41": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["b", "o", "e", "i", "m"],
+
+"known": {"first": "b"},
+
+"matches": ["biome"]
+
+},
+
+{"includes": ["b", "o", "e", "i", "m"],
+
+"known": {"second": "o"},
+
+"matches": ["mobie"]
+
+}]
+},
+"WordSet41": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["p", "a", "e", "l"],
+
+"known": {"second": "a"},
+
+"matches": ["lapel", "palea"]
+
+},
+
+{"includes": ["p", "a", "e", "l"],
+
+"known": {},
+
+"matches": ["apple", "pepla", "appel"]
+
+}]
+},
+"WordSet42": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["s", "a", "t", "r"],
+
+"known": {"fifth": "s"},
+
+"matches": ["stars", "tsars", "trass" ]
+
+},
+
+{"includes": ["s", "a", "t", "r"],
+
+"known": {"second": "a"},
+
+"matches": ["rasta"]
+
+},
+{"includes": ["s", "a", "t", "r"],
+
+"known": {"second": "a", "fifth": "s"},
+
+"matches": ["tarts", "taras", "ratas", "tasar"]
+
+},
+
+{"includes": ["s", "a", "t", "r"],
+
+"known": {"fifth": "t"},
+
+"matches": ["start"]
+
+},
+{"includes": ["s", "a", "t", "r"],
+
+"known": {},
+
+"matches": ["starr"]
+
+},
+{"includes": ["s", "a", "t", "r"],
+
+"known": {"second": "r", "fifth": "s"},
+
+"matches": ["starr"]
+
+}]
+},
+"WordSet43": {
+ "words": ["glent", "brick", "vozhd", "waqfs", "jumpy"],
+ "profiles": [
+
+{"includes": ["g", "r", "e", "t"],
+
+"known": {"first": "g", "second": "r", "third": "e", "fifth": "t"},
+
+"matches": ["greet"]
+
+},
+
+{"includes": ["g", "r", "e", "t"],
+
+"known": {"fifth": "t"},
+
+"matches": ["egret"]
+
+}]
+}
+}
+
