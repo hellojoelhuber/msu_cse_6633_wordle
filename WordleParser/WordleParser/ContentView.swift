@@ -15,8 +15,9 @@ struct ContentView: View {
             Text("Hello, World!")
                 .padding()
             Button("Tap me") {
-//                processor.processor.printPixel()
-                processor.processor.printGrid()
+//                processor.processor.printJson()
+
+                processor.processor.printPuzzles()
             }
         }
         

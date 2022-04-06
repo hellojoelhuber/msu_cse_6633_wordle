@@ -10,6 +10,7 @@
 		7476A1FC27E50E12003BC76B /* SwiftImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7476A1FB27E50E12003BC76B /* SwiftImage */; };
 		7476A1FE27E51009003BC76B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476A1FD27E51009003BC76B /* ImageProcessor.swift */; };
 		7476A20027E51C6D003BC76B /* ImageProcessorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476A1FF27E51C6D003BC76B /* ImageProcessorViewModel.swift */; };
+		74B66CCE27FB8DDF00F3C724 /* quordle57_tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 74B66CCD27FB8DDF00F3C724 /* quordle57_tweets.json */; };
 		74F94A0B27E50D17004F64F8 /* WordleParserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F94A0A27E50D17004F64F8 /* WordleParserApp.swift */; };
 		74F94A0D27E50D17004F64F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F94A0C27E50D17004F64F8 /* ContentView.swift */; };
 		74F94A0F27E50D17004F64F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F94A0E27E50D17004F64F8 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		7476A1F927E50DAF003BC76B /* swift-image-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swift-image-master"; path = "WordleParser/swift-image-master"; sourceTree = "<group>"; };
 		7476A1FD27E51009003BC76B /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		7476A1FF27E51C6D003BC76B /* ImageProcessorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessorViewModel.swift; sourceTree = "<group>"; };
+		74B66CCD27FB8DDF00F3C724 /* quordle57_tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quordle57_tweets.json; sourceTree = "<group>"; };
 		74F94A0727E50D17004F64F8 /* WordleParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F94A0A27E50D17004F64F8 /* WordleParserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleParserApp.swift; sourceTree = "<group>"; };
 		74F94A0C27E50D17004F64F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				74F94A0C27E50D17004F64F8 /* ContentView.swift */,
 				7476A1FF27E51C6D003BC76B /* ImageProcessorViewModel.swift */,
 				7476A1FD27E51009003BC76B /* ImageProcessor.swift */,
+				74B66CCD27FB8DDF00F3C724 /* quordle57_tweets.json */,
 				74F94A0E27E50D17004F64F8 /* Assets.xcassets */,
 				74F94A1027E50D17004F64F8 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			files = (
 				74F94A1227E50D17004F64F8 /* Preview Assets.xcassets in Resources */,
 				74F94A0F27E50D17004F64F8 /* Assets.xcassets in Resources */,
+				74B66CCE27FB8DDF00F3C724 /* quordle57_tweets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
