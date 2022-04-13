@@ -31,10 +31,14 @@ ans_data['freq'] <- NA
 #ans_data[1,2] <- y_freq
 #print(ans_data[1,])
 
+# Define start and end year for ngram #
+start <- 1990
+end <- 2000
+
 # Create loop to determine frequency for answers using ngram #
 range <- c(1:2315)
 for (val in range) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
@@ -92,241 +96,335 @@ range45 <- c(2201:2250)
 range46 <- c(2251:2300)
 range47 <- c(2301:2315)
 
+
 for (val in range1) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range1,])
+
 for (val in range2) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range2,])
+
 for (val in range3) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range3,])
+
 for (val in range4) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range4,])
+
 for (val in range5) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range5,])
+
 for (val in range6) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range6,])
+
 for (val in range7) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range7,])
+
 for (val in range8) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range8,])
+
 for (val in range9) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range9,])
+
 for (val in range10) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range10,])
+
 for (val in range11) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range11,])
+
 for (val in range12) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range12,])
+
 for (val in range13) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range13,])
+
 for (val in range14) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range14,])
+
 for (val in range15) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range15,])
+
 for (val in range16) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range16,])
+
 for (val in range17) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range17,])
+
 for (val in range18) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range18,])
+
 for (val in range19) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range19,])
+
 for (val in range20) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range20,])
+
 for (val in range21) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range21,])
+
 for (val in range22) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range22,])
+
 for (val in range23) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range23,])
+
 for (val in range24) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range24,])
+
 for (val in range25) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range25,])
+
 for (val in range26) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range26,])
+
 for (val in range27) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range27,])
+
 for (val in range28) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range28,])
+
 for (val in range29) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range29,])
+
 for (val in range30) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range30,])
+
 for (val in range31) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range31,])
+
 for (val in range32) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range32,])
+
 for (val in range33) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range33,])
+
 for (val in range34) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range34,])
+
 for (val in range35) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range35,])
+
 for (val in range36) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range36,])
+
 for (val in range37) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range37,])
+
 for (val in range38) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range38,])
+
 for (val in range39) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range39,])
+
 for (val in range40) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range40,])
+
 for (val in range41) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range41,])
+
 for (val in range42) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range42,])
+
 for (val in range43) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range43,])
+
 for (val in range44) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range44,])
+
 for (val in range45) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range45,])
+
 for (val in range46) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range46,])
+
 for (val in range47) {
-i <- ngram(ans_data[val,1], year_start = 1990, year_end = 2000, case_ins = TRUE)
+i <- ngram(ans_data[val,1], year_start = start, year_end = end, case_ins = TRUE)
 i_freq <- sum(i[,3])
 ans_data[val,2] <- i_freq
 }
+print(ans_data[range47,])
 
 print(ans_data)
 
