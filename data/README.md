@@ -3,7 +3,7 @@
 ## Letter Position Probability Files
 
 - [letter_pos_prob_small_sample.csv](letter_pos_prob_small_sample.csv) contains a count for each letter position, 0-4, that a letter is found in that position within a small sample of 483 words.
-- [letter_pos_prob_large_sample.csv](letter_pos_prob_large_sample.csv) contains a count for each letter position, 0-4, that a letter is found in that position within a large sample of x words.
+- [letter_pos_prob_large_sample.csv](letter_pos_prob_large_sample.csv) contains a count for each letter position, 0-4, that a letter is found in that position within a large sample of 15918 words.
 
 ## Quordle Clues (Now out of scope)
 
