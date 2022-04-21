@@ -1,1861 +1,3281 @@
 [
   {
+    "words" : [
+      "glent"
+    ],
     "countUniqueProfiles" : 28,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 113.32456140350877,
     "name" : "set25a_words1_loop1",
     "countProfiles" : 142
   },
   {
+    "words" : [
+      "brick"
+    ],
     "countUniqueProfiles" : 26,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 131.84693877551021,
     "name" : "set25a_words1_loop2",
     "countProfiles" : 124
   },
   {
+    "words" : [
+      "jumpy"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 177.08219178082192,
     "name" : "set25a_words1_loop3",
     "countProfiles" : 93
   },
   {
+    "words" : [
+      "vozhd"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 205.28571428571428,
     "name" : "set25a_words1_loop4",
     "countProfiles" : 77
   },
   {
+    "words" : [
+      "waqfs"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 198.87692307692308,
     "name" : "set25a_words1_loop5",
     "countProfiles" : 85
   },
   {
+    "words" : [
+      "glent",
+      "brick"
+    ],
     "countUniqueProfiles" : 492,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 14.827380952380953,
     "name" : "set25a_words2_loop1",
     "countProfiles" : 1332
   },
   {
+    "words" : [
+      "glent",
+      "jumpy"
+    ],
     "countUniqueProfiles" : 423,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.568750000000001,
     "name" : "set25a_words2_loop2",
     "countProfiles" : 1063
   },
   {
+    "words" : [
+      "brick",
+      "jumpy"
+    ],
     "countUniqueProfiles" : 289,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.354243542435423,
     "name" : "set25a_words2_loop3",
     "countProfiles" : 831
   },
   {
+    "words" : [
+      "glent",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 361,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.632786885245903,
     "name" : "set25a_words2_loop4",
     "countProfiles" : 971
   },
   {
+    "words" : [
+      "brick",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 308,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 24.3996138996139,
     "name" : "set25a_words2_loop5",
     "countProfiles" : 826
   },
   {
+    "words" : [
+      "jumpy",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 230,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 32.860465116279073,
     "name" : "set25a_words2_loop6",
     "countProfiles" : 617
   },
   {
+    "words" : [
+      "glent",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 461,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.010899182561307,
     "name" : "set25a_words2_loop7",
     "countProfiles" : 1195
   },
   {
+    "words" : [
+      "brick",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 352,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 21.456558773424192,
     "name" : "set25a_words2_loop8",
     "countProfiles" : 939
   },
   {
+    "words" : [
+      "jumpy",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 265,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 31.159705159705158,
     "name" : "set25a_words2_loop9",
     "countProfiles" : 672
   },
   {
+    "words" : [
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 232,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 31.0880195599022,
     "name" : "set25a_words2_loop10",
     "countProfiles" : 641
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "jumpy"
+    ],
     "countUniqueProfiles" : 2176,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.8697547683923705,
     "name" : "set25a_words3_loop1",
     "countProfiles" : 4011
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 2152,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1300397501419646,
     "name" : "set25a_words3_loop2",
     "countProfiles" : 3913
   },
   {
+    "words" : [
+      "glent",
+      "jumpy",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 1669,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.5589812332439674,
     "name" : "set25a_words3_loop3",
     "countProfiles" : 3161
   },
   {
+    "words" : [
+      "brick",
+      "jumpy",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 1386,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.9205246913580254,
     "name" : "set25a_words3_loop4",
     "countProfiles" : 2682
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 2784,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.4875809935205186,
     "name" : "set25a_words3_loop5",
     "countProfiles" : 4636
   },
   {
+    "words" : [
+      "glent",
+      "jumpy",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 2084,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.65625,
     "name" : "set25a_words3_loop6",
     "countProfiles" : 3716
   },
   {
+    "words" : [
+      "brick",
+      "jumpy",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 1583,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.0197600564573044,
     "name" : "set25a_words3_loop7",
     "countProfiles" : 3000
   },
   {
+    "words" : [
+      "glent",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 2024,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.7971375233354072,
     "name" : "set25a_words3_loop8",
     "countProfiles" : 3631
   },
   {
+    "words" : [
+      "brick",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 1582,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.0431705590941256,
     "name" : "set25a_words3_loop9",
     "countProfiles" : 2995
   },
   {
+    "words" : [
+      "jumpy",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 1136,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 10.536128456735058,
     "name" : "set25a_words3_loop10",
     "countProfiles" : 2257
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "jumpy",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 5804,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2646252285191957,
     "name" : "set25a_words4_loop1",
     "countProfiles" : 7992
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "jumpy",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 6796,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1065656565656568,
     "name" : "set25a_words4_loop2",
     "countProfiles" : 8776
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 6594,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.146607231302625,
     "name" : "set25a_words4_loop3",
     "countProfiles" : 8613
   },
   {
+    "words" : [
+      "glent",
+      "jumpy",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 5303,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.5887323943661973,
     "name" : "set25a_words4_loop4",
     "countProfiles" : 7433
   },
   {
+    "words" : [
+      "brick",
+      "jumpy",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 4323,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 4.0969121140142519,
     "name" : "set25a_words4_loop5",
     "countProfiles" : 6428
   },
   {
+    "words" : [
+      "glent",
+      "brick",
+      "jumpy",
+      "vozhd",
+      "waqfs"
+    ],
     "countUniqueProfiles" : 10644,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2534246575342465,
     "name" : "set25a_words5_loop1",
     "countProfiles" : 11666
   },
   {
+    "words" : [
+      "waqfs"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 198.87692307692308,
     "name" : "set25b_words1_loop1",
     "countProfiles" : 85
   },
   {
+    "words" : [
+      "vozhd"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 205.28571428571428,
     "name" : "set25b_words1_loop2",
     "countProfiles" : 77
   },
   {
+    "words" : [
+      "grypt"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 137.53191489361703,
     "name" : "set25b_words1_loop3",
     "countProfiles" : 113
   },
   {
+    "words" : [
+      "clunk"
+    ],
     "countUniqueProfiles" : 25,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 134.60416666666666,
     "name" : "set25b_words1_loop4",
     "countProfiles" : 121
   },
   {
+    "words" : [
+      "bemix"
+    ],
     "countUniqueProfiles" : 31,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 155.6144578313253,
     "name" : "set25b_words1_loop5",
     "countProfiles" : 114
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd"
+    ],
     "countUniqueProfiles" : 232,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 31.0880195599022,
     "name" : "set25b_words2_loop1",
     "countProfiles" : 641
   },
   {
+    "words" : [
+      "waqfs",
+      "grypt"
+    ],
     "countUniqueProfiles" : 326,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.89569536423841,
     "name" : "set25b_words2_loop2",
     "countProfiles" : 930
   },
   {
+    "words" : [
+      "vozhd",
+      "grypt"
+    ],
     "countUniqueProfiles" : 277,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 24.601941747572816,
     "name" : "set25b_words2_loop3",
     "countProfiles" : 792
   },
   {
+    "words" : [
+      "waqfs",
+      "clunk"
+    ],
     "countUniqueProfiles" : 341,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 21.475298126064736,
     "name" : "set25b_words2_loop4",
     "countProfiles" : 928
   },
   {
+    "words" : [
+      "vozhd",
+      "clunk"
+    ],
     "countUniqueProfiles" : 280,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 24.984220907297832,
     "name" : "set25b_words2_loop5",
     "countProfiles" : 787
   },
   {
+    "words" : [
+      "grypt",
+      "clunk"
+    ],
     "countUniqueProfiles" : 370,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.967142857142857,
     "name" : "set25b_words2_loop6",
     "countProfiles" : 1070
   },
   {
+    "words" : [
+      "waqfs",
+      "bemix"
+    ],
     "countUniqueProfiles" : 314,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 24.917159763313609,
     "name" : "set25b_words2_loop7",
     "countProfiles" : 821
   },
   {
+    "words" : [
+      "vozhd",
+      "bemix"
+    ],
     "countUniqueProfiles" : 274,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 26.568134171907758,
     "name" : "set25b_words2_loop8",
     "countProfiles" : 751
   },
   {
+    "words" : [
+      "grypt",
+      "bemix"
+    ],
     "countUniqueProfiles" : 359,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.638065522620906,
     "name" : "set25b_words2_loop9",
     "countProfiles" : 1000
   },
   {
+    "words" : [
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 351,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.319018404907975,
     "name" : "set25b_words2_loop10",
     "countProfiles" : 1003
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "grypt"
+    ],
     "countUniqueProfiles" : 1598,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.9142259414225942,
     "name" : "set25b_words3_loop1",
     "countProfiles" : 3032
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "clunk"
+    ],
     "countUniqueProfiles" : 1550,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.0944602272727266,
     "name" : "set25b_words3_loop2",
     "countProfiles" : 2958
   },
   {
+    "words" : [
+      "waqfs",
+      "grypt",
+      "clunk"
+    ],
     "countUniqueProfiles" : 2137,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1665715915573305,
     "name" : "set25b_words3_loop3",
     "countProfiles" : 3890
   },
   {
+    "words" : [
+      "vozhd",
+      "grypt",
+      "clunk"
+    ],
     "countUniqueProfiles" : 1652,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.0286247666459243,
     "name" : "set25b_words3_loop4",
     "countProfiles" : 3259
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "bemix"
+    ],
     "countUniqueProfiles" : 1359,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.8255902513328248,
     "name" : "set25b_words3_loop5",
     "countProfiles" : 2672
   },
   {
+    "words" : [
+      "waqfs",
+      "grypt",
+      "bemix"
+    ],
     "countUniqueProfiles" : 1982,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.511282660332542,
     "name" : "set25b_words3_loop6",
     "countProfiles" : 3666
   },
   {
+    "words" : [
+      "vozhd",
+      "grypt",
+      "bemix"
+    ],
     "countUniqueProfiles" : 1663,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.5327102803738315,
     "name" : "set25b_words3_loop7",
     "countProfiles" : 3161
   },
   {
+    "words" : [
+      "waqfs",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 1976,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.7141982864137084,
     "name" : "set25b_words3_loop8",
     "countProfiles" : 3610
   },
   {
+    "words" : [
+      "vozhd",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 1654,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.671875,
     "name" : "set25b_words3_loop9",
     "countProfiles" : 3126
   },
   {
+    "words" : [
+      "grypt",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 2149,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.8525745257452577,
     "name" : "set25b_words3_loop10",
     "countProfiles" : 3994
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "grypt",
+      "clunk"
+    ],
     "countUniqueProfiles" : 5560,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3963218390804597,
     "name" : "set25b_words4_loop1",
     "countProfiles" : 7735
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "grypt",
+      "bemix"
+    ],
     "countUniqueProfiles" : 5150,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.5635283363802559,
     "name" : "set25b_words4_loop2",
     "countProfiles" : 7338
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 5072,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.7697462900909526,
     "name" : "set25b_words4_loop3",
     "countProfiles" : 7161
   },
   {
+    "words" : [
+      "waqfs",
+      "grypt",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 6881,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.0209163346613548,
     "name" : "set25b_words4_loop4",
     "countProfiles" : 8889
   },
   {
+    "words" : [
+      "vozhd",
+      "grypt",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 5830,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2542295381801556,
     "name" : "set25b_words4_loop5",
     "countProfiles" : 8017
   },
   {
+    "words" : [
+      "waqfs",
+      "vozhd",
+      "grypt",
+      "clunk",
+      "bemix"
+    ],
     "countUniqueProfiles" : 10659,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2475442043222005,
     "name" : "set25b_words5_loop1",
     "countProfiles" : 11677
   },
   {
+    "words" : [
+      "fixed"
+    ],
     "countUniqueProfiles" : 24,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 142.01098901098902,
     "name" : "set24a_words1_loop1",
     "countProfiles" : 115
   },
   {
+    "words" : [
+      "grown"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 127.98019801980197,
     "name" : "set24a_words1_loop2",
     "countProfiles" : 122
   },
   {
+    "words" : [
+      "jambs"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 143.62222222222223,
     "name" : "set24a_words1_loop3",
     "countProfiles" : 111
   },
   {
+    "words" : [
+      "klutz"
+    ],
     "countUniqueProfiles" : 17,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 187.39130434782609,
     "name" : "set24a_words1_loop4",
     "countProfiles" : 86
   },
   {
+    "words" : [
+      "psych"
+    ],
     "countUniqueProfiles" : 18,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 152.10588235294117,
     "name" : "set24a_words1_loop5",
     "countProfiles" : 103
   },
   {
+    "words" : [
+      "fixed",
+      "grown"
+    ],
     "countUniqueProfiles" : 435,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.591381872213969,
     "name" : "set24a_words2_loop1",
     "countProfiles" : 1108
   },
   {
+    "words" : [
+      "fixed",
+      "jambs"
+    ],
     "countUniqueProfiles" : 385,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.936666666666667,
     "name" : "set24a_words2_loop2",
     "countProfiles" : 985
   },
   {
+    "words" : [
+      "grown",
+      "jambs"
+    ],
     "countUniqueProfiles" : 409,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.462395543175486,
     "name" : "set24a_words2_loop3",
     "countProfiles" : 1127
   },
   {
+    "words" : [
+      "fixed",
+      "klutz"
+    ],
     "countUniqueProfiles" : 275,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.956521739130434,
     "name" : "set24a_words2_loop4",
     "countProfiles" : 827
   },
   {
+    "words" : [
+      "grown",
+      "klutz"
+    ],
     "countUniqueProfiles" : 310,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.366371681415931,
     "name" : "set24a_words2_loop5",
     "countProfiles" : 875
   },
   {
+    "words" : [
+      "jambs",
+      "klutz"
+    ],
     "countUniqueProfiles" : 321,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.563517915309447,
     "name" : "set24a_words2_loop6",
     "countProfiles" : 935
   },
   {
+    "words" : [
+      "fixed",
+      "psych"
+    ],
     "countUniqueProfiles" : 335,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.01047120418848,
     "name" : "set24a_words2_loop7",
     "countProfiles" : 908
   },
   {
+    "words" : [
+      "grown",
+      "psych"
+    ],
     "countUniqueProfiles" : 401,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.980332829046898,
     "name" : "set24a_words2_loop8",
     "countProfiles" : 1062
   },
   {
+    "words" : [
+      "jambs",
+      "psych"
+    ],
     "countUniqueProfiles" : 223,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 27.130063965884862,
     "name" : "set24a_words2_loop9",
     "countProfiles" : 692
   },
   {
+    "words" : [
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 366,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.126838235294116,
     "name" : "set24a_words2_loop10",
     "countProfiles" : 910
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "jambs"
+    ],
     "countUniqueProfiles" : 2365,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.9183445190156601,
     "name" : "set24a_words3_loop1",
     "countProfiles" : 4153
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "klutz"
+    ],
     "countUniqueProfiles" : 1939,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.7450980392156863,
     "name" : "set24a_words3_loop2",
     "countProfiles" : 3571
   },
   {
+    "words" : [
+      "fixed",
+      "jambs",
+      "klutz"
+    ],
     "countUniqueProfiles" : 1970,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.6486977589339791,
     "name" : "set24a_words3_loop3",
     "countProfiles" : 3621
   },
   {
+    "words" : [
+      "grown",
+      "jambs",
+      "klutz"
+    ],
     "countUniqueProfiles" : 2052,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.0226644555002764,
     "name" : "set24a_words3_loop4",
     "countProfiles" : 3861
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "psych"
+    ],
     "countUniqueProfiles" : 2294,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.3147599288678125,
     "name" : "set24a_words3_loop5",
     "countProfiles" : 3981
   },
   {
+    "words" : [
+      "fixed",
+      "jambs",
+      "psych"
+    ],
     "countUniqueProfiles" : 1414,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.3633067440174038,
     "name" : "set24a_words3_loop6",
     "countProfiles" : 2793
   },
   {
+    "words" : [
+      "grown",
+      "jambs",
+      "psych"
+    ],
     "countUniqueProfiles" : 1677,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.3612018288700192,
     "name" : "set24a_words3_loop7",
     "countProfiles" : 3208
   },
   {
+    "words" : [
+      "fixed",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 1886,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.349501661129568,
     "name" : "set24a_words3_loop8",
     "countProfiles" : 3391
   },
   {
+    "words" : [
+      "grown",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 1931,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.7088915956151034,
     "name" : "set24a_words3_loop9",
     "countProfiles" : 3573
   },
   {
+    "words" : [
+      "jambs",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 1476,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.5349702380952372,
     "name" : "set24a_words3_loop10",
     "countProfiles" : 2820
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "jambs",
+      "klutz"
+    ],
     "countUniqueProfiles" : 6565,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.0376011423131843,
     "name" : "set24a_words4_loop1",
     "countProfiles" : 8666
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "jambs",
+      "psych"
+    ],
     "countUniqueProfiles" : 5488,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3705377315860821,
     "name" : "set24a_words4_loop2",
     "countProfiles" : 7701
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 6369,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1670678863745789,
     "name" : "set24a_words4_loop3",
     "countProfiles" : 8446
   },
   {
+    "words" : [
+      "fixed",
+      "jambs",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 4873,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.7327785483125289,
     "name" : "set24a_words4_loop4",
     "countProfiles" : 7036
   },
   {
+    "words" : [
+      "grown",
+      "jambs",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 5252,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.4553210597215984,
     "name" : "set24a_words4_loop5",
     "countProfiles" : 7479
   },
   {
+    "words" : [
+      "fixed",
+      "grown",
+      "jambs",
+      "klutz",
+      "psych"
+    ],
     "countUniqueProfiles" : 10617,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2106261859582541,
     "name" : "set24a_words5_loop1",
     "countProfiles" : 11671
   },
   {
+    "words" : [
+      "fjord"
+    ],
     "countUniqueProfiles" : 17,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 187.39130434782609,
     "name" : "set24b_words1_loop1",
     "countProfiles" : 86
   },
   {
+    "words" : [
+      "glyph"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 153.9047619047619,
     "name" : "set24b_words1_loop2",
     "countProfiles" : 103
   },
   {
+    "words" : [
+      "mucks"
+    ],
     "countUniqueProfiles" : 16,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 120.85046728971963,
     "name" : "set24b_words1_loop3",
     "countProfiles" : 123
   },
   {
+    "words" : [
+      "vixen"
+    ],
     "countUniqueProfiles" : 26,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 148.51724137931035,
     "name" : "set24b_words1_loop4",
     "countProfiles" : 113
   },
   {
+    "words" : [
+      "waltz"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 153.96428571428572,
     "name" : "set24b_words1_loop5",
     "countProfiles" : 98
   },
   {
+    "words" : [
+      "fjord",
+      "glyph"
+    ],
     "countUniqueProfiles" : 276,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 24.556201550387598,
     "name" : "set24b_words2_loop1",
     "countProfiles" : 792
   },
   {
+    "words" : [
+      "fjord",
+      "mucks"
+    ],
     "countUniqueProfiles" : 386,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.843601895734597,
     "name" : "set24b_words2_loop2",
     "countProfiles" : 1019
   },
   {
+    "words" : [
+      "glyph",
+      "mucks"
+    ],
     "countUniqueProfiles" : 414,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.818318318318319,
     "name" : "set24b_words2_loop3",
     "countProfiles" : 1080
   },
   {
+    "words" : [
+      "fjord",
+      "vixen"
+    ],
     "countUniqueProfiles" : 352,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.809073724007561,
     "name" : "set24b_words2_loop4",
     "countProfiles" : 881
   },
   {
+    "words" : [
+      "glyph",
+      "vixen"
+    ],
     "countUniqueProfiles" : 324,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.161467889908256,
     "name" : "set24b_words2_loop5",
     "countProfiles" : 869
   },
   {
+    "words" : [
+      "mucks",
+      "vixen"
+    ],
     "countUniqueProfiles" : 377,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.279141104294478,
     "name" : "set24b_words2_loop6",
     "countProfiles" : 1029
   },
   {
+    "words" : [
+      "fjord",
+      "waltz"
+    ],
     "countUniqueProfiles" : 284,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.532028469750891,
     "name" : "set24b_words2_loop7",
     "countProfiles" : 846
   },
   {
+    "words" : [
+      "glyph",
+      "waltz"
+    ],
     "countUniqueProfiles" : 248,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 29.532558139534885,
     "name" : "set24b_words2_loop8",
     "countProfiles" : 678
   },
   {
+    "words" : [
+      "mucks",
+      "waltz"
+    ],
     "countUniqueProfiles" : 374,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.390041493775932,
     "name" : "set24b_words2_loop9",
     "countProfiles" : 1097
   },
   {
+    "words" : [
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 351,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 21.063545150501671,
     "name" : "set24b_words2_loop10",
     "countProfiles" : 949
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "mucks"
+    ],
     "countUniqueProfiles" : 1987,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.6024096385542173,
     "name" : "set24b_words3_loop1",
     "countProfiles" : 3647
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "vixen"
+    ],
     "countUniqueProfiles" : 1693,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.5937921727395414,
     "name" : "set24b_words3_loop2",
     "countProfiles" : 3175
   },
   {
+    "words" : [
+      "fjord",
+      "mucks",
+      "vixen"
+    ],
     "countUniqueProfiles" : 2177,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.7228464419475653,
     "name" : "set24b_words3_loop3",
     "countProfiles" : 3779
   },
   {
+    "words" : [
+      "glyph",
+      "mucks",
+      "vixen"
+    ],
     "countUniqueProfiles" : 2036,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.365810968494749,
     "name" : "set24b_words3_loop4",
     "countProfiles" : 3750
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "waltz"
+    ],
     "countUniqueProfiles" : 1324,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.8186646433990887,
     "name" : "set24b_words3_loop5",
     "countProfiles" : 2642
   },
   {
+    "words" : [
+      "fjord",
+      "mucks",
+      "waltz"
+    ],
     "countUniqueProfiles" : 2116,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.0339832869080778,
     "name" : "set24b_words3_loop6",
     "countProfiles" : 3911
   },
   {
+    "words" : [
+      "glyph",
+      "mucks",
+      "waltz"
+    ],
     "countUniqueProfiles" : 1692,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.4883566200931471,
     "name" : "set24b_words3_loop7",
     "countProfiles" : 3195
   },
   {
+    "words" : [
+      "fjord",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 1845,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.3964023984010661,
     "name" : "set24b_words3_loop8",
     "countProfiles" : 3346
   },
   {
+    "words" : [
+      "glyph",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 1388,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.4495614035087723,
     "name" : "set24b_words3_loop9",
     "countProfiles" : 2756
   },
   {
+    "words" : [
+      "mucks",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 2271,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.9843049327354256,
     "name" : "set24b_words3_loop10",
     "countProfiles" : 4055
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "mucks",
+      "vixen"
+    ],
     "countUniqueProfiles" : 6313,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2203883495145633,
     "name" : "set24b_words4_loop1",
     "countProfiles" : 8373
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "mucks",
+      "waltz"
+    ],
     "countUniqueProfiles" : 5346,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.4597177969959034,
     "name" : "set24b_words4_loop2",
     "countProfiles" : 7543
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 4685,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.9682997118155621,
     "name" : "set24b_words4_loop3",
     "countProfiles" : 6767
   },
   {
+    "words" : [
+      "fjord",
+      "mucks",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 6510,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1647000983284168,
     "name" : "set24b_words4_loop4",
     "countProfiles" : 8544
   },
   {
+    "words" : [
+      "glyph",
+      "mucks",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 5384,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.426823742637064,
     "name" : "set24b_words4_loop5",
     "countProfiles" : 7591
   },
   {
+    "words" : [
+      "fjord",
+      "glyph",
+      "mucks",
+      "vixen",
+      "waltz"
+    ],
     "countUniqueProfiles" : 10636,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2590420332355818,
     "name" : "set24b_words5_loop1",
     "countProfiles" : 11659
   },
   {
+    "words" : [
+      "clunk"
+    ],
     "countUniqueProfiles" : 25,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 134.60416666666666,
     "name" : "set24c_words1_loop1",
     "countProfiles" : 121
   },
   {
+    "words" : [
+      "fritz"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 146.88636363636363,
     "name" : "set24c_words1_loop2",
     "countProfiles" : 109
   },
   {
+    "words" : [
+      "glyph"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 153.9047619047619,
     "name" : "set24c_words1_loop3",
     "countProfiles" : 103
   },
   {
+    "words" : [
+      "jambs"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 143.62222222222223,
     "name" : "set24c_words1_loop4",
     "countProfiles" : 111
   },
   {
+    "words" : [
+      "vowed"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 131.89795918367346,
     "name" : "set24c_words1_loop5",
     "countProfiles" : 119
   },
   {
+    "words" : [
+      "clunk",
+      "fritz"
+    ],
     "countUniqueProfiles" : 352,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.803459119496857,
     "name" : "set24c_words2_loop1",
     "countProfiles" : 988
   },
   {
+    "words" : [
+      "clunk",
+      "glyph"
+    ],
     "countUniqueProfiles" : 235,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 30.194774346793348,
     "name" : "set24c_words2_loop2",
     "countProfiles" : 656
   },
   {
+    "words" : [
+      "fritz",
+      "glyph"
+    ],
     "countUniqueProfiles" : 316,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.390740740740739,
     "name" : "set24c_words2_loop3",
     "countProfiles" : 856
   },
   {
+    "words" : [
+      "clunk",
+      "jambs"
+    ],
     "countUniqueProfiles" : 441,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.865714285714287,
     "name" : "set24c_words2_loop4",
     "countProfiles" : 1141
   },
   {
+    "words" : [
+      "fritz",
+      "jambs"
+    ],
     "countUniqueProfiles" : 366,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.566096423017107,
     "name" : "set24c_words2_loop5",
     "countProfiles" : 1009
   },
   {
+    "words" : [
+      "glyph",
+      "jambs"
+    ],
     "countUniqueProfiles" : 346,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.324193548387097,
     "name" : "set24c_words2_loop6",
     "countProfiles" : 966
   },
   {
+    "words" : [
+      "clunk",
+      "vowed"
+    ],
     "countUniqueProfiles" : 415,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.621099554234771,
     "name" : "set24c_words2_loop7",
     "countProfiles" : 1088
   },
   {
+    "words" : [
+      "fritz",
+      "vowed"
+    ],
     "countUniqueProfiles" : 418,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.887301587301586,
     "name" : "set24c_words2_loop8",
     "countProfiles" : 1048
   },
   {
+    "words" : [
+      "glyph",
+      "vowed"
+    ],
     "countUniqueProfiles" : 381,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.105599999999999,
     "name" : "set24c_words2_loop9",
     "countProfiles" : 1006
   },
   {
+    "words" : [
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 420,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.512461059190031,
     "name" : "set24c_words2_loop10",
     "countProfiles" : 1062
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "glyph"
+    ],
     "countUniqueProfiles" : 1305,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.6686522710349969,
     "name" : "set24c_words3_loop1",
     "countProfiles" : 2648
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "jambs"
+    ],
     "countUniqueProfiles" : 2285,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.848601206801975,
     "name" : "set24c_words3_loop2",
     "countProfiles" : 4108
   },
   {
+    "words" : [
+      "clunk",
+      "glyph",
+      "jambs"
+    ],
     "countUniqueProfiles" : 1611,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.6906377204884668,
     "name" : "set24c_words3_loop3",
     "countProfiles" : 3085
   },
   {
+    "words" : [
+      "fritz",
+      "glyph",
+      "jambs"
+    ],
     "countUniqueProfiles" : 1897,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.4657694558221186,
     "name" : "set24c_words3_loop4",
     "countProfiles" : 3606
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "vowed"
+    ],
     "countUniqueProfiles" : 2243,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.2305005820721773,
     "name" : "set24c_words3_loop5",
     "countProfiles" : 3961
   },
   {
+    "words" : [
+      "clunk",
+      "glyph",
+      "vowed"
+    ],
     "countUniqueProfiles" : 1474,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.8906464924346631,
     "name" : "set24c_words3_loop6",
     "countProfiles" : 2928
   },
   {
+    "words" : [
+      "fritz",
+      "glyph",
+      "vowed"
+    ],
     "countUniqueProfiles" : 2007,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.6952264381884943,
     "name" : "set24c_words3_loop7",
     "countProfiles" : 3641
   },
   {
+    "words" : [
+      "clunk",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 2438,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.7300981461286806,
     "name" : "set24c_words3_loop8",
     "countProfiles" : 4272
   },
   {
+    "words" : [
+      "fritz",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 2292,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1660879629629628,
     "name" : "set24c_words3_loop9",
     "countProfiles" : 4020
   },
   {
+    "words" : [
+      "glyph",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 2135,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1712328767123283,
     "name" : "set24c_words3_loop10",
     "countProfiles" : 3887
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "glyph",
+      "jambs"
+    ],
     "countUniqueProfiles" : 5260,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.4877495462794919,
     "name" : "set24c_words4_loop1",
     "countProfiles" : 7464
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "glyph",
+      "vowed"
+    ],
     "countUniqueProfiles" : 5185,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.5589179275561671,
     "name" : "set24c_words4_loop2",
     "countProfiles" : 7366
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 7190,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.9017137096774195,
     "name" : "set24c_words4_loop3",
     "countProfiles" : 9174
   },
   {
+    "words" : [
+      "clunk",
+      "glyph",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 5576,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3657534246575342,
     "name" : "set24c_words4_loop4",
     "countProfiles" : 7766
   },
   {
+    "words" : [
+      "fritz",
+      "glyph",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 6642,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.983909133932797,
     "name" : "set24c_words4_loop5",
     "countProfiles" : 8755
   },
   {
+    "words" : [
+      "clunk",
+      "fritz",
+      "glyph",
+      "jambs",
+      "vowed"
+    ],
     "countUniqueProfiles" : 10858,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.1920251836306401,
     "name" : "set24c_words5_loop1",
     "countProfiles" : 11811
   },
   {
+    "words" : [
+      "bunch"
+    ],
     "countUniqueProfiles" : 21,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 137.51063829787233,
     "name" : "set23a_words1_loop1",
     "countProfiles" : 115
   },
   {
+    "words" : [
+      "fjord"
+    ],
     "countUniqueProfiles" : 17,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 187.39130434782609,
     "name" : "set23a_words1_loop2",
     "countProfiles" : 86
   },
   {
+    "words" : [
+      "glitz"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 159.60493827160494,
     "name" : "set23a_words1_loop3",
     "countProfiles" : 100
   },
   {
+    "words" : [
+      "twerk"
+    ],
     "countUniqueProfiles" : 24,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 126.69607843137256,
     "name" : "set23a_words1_loop4",
     "countProfiles" : 126
   },
   {
+    "words" : [
+      "vamps"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 140.57608695652175,
     "name" : "set23a_words1_loop5",
     "countProfiles" : 106
   },
   {
+    "words" : [
+      "bunch",
+      "fjord"
+    ],
     "countUniqueProfiles" : 313,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.560714285714287,
     "name" : "set23a_words2_loop1",
     "countProfiles" : 873
   },
   {
+    "words" : [
+      "bunch",
+      "glitz"
+    ],
     "countUniqueProfiles" : 352,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 21.67814113597246,
     "name" : "set23a_words2_loop2",
     "countProfiles" : 933
   },
   {
+    "words" : [
+      "fjord",
+      "glitz"
+    ],
     "countUniqueProfiles" : 276,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.508348794063078,
     "name" : "set23a_words2_loop3",
     "countProfiles" : 815
   },
   {
+    "words" : [
+      "bunch",
+      "twerk"
+    ],
     "countUniqueProfiles" : 376,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.087769784172661,
     "name" : "set23a_words2_loop4",
     "countProfiles" : 1071
   },
   {
+    "words" : [
+      "fjord",
+      "twerk"
+    ],
     "countUniqueProfiles" : 184,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 29.889929742388759,
     "name" : "set23a_words2_loop5",
     "countProfiles" : 611
   },
   {
+    "words" : [
+      "glitz",
+      "twerk"
+    ],
     "countUniqueProfiles" : 261,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 25.837067209775967,
     "name" : "set23a_words2_loop6",
     "countProfiles" : 752
   },
   {
+    "words" : [
+      "bunch",
+      "vamps"
+    ],
     "countUniqueProfiles" : 420,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.050432276657059,
     "name" : "set23a_words2_loop7",
     "countProfiles" : 1114
   },
   {
+    "words" : [
+      "fjord",
+      "vamps"
+    ],
     "countUniqueProfiles" : 342,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.103668261562998,
     "name" : "set23a_words2_loop8",
     "countProfiles" : 969
   },
   {
+    "words" : [
+      "glitz",
+      "vamps"
+    ],
     "countUniqueProfiles" : 427,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.316735822959888,
     "name" : "set23a_words2_loop9",
     "countProfiles" : 1150
   },
   {
+    "words" : [
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 533,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 15.440298507462687,
     "name" : "set23a_words2_loop10",
     "countProfiles" : 1337
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "glitz"
+    ],
     "countUniqueProfiles" : 1703,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.2076923076923078,
     "name" : "set23a_words3_loop1",
     "countProfiles" : 3263
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "twerk"
+    ],
     "countUniqueProfiles" : 1396,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.3040977713874913,
     "name" : "set23a_words3_loop2",
     "countProfiles" : 2787
   },
   {
+    "words" : [
+      "bunch",
+      "glitz",
+      "twerk"
+    ],
     "countUniqueProfiles" : 1522,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.5164473684210522,
     "name" : "set23a_words3_loop3",
     "countProfiles" : 3042
   },
   {
+    "words" : [
+      "fjord",
+      "glitz",
+      "twerk"
+    ],
     "countUniqueProfiles" : 978,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 10.335924006908463,
     "name" : "set23a_words3_loop4",
     "countProfiles" : 2136
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "vamps"
+    ],
     "countUniqueProfiles" : 2054,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.0991041433370663,
     "name" : "set23a_words3_loop5",
     "countProfiles" : 3840
   },
   {
+    "words" : [
+      "bunch",
+      "glitz",
+      "vamps"
+    ],
     "countUniqueProfiles" : 2309,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.7285945072697899,
     "name" : "set23a_words3_loop6",
     "countProfiles" : 4166
   },
   {
+    "words" : [
+      "fjord",
+      "glitz",
+      "vamps"
+    ],
     "countUniqueProfiles" : 2151,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.893013100436681,
     "name" : "set23a_words3_loop7",
     "countProfiles" : 3983
   },
   {
+    "words" : [
+      "bunch",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 2751,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.136523929471033,
     "name" : "set23a_words3_loop8",
     "countProfiles" : 4736
   },
   {
+    "words" : [
+      "fjord",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 1696,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.2587096774193549,
     "name" : "set23a_words3_loop9",
     "countProfiles" : 3246
   },
   {
+    "words" : [
+      "glitz",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 2161,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.2131336405529956,
     "name" : "set23a_words3_loop10",
     "countProfiles" : 3897
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "glitz",
+      "twerk"
+    ],
     "countUniqueProfiles" : 3813,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 4.2444237918215615,
     "name" : "set23a_words4_loop1",
     "countProfiles" : 5965
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "glitz",
+      "vamps"
+    ],
     "countUniqueProfiles" : 6646,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.8706150341685648,
     "name" : "set23a_words4_loop2",
     "countProfiles" : 8841
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 5899,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2065514103730663,
     "name" : "set23a_words4_loop3",
     "countProfiles" : 8097
   },
   {
+    "words" : [
+      "bunch",
+      "glitz",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 6717,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.9751671442215857,
     "name" : "set23a_words4_loop4",
     "countProfiles" : 8811
   },
   {
+    "words" : [
+      "fjord",
+      "glitz",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 4842,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.6641048824593128,
     "name" : "set23a_words4_loop5",
     "countProfiles" : 7054
   },
   {
+    "words" : [
+      "bunch",
+      "fjord",
+      "glitz",
+      "twerk",
+      "vamps"
+    ],
     "countUniqueProfiles" : 10283,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2557154953429297,
     "name" : "set23a_words5_loop1",
     "countProfiles" : 11464
   },
   {
+    "words" : [
+      "brunt"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 103.416,
     "name" : "set23b_words1_loop1",
     "countProfiles" : 145
   },
   {
+    "words" : [
+      "flock"
+    ],
     "countUniqueProfiles" : 17,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 143.66666666666666,
     "name" : "set23b_words1_loop2",
     "countProfiles" : 107
   },
   {
+    "words" : [
+      "gawps"
+    ],
     "countUniqueProfiles" : 17,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 118.62385321100918,
     "name" : "set23b_words1_loop3",
     "countProfiles" : 126
   },
   {
+    "words" : [
+      "jived"
+    ],
     "countUniqueProfiles" : 24,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 159.54320987654322,
     "name" : "set23b_words1_loop4",
     "countProfiles" : 105
   },
   {
+    "words" : [
+      "myths"
+    ],
     "countUniqueProfiles" : 18,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 114.41592920353982,
     "name" : "set23b_words1_loop5",
     "countProfiles" : 131
   },
   {
+    "words" : [
+      "brunt",
+      "flock"
+    ],
     "countUniqueProfiles" : 440,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.08606557377049,
     "name" : "set23b_words2_loop1",
     "countProfiles" : 1172
   },
   {
+    "words" : [
+      "brunt",
+      "gawps"
+    ],
     "countUniqueProfiles" : 553,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 13.560175054704596,
     "name" : "set23b_words2_loop2",
     "countProfiles" : 1467
   },
   {
+    "words" : [
+      "flock",
+      "gawps"
+    ],
     "countUniqueProfiles" : 448,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.881258941344779,
     "name" : "set23b_words2_loop3",
     "countProfiles" : 1147
   },
   {
+    "words" : [
+      "brunt",
+      "jived"
+    ],
     "countUniqueProfiles" : 452,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.056358381502889,
     "name" : "set23b_words2_loop4",
     "countProfiles" : 1144
   },
   {
+    "words" : [
+      "flock",
+      "jived"
+    ],
     "countUniqueProfiles" : 357,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.271719038817004,
     "name" : "set23b_words2_loop5",
     "countProfiles" : 898
   },
   {
+    "words" : [
+      "gawps",
+      "jived"
+    ],
     "countUniqueProfiles" : 415,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.987878787878788,
     "name" : "set23b_words2_loop6",
     "countProfiles" : 1075
   },
   {
+    "words" : [
+      "brunt",
+      "myths"
+    ],
     "countUniqueProfiles" : 351,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.438271604938272,
     "name" : "set23b_words2_loop7",
     "countProfiles" : 999
   },
   {
+    "words" : [
+      "flock",
+      "myths"
+    ],
     "countUniqueProfiles" : 416,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.850427350427349,
     "name" : "set23b_words2_loop8",
     "countProfiles" : 1118
   },
   {
+    "words" : [
+      "gawps",
+      "myths"
+    ],
     "countUniqueProfiles" : 291,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 22.320987654320987,
     "name" : "set23b_words2_loop9",
     "countProfiles" : 858
   },
   {
+    "words" : [
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 388,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.262269938650306,
     "name" : "set23b_words2_loop10",
     "countProfiles" : 1040
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "gawps"
+    ],
     "countUniqueProfiles" : 2894,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.087550607287449,
     "name" : "set23b_words3_loop1",
     "countProfiles" : 4870
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "jived"
+    ],
     "countUniqueProfiles" : 2332,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1146313364055302,
     "name" : "set23b_words3_loop2",
     "countProfiles" : 4068
   },
   {
+    "words" : [
+      "brunt",
+      "gawps",
+      "jived"
+    ],
     "countUniqueProfiles" : 2903,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.1481291645310101,
     "name" : "set23b_words3_loop3",
     "countProfiles" : 4854
   },
   {
+    "words" : [
+      "flock",
+      "gawps",
+      "jived"
+    ],
     "countUniqueProfiles" : 2207,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1653272101033298,
     "name" : "set23b_words3_loop4",
     "countProfiles" : 3949
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "myths"
+    ],
     "countUniqueProfiles" : 2103,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.2645869439630273,
     "name" : "set23b_words3_loop5",
     "countProfiles" : 3834
   },
   {
+    "words" : [
+      "brunt",
+      "gawps",
+      "myths"
+    ],
     "countUniqueProfiles" : 1685,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.205374280230326,
     "name" : "set23b_words3_loop6",
     "countProfiles" : 3248
   },
   {
+    "words" : [
+      "flock",
+      "gawps",
+      "myths"
+    ],
     "countUniqueProfiles" : 1799,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.1783644558918223,
     "name" : "set23b_words3_loop7",
     "countProfiles" : 3352
   },
   {
+    "words" : [
+      "brunt",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 1998,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.3509280742459397,
     "name" : "set23b_words3_loop8",
     "countProfiles" : 3722
   },
   {
+    "words" : [
+      "flock",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 2214,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.2184241019698723,
     "name" : "set23b_words3_loop9",
     "countProfiles" : 3940
   },
   {
+    "words" : [
+      "gawps",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 1647,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.2715572715572714,
     "name" : "set23b_words3_loop10",
     "countProfiles" : 3201
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "gawps",
+      "jived"
+    ],
     "countUniqueProfiles" : 7694,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.7618296529968456,
     "name" : "set23b_words4_loop1",
     "countProfiles" : 9596
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "gawps",
+      "myths"
+    ],
     "countUniqueProfiles" : 5637,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3795654184003698,
     "name" : "set23b_words4_loop2",
     "countProfiles" : 7800
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 6623,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1260504201680672,
     "name" : "set23b_words4_loop3",
     "countProfiles" : 8646
   },
   {
+    "words" : [
+      "brunt",
+      "gawps",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 5512,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3996342021033379,
     "name" : "set23b_words4_loop4",
     "countProfiles" : 7699
   },
   {
+    "words" : [
+      "flock",
+      "gawps",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 5544,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3034359660865684,
     "name" : "set23b_words4_loop5",
     "countProfiles" : 7785
   },
   {
+    "words" : [
+      "brunt",
+      "flock",
+      "gawps",
+      "jived",
+      "myths"
+    ],
     "countUniqueProfiles" : 10775,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2276923076923079,
     "name" : "set23b_words5_loop1",
     "countProfiles" : 11750
   },
   {
+    "words" : [
+      "drift"
+    ],
     "countUniqueProfiles" : 23,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 116.43243243243244,
     "name" : "set23c_words1_loop1",
     "countProfiles" : 134
   },
   {
+    "words" : [
+      "jocks"
+    ],
     "countUniqueProfiles" : 16,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 145.29213483146069,
     "name" : "set23c_words1_loop2",
     "countProfiles" : 105
   },
   {
+    "words" : [
+      "lymph"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 145.25842696629215,
     "name" : "set23c_words1_loop3",
     "countProfiles" : 108
   },
   {
+    "words" : [
+      "swung"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 145.24719101123594,
     "name" : "set23c_words1_loop4",
     "countProfiles" : 109
   },
   {
+    "words" : [
+      "zebra"
+    ],
     "countUniqueProfiles" : 20,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 126.73529411764706,
     "name" : "set23c_words1_loop5",
     "countProfiles" : 122
   },
   {
+    "words" : [
+      "drift",
+      "jocks"
+    ],
     "countUniqueProfiles" : 476,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 17.393305439330543,
     "name" : "set23c_words2_loop1",
     "countProfiles" : 1193
   },
   {
+    "words" : [
+      "drift",
+      "lymph"
+    ],
     "countUniqueProfiles" : 355,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.283307810107196,
     "name" : "set23c_words2_loop2",
     "countProfiles" : 1008
   },
   {
+    "words" : [
+      "jocks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 365,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.458536585365852,
     "name" : "set23c_words2_loop3",
     "countProfiles" : 980
   },
   {
+    "words" : [
+      "drift",
+      "swung"
+    ],
     "countUniqueProfiles" : 493,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 16.132124352331605,
     "name" : "set23c_words2_loop4",
     "countProfiles" : 1265
   },
   {
+    "words" : [
+      "jocks",
+      "swung"
+    ],
     "countUniqueProfiles" : 268,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 26.97659574468085,
     "name" : "set23c_words2_loop5",
     "countProfiles" : 738
   },
   {
+    "words" : [
+      "lymph",
+      "swung"
+    ],
     "countUniqueProfiles" : 377,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.70840197693575,
     "name" : "set23c_words2_loop6",
     "countProfiles" : 984
   },
   {
+    "words" : [
+      "drift",
+      "zebra"
+    ],
     "countUniqueProfiles" : 380,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.171749598715891,
     "name" : "set23c_words2_loop7",
     "countProfiles" : 1003
   },
   {
+    "words" : [
+      "jocks",
+      "zebra"
+    ],
     "countUniqueProfiles" : 475,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.23391812865497,
     "name" : "set23c_words2_loop8",
     "countProfiles" : 1159
   },
   {
+    "words" : [
+      "lymph",
+      "zebra"
+    ],
     "countUniqueProfiles" : 430,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.965151515151515,
     "name" : "set23c_words2_loop9",
     "countProfiles" : 1090
   },
   {
+    "words" : [
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 481,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 16.914518317503394,
     "name" : "set23c_words2_loop10",
     "countProfiles" : 1218
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 2209,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.8106060606060606,
     "name" : "set23c_words3_loop1",
     "countProfiles" : 4057
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "swung"
+    ],
     "countUniqueProfiles" : 1952,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.8934169278996862,
     "name" : "set23c_words3_loop2",
     "countProfiles" : 3547
   },
   {
+    "words" : [
+      "drift",
+      "lymph",
+      "swung"
+    ],
     "countUniqueProfiles" : 2244,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.6930851063829788,
     "name" : "set23c_words3_loop3",
     "countProfiles" : 4124
   },
   {
+    "words" : [
+      "jocks",
+      "lymph",
+      "swung"
+    ],
     "countUniqueProfiles" : 1541,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.8988919667590025,
     "name" : "set23c_words3_loop4",
     "countProfiles" : 2985
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "zebra"
+    ],
     "countUniqueProfiles" : 2212,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.4590854392298436,
     "name" : "set23c_words3_loop5",
     "countProfiles" : 3874
   },
   {
+    "words" : [
+      "drift",
+      "lymph",
+      "zebra"
+    ],
     "countUniqueProfiles" : 1929,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.589712918660287,
     "name" : "set23c_words3_loop6",
     "countProfiles" : 3601
   },
   {
+    "words" : [
+      "jocks",
+      "lymph",
+      "zebra"
+    ],
     "countUniqueProfiles" : 2418,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.0511494252873561,
     "name" : "set23c_words3_loop7",
     "countProfiles" : 4158
   },
   {
+    "words" : [
+      "drift",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 2408,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.036082474226804,
     "name" : "set23c_words3_loop8",
     "countProfiles" : 4154
   },
   {
+    "words" : [
+      "jocks",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 1871,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.2203389830508478,
     "name" : "set23c_words3_loop9",
     "countProfiles" : 3405
   },
   {
+    "words" : [
+      "lymph",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 2447,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.6573275862068968,
     "name" : "set23c_words3_loop10",
     "countProfiles" : 4303
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "lymph",
+      "swung"
+    ],
     "countUniqueProfiles" : 5781,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.225022502250225,
     "name" : "set23c_words4_loop1",
     "countProfiles" : 8003
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "lymph",
+      "zebra"
+    ],
     "countUniqueProfiles" : 6361,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1527046433700336,
     "name" : "set23c_words4_loop2",
     "countProfiles" : 8450
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 5402,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.6361445783132531,
     "name" : "set23c_words4_loop3",
     "countProfiles" : 7477
   },
   {
+    "words" : [
+      "drift",
+      "lymph",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 6797,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.9482262703739215,
     "name" : "set23c_words4_loop4",
     "countProfiles" : 8883
   },
   {
+    "words" : [
+      "jocks",
+      "lymph",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 5844,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.377555872563005,
     "name" : "set23c_words4_loop5",
     "countProfiles" : 7947
   },
   {
+    "words" : [
+      "drift",
+      "jocks",
+      "lymph",
+      "swung",
+      "zebra"
+    ],
     "countUniqueProfiles" : 10496,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2757660167130918,
     "name" : "set23c_words5_loop1",
     "countProfiles" : 11573
   },
   {
+    "words" : [
+      "gifts"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 112.46086956521739,
     "name" : "set23d_words1_loop1",
     "countProfiles" : 129
   },
   {
+    "words" : [
+      "jumbo"
+    ],
     "countUniqueProfiles" : 23,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 163.59493670886076,
     "name" : "set23d_words1_loop2",
     "countProfiles" : 102
   },
   {
+    "words" : [
+      "nymph"
+    ],
     "countUniqueProfiles" : 18,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 165.75641025641025,
     "name" : "set23d_words1_loop3",
     "countProfiles" : 96
   },
   {
+    "words" : [
+      "velds"
+    ],
     "countUniqueProfiles" : 26,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 105.90983606557377,
     "name" : "set23d_words1_loop4",
     "countProfiles" : 148
   },
   {
+    "words" : [
+      "wrack"
+    ],
     "countUniqueProfiles" : 22,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 130.55555555555554,
     "name" : "set23d_words1_loop5",
     "countProfiles" : 121
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo"
+    ],
     "countUniqueProfiles" : 397,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.701726844583987,
     "name" : "set23d_words2_loop1",
     "countProfiles" : 1034
   },
   {
+    "words" : [
+      "gifts",
+      "nymph"
+    ],
     "countUniqueProfiles" : 395,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.377745241581259,
     "name" : "set23d_words2_loop2",
     "countProfiles" : 1078
   },
   {
+    "words" : [
+      "jumbo",
+      "nymph"
+    ],
     "countUniqueProfiles" : 202,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 36.835260115606935,
     "name" : "set23d_words2_loop3",
     "countProfiles" : 548
   },
   {
+    "words" : [
+      "gifts",
+      "velds"
+    ],
     "countUniqueProfiles" : 344,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.878548895899055,
     "name" : "set23d_words2_loop4",
     "countProfiles" : 978
   },
   {
+    "words" : [
+      "jumbo",
+      "velds"
+    ],
     "countUniqueProfiles" : 449,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 18.625931445603577,
     "name" : "set23d_words2_loop5",
     "countProfiles" : 1120
   },
   {
+    "words" : [
+      "nymph",
+      "velds"
+    ],
     "countUniqueProfiles" : 417,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 16.978319783197833,
     "name" : "set23d_words2_loop6",
     "countProfiles" : 1155
   },
   {
+    "words" : [
+      "gifts",
+      "wrack"
+    ],
     "countUniqueProfiles" : 511,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 15.467661691542288,
     "name" : "set23d_words2_loop7",
     "countProfiles" : 1315
   },
   {
+    "words" : [
+      "jumbo",
+      "wrack"
+    ],
     "countUniqueProfiles" : 324,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.506517690875231,
     "name" : "set23d_words2_loop8",
     "countProfiles" : 861
   },
   {
+    "words" : [
+      "nymph",
+      "wrack"
+    ],
     "countUniqueProfiles" : 331,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.121212121212121,
     "name" : "set23d_words2_loop9",
     "countProfiles" : 958
   },
   {
+    "words" : [
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 536,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 14.397911832946635,
     "name" : "set23d_words2_loop10",
     "countProfiles" : 1398
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "nymph"
+    ],
     "countUniqueProfiles" : 1511,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 8.2214234363767069,
     "name" : "set23d_words3_loop1",
     "countProfiles" : 2902
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "velds"
+    ],
     "countUniqueProfiles" : 1845,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.1718346253229974,
     "name" : "set23d_words3_loop2",
     "countProfiles" : 3393
   },
   {
+    "words" : [
+      "gifts",
+      "nymph",
+      "velds"
+    ],
     "countUniqueProfiles" : 1853,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.5644970414201183,
     "name" : "set23d_words3_loop3",
     "countProfiles" : 3543
   },
   {
+    "words" : [
+      "jumbo",
+      "nymph",
+      "velds"
+    ],
     "countUniqueProfiles" : 1618,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.7809065934065931,
     "name" : "set23d_words3_loop4",
     "countProfiles" : 3074
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "wrack"
+    ],
     "countUniqueProfiles" : 2243,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.081818181818182,
     "name" : "set23d_words3_loop5",
     "countProfiles" : 4003
   },
   {
+    "words" : [
+      "gifts",
+      "nymph",
+      "wrack"
+    ],
     "countUniqueProfiles" : 2425,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.5320715036803367,
     "name" : "set23d_words3_loop6",
     "countProfiles" : 4327
   },
   {
+    "words" : [
+      "jumbo",
+      "nymph",
+      "wrack"
+    ],
     "countUniqueProfiles" : 1303,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 9.248610007942812,
     "name" : "set23d_words3_loop7",
     "countProfiles" : 2562
   },
   {
+    "words" : [
+      "gifts",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 2308,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.7883569096844392,
     "name" : "set23d_words3_loop8",
     "countProfiles" : 4146
   },
   {
+    "words" : [
+      "jumbo",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 2446,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.8403781979977749,
     "name" : "set23d_words3_loop9",
     "countProfiles" : 4244
   },
   {
+    "words" : [
+      "nymph",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 2653,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.3254009311950332,
     "name" : "set23d_words3_loop10",
     "countProfiles" : 4586
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "nymph",
+      "velds"
+    ],
     "countUniqueProfiles" : 4630,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.8665736866573686,
     "name" : "set23d_words4_loop1",
     "countProfiles" : 6781
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "nymph",
+      "wrack"
+    ],
     "countUniqueProfiles" : 5495,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.4580046403712297,
     "name" : "set23d_words4_loop2",
     "countProfiles" : 7650
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 6067,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2000000000000002,
     "name" : "set23d_words4_loop3",
     "countProfiles" : 8217
   },
   {
+    "words" : [
+      "gifts",
+      "nymph",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 6658,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.8638433515482697,
     "name" : "set23d_words4_loop4",
     "countProfiles" : 8854
   },
   {
+    "words" : [
+      "jumbo",
+      "nymph",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 5781,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.2977450529222274,
     "name" : "set23d_words4_loop5",
     "countProfiles" : 7954
   },
   {
+    "words" : [
+      "gifts",
+      "jumbo",
+      "nymph",
+      "velds",
+      "wrack"
+    ],
     "countUniqueProfiles" : 10110,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.280546623794212,
     "name" : "set23d_words5_loop1",
     "countProfiles" : 11354
   },
   {
+    "words" : [
+      "barfs"
+    ],
     "countUniqueProfiles" : 29,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 110.41025641025641,
     "name" : "set23e_words1_loop1",
     "countProfiles" : 146
   },
   {
+    "words" : [
+      "codex"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 136.08421052631579,
     "name" : "set23e_words1_loop2",
     "countProfiles" : 114
   },
   {
+    "words" : [
+      "junks"
+    ],
     "countUniqueProfiles" : 15,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 140.56521739130434,
     "name" : "set23e_words1_loop3",
     "countProfiles" : 107
   },
   {
+    "words" : [
+      "lymph"
+    ],
     "countUniqueProfiles" : 19,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 145.25842696629215,
     "name" : "set23e_words1_loop4",
     "countProfiles" : 108
   },
   {
+    "words" : [
+      "wight"
+    ],
     "countUniqueProfiles" : 14,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 143.69999999999999,
     "name" : "set23e_words1_loop5",
     "countProfiles" : 104
   },
   {
+    "words" : [
+      "barfs",
+      "codex"
+    ],
     "countUniqueProfiles" : 564,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 13.789532293986637,
     "name" : "set23e_words2_loop1",
     "countProfiles" : 1462
   },
   {
+    "words" : [
+      "barfs",
+      "junks"
+    ],
     "countUniqueProfiles" : 311,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 23.486988847583643,
     "name" : "set23e_words2_loop2",
     "countProfiles" : 849
   },
   {
+    "words" : [
+      "codex",
+      "junks"
+    ],
     "countUniqueProfiles" : 429,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.140672782874617,
     "name" : "set23e_words2_loop3",
     "countProfiles" : 1083
   },
   {
+    "words" : [
+      "barfs",
+      "lymph"
+    ],
     "countUniqueProfiles" : 460,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 16.195849546044098,
     "name" : "set23e_words2_loop4",
     "countProfiles" : 1231
   },
   {
+    "words" : [
+      "codex",
+      "lymph"
+    ],
     "countUniqueProfiles" : 428,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.622257053291538,
     "name" : "set23e_words2_loop5",
     "countProfiles" : 1066
   },
   {
+    "words" : [
+      "junks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 348,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 21.759930915371331,
     "name" : "set23e_words2_loop6",
     "countProfiles" : 927
   },
   {
+    "words" : [
+      "barfs",
+      "wight"
+    ],
     "countUniqueProfiles" : 565,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 15.438902743142144,
     "name" : "set23e_words2_loop7",
     "countProfiles" : 1367
   },
   {
+    "words" : [
+      "codex",
+      "wight"
+    ],
     "countUniqueProfiles" : 343,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 19.450617283950617,
     "name" : "set23e_words2_loop8",
     "countProfiles" : 991
   },
   {
+    "words" : [
+      "junks",
+      "wight"
+    ],
     "countUniqueProfiles" : 359,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 20.98,
     "name" : "set23e_words2_loop9",
     "countProfiles" : 959
   },
   {
+    "words" : [
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 239,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 27.329032258064515,
     "name" : "set23e_words2_loop10",
     "countProfiles" : 704
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "junks"
+    ],
     "countUniqueProfiles" : 2017,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.6768478924862551,
     "name" : "set23e_words3_loop1",
     "countProfiles" : 3654
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "lymph"
+    ],
     "countUniqueProfiles" : 2989,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.0140986908358514,
     "name" : "set23e_words3_loop2",
     "countProfiles" : 4975
   },
   {
+    "words" : [
+      "barfs",
+      "junks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 1631,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.3148028442146087,
     "name" : "set23e_words3_loop3",
     "countProfiles" : 3178
   },
   {
+    "words" : [
+      "codex",
+      "junks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 2245,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.273153575615475,
     "name" : "set23e_words3_loop4",
     "countProfiles" : 3951
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "wight"
+    ],
     "countUniqueProfiles" : 2992,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 5.0354071825998989,
     "name" : "set23e_words3_loop5",
     "countProfiles" : 4969
   },
   {
+    "words" : [
+      "barfs",
+      "junks",
+      "wight"
+    ],
     "countUniqueProfiles" : 1882,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.2462344466273736,
     "name" : "set23e_words3_loop6",
     "countProfiles" : 3409
   },
   {
+    "words" : [
+      "codex",
+      "junks",
+      "wight"
+    ],
     "countUniqueProfiles" : 2208,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.2985337243401762,
     "name" : "set23e_words3_loop7",
     "countProfiles" : 3913
   },
   {
+    "words" : [
+      "barfs",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 2048,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 6.1093049327354256,
     "name" : "set23e_words3_loop8",
     "countProfiles" : 3832
   },
   {
+    "words" : [
+      "codex",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 1651,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.4511873350923485,
     "name" : "set23e_words3_loop9",
     "countProfiles" : 3167
   },
   {
+    "words" : [
+      "junks",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 1483,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 7.9500693481276006,
     "name" : "set23e_words3_loop10",
     "countProfiles" : 2925
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "junks",
+      "lymph"
+    ],
     "countUniqueProfiles" : 6165,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.1945360339142721,
     "name" : "set23e_words4_loop1",
     "countProfiles" : 8288
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "junks",
+      "wight"
+    ],
     "countUniqueProfiles" : 6130,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3269887750122011,
     "name" : "set23e_words4_loop2",
     "countProfiles" : 8179
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 7193,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.8527516113039169,
     "name" : "set23e_words4_loop3",
     "countProfiles" : 9210
   },
   {
+    "words" : [
+      "barfs",
+      "junks",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 4851,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.6288659793814433,
     "name" : "set23e_words4_loop4",
     "countProfiles" : 7082
   },
   {
+    "words" : [
+      "codex",
+      "junks",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 5787,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 3.3757661480433758,
     "name" : "set23e_words4_loop5",
     "countProfiles" : 7908
   },
   {
+    "words" : [
+      "barfs",
+      "codex",
+      "junks",
+      "lymph",
+      "wight"
+    ],
     "countUniqueProfiles" : 10671,
-    "avgPossibleWords" : 0,
+    "avgPossibleWords" : 2.2556987115956391,
     "name" : "set23e_words5_loop1",
     "countProfiles" : 11680
   }
