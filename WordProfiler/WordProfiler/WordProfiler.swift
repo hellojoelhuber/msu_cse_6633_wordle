@@ -29,6 +29,7 @@ struct WordProfiler {
                                  words: ["gifts", "jumbo", "nymph", "velds", "wrack"])
     static let set23_5 = WordSet(name: "set23e",
                                  words: ["barfs", "codex", "junks", "lymph", "wight"])
+    var metadata: [WordSetMetadata] = []
     let knownPositions = [1,2,3,4,5]
     var allWordSets = [set25_1, set25_2,
                        set24_1, set24_2, set24_3,
@@ -47,6 +48,9 @@ struct WordProfiler {
         for wordSet in allWordSets {
             iterateLesserWordSets(wordSet: wordSet)
         }
+        
+        let fileName = "wordle_profiles_metadata.json"
+        exportMetadataJson(fileName: fileName, json: metadata)
     }
     
     // NOTE: Create arrays of the words in the word sets, refactor the iterateAllWordSets to create the wordset from the array in the loop.
@@ -92,12 +96,23 @@ struct WordProfiler {
             iterateDictionary(basedOn: tempWordSet)
             tempWordSet.profiles = profiles
 
+            // TASK: I need to store & output this data to a separate file
             tempWordSet.countProfiles = countProfiles(in: tempWordSet)
             tempWordSet.countUniqueProfiles = countUniqueProfiles(in: tempWordSet)
 
-            let fileName = "wordle_profiles_" + tempWordSet.name + ".json"
-            exportJson(fileName: fileName, json: tempWordSet)
+            saveMetadata(wordSet: tempWordSet)
+            
+//            let fileName = "wordle_profiles_" + tempWordSet.name + ".json"
+//            exportWordSetJson(fileName: fileName, json: tempWordSet)
         }
+    }
+    
+    mutating func saveMetadata(wordSet: WordSet) {
+        let wordSetMetadata = WordSetMetadata(name: wordSet.name,
+                                              countProfiles: wordSet.countProfiles!,
+                                              countUniqueProfiles: wordSet.countUniqueProfiles!,
+                                              avgPossibleWords: Double((wordSet.countProfiles! - wordSet.countUniqueProfiles!) / 12947))
+        metadata.append(wordSetMetadata)
     }
     
     func isArrayTrue(array: [Bool]) -> Bool {
@@ -185,7 +200,27 @@ struct WordProfiler {
         return counter
     }
     
-    func exportJson(fileName: String, json: WordSet) {
+    func exportWordSetJson(fileName: String, json: WordSet) {
+        do {
+            let fileURL = try FileManager.default
+                .url(for: .applicationSupportDirectory,
+                     in: .userDomainMask,
+                     appropriateFor: nil,
+                     create: true)
+                .appendingPathComponent(fileName)
+
+            print("File URL should be: \(fileURL)")
+            
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = .prettyPrinted
+            
+            try encoder.encode(json)
+                .write(to: fileURL)
+        } catch {
+            print(error)
+        }
+    }
+    func exportMetadataJson(fileName: String, json: [WordSetMetadata]) {
         do {
             let fileURL = try FileManager.default
                 .url(for: .applicationSupportDirectory,
@@ -207,6 +242,12 @@ struct WordProfiler {
     }
 }
 
+struct WordSetMetadata: Codable {
+    var name: String
+    var countProfiles: Int
+    var countUniqueProfiles: Int
+    var avgPossibleWords: Double // This excludes the unique counts
+}
 
 struct WordSet: Codable {
     var name: String

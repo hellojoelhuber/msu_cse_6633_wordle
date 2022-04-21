@@ -1,0 +1,1862 @@
+[
+  {
+    "countUniqueProfiles" : 28,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words1_loop1",
+    "countProfiles" : 142
+  },
+  {
+    "countUniqueProfiles" : 26,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words1_loop2",
+    "countProfiles" : 124
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words1_loop3",
+    "countProfiles" : 93
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words1_loop4",
+    "countProfiles" : 77
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words1_loop5",
+    "countProfiles" : 85
+  },
+  {
+    "countUniqueProfiles" : 492,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop1",
+    "countProfiles" : 1332
+  },
+  {
+    "countUniqueProfiles" : 423,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop2",
+    "countProfiles" : 1063
+  },
+  {
+    "countUniqueProfiles" : 289,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop3",
+    "countProfiles" : 831
+  },
+  {
+    "countUniqueProfiles" : 361,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop4",
+    "countProfiles" : 971
+  },
+  {
+    "countUniqueProfiles" : 308,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop5",
+    "countProfiles" : 826
+  },
+  {
+    "countUniqueProfiles" : 230,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop6",
+    "countProfiles" : 617
+  },
+  {
+    "countUniqueProfiles" : 461,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop7",
+    "countProfiles" : 1195
+  },
+  {
+    "countUniqueProfiles" : 352,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop8",
+    "countProfiles" : 939
+  },
+  {
+    "countUniqueProfiles" : 265,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop9",
+    "countProfiles" : 672
+  },
+  {
+    "countUniqueProfiles" : 232,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words2_loop10",
+    "countProfiles" : 641
+  },
+  {
+    "countUniqueProfiles" : 2176,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop1",
+    "countProfiles" : 4011
+  },
+  {
+    "countUniqueProfiles" : 2152,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop2",
+    "countProfiles" : 3913
+  },
+  {
+    "countUniqueProfiles" : 1669,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop3",
+    "countProfiles" : 3161
+  },
+  {
+    "countUniqueProfiles" : 1386,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop4",
+    "countProfiles" : 2682
+  },
+  {
+    "countUniqueProfiles" : 2784,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop5",
+    "countProfiles" : 4636
+  },
+  {
+    "countUniqueProfiles" : 2084,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop6",
+    "countProfiles" : 3716
+  },
+  {
+    "countUniqueProfiles" : 1583,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop7",
+    "countProfiles" : 3000
+  },
+  {
+    "countUniqueProfiles" : 2024,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop8",
+    "countProfiles" : 3631
+  },
+  {
+    "countUniqueProfiles" : 1582,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop9",
+    "countProfiles" : 2995
+  },
+  {
+    "countUniqueProfiles" : 1136,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words3_loop10",
+    "countProfiles" : 2257
+  },
+  {
+    "countUniqueProfiles" : 5804,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words4_loop1",
+    "countProfiles" : 7992
+  },
+  {
+    "countUniqueProfiles" : 6796,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words4_loop2",
+    "countProfiles" : 8776
+  },
+  {
+    "countUniqueProfiles" : 6594,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words4_loop3",
+    "countProfiles" : 8613
+  },
+  {
+    "countUniqueProfiles" : 5303,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words4_loop4",
+    "countProfiles" : 7433
+  },
+  {
+    "countUniqueProfiles" : 4323,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words4_loop5",
+    "countProfiles" : 6428
+  },
+  {
+    "countUniqueProfiles" : 10644,
+    "avgPossibleWords" : 0,
+    "name" : "set25a_words5_loop1",
+    "countProfiles" : 11666
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words1_loop1",
+    "countProfiles" : 85
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words1_loop2",
+    "countProfiles" : 77
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words1_loop3",
+    "countProfiles" : 113
+  },
+  {
+    "countUniqueProfiles" : 25,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words1_loop4",
+    "countProfiles" : 121
+  },
+  {
+    "countUniqueProfiles" : 31,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words1_loop5",
+    "countProfiles" : 114
+  },
+  {
+    "countUniqueProfiles" : 232,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop1",
+    "countProfiles" : 641
+  },
+  {
+    "countUniqueProfiles" : 326,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop2",
+    "countProfiles" : 930
+  },
+  {
+    "countUniqueProfiles" : 277,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop3",
+    "countProfiles" : 792
+  },
+  {
+    "countUniqueProfiles" : 341,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop4",
+    "countProfiles" : 928
+  },
+  {
+    "countUniqueProfiles" : 280,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop5",
+    "countProfiles" : 787
+  },
+  {
+    "countUniqueProfiles" : 370,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop6",
+    "countProfiles" : 1070
+  },
+  {
+    "countUniqueProfiles" : 314,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop7",
+    "countProfiles" : 821
+  },
+  {
+    "countUniqueProfiles" : 274,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop8",
+    "countProfiles" : 751
+  },
+  {
+    "countUniqueProfiles" : 359,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop9",
+    "countProfiles" : 1000
+  },
+  {
+    "countUniqueProfiles" : 351,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words2_loop10",
+    "countProfiles" : 1003
+  },
+  {
+    "countUniqueProfiles" : 1598,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop1",
+    "countProfiles" : 3032
+  },
+  {
+    "countUniqueProfiles" : 1550,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop2",
+    "countProfiles" : 2958
+  },
+  {
+    "countUniqueProfiles" : 2137,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop3",
+    "countProfiles" : 3890
+  },
+  {
+    "countUniqueProfiles" : 1652,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop4",
+    "countProfiles" : 3259
+  },
+  {
+    "countUniqueProfiles" : 1359,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop5",
+    "countProfiles" : 2672
+  },
+  {
+    "countUniqueProfiles" : 1982,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop6",
+    "countProfiles" : 3666
+  },
+  {
+    "countUniqueProfiles" : 1663,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop7",
+    "countProfiles" : 3161
+  },
+  {
+    "countUniqueProfiles" : 1976,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop8",
+    "countProfiles" : 3610
+  },
+  {
+    "countUniqueProfiles" : 1654,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop9",
+    "countProfiles" : 3126
+  },
+  {
+    "countUniqueProfiles" : 2149,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words3_loop10",
+    "countProfiles" : 3994
+  },
+  {
+    "countUniqueProfiles" : 5560,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words4_loop1",
+    "countProfiles" : 7735
+  },
+  {
+    "countUniqueProfiles" : 5150,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words4_loop2",
+    "countProfiles" : 7338
+  },
+  {
+    "countUniqueProfiles" : 5072,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words4_loop3",
+    "countProfiles" : 7161
+  },
+  {
+    "countUniqueProfiles" : 6881,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words4_loop4",
+    "countProfiles" : 8889
+  },
+  {
+    "countUniqueProfiles" : 5830,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words4_loop5",
+    "countProfiles" : 8017
+  },
+  {
+    "countUniqueProfiles" : 10659,
+    "avgPossibleWords" : 0,
+    "name" : "set25b_words5_loop1",
+    "countProfiles" : 11677
+  },
+  {
+    "countUniqueProfiles" : 24,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words1_loop1",
+    "countProfiles" : 115
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words1_loop2",
+    "countProfiles" : 122
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words1_loop3",
+    "countProfiles" : 111
+  },
+  {
+    "countUniqueProfiles" : 17,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words1_loop4",
+    "countProfiles" : 86
+  },
+  {
+    "countUniqueProfiles" : 18,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words1_loop5",
+    "countProfiles" : 103
+  },
+  {
+    "countUniqueProfiles" : 435,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop1",
+    "countProfiles" : 1108
+  },
+  {
+    "countUniqueProfiles" : 385,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop2",
+    "countProfiles" : 985
+  },
+  {
+    "countUniqueProfiles" : 409,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop3",
+    "countProfiles" : 1127
+  },
+  {
+    "countUniqueProfiles" : 275,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop4",
+    "countProfiles" : 827
+  },
+  {
+    "countUniqueProfiles" : 310,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop5",
+    "countProfiles" : 875
+  },
+  {
+    "countUniqueProfiles" : 321,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop6",
+    "countProfiles" : 935
+  },
+  {
+    "countUniqueProfiles" : 335,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop7",
+    "countProfiles" : 908
+  },
+  {
+    "countUniqueProfiles" : 401,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop8",
+    "countProfiles" : 1062
+  },
+  {
+    "countUniqueProfiles" : 223,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop9",
+    "countProfiles" : 692
+  },
+  {
+    "countUniqueProfiles" : 366,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words2_loop10",
+    "countProfiles" : 910
+  },
+  {
+    "countUniqueProfiles" : 2365,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop1",
+    "countProfiles" : 4153
+  },
+  {
+    "countUniqueProfiles" : 1939,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop2",
+    "countProfiles" : 3571
+  },
+  {
+    "countUniqueProfiles" : 1970,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop3",
+    "countProfiles" : 3621
+  },
+  {
+    "countUniqueProfiles" : 2052,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop4",
+    "countProfiles" : 3861
+  },
+  {
+    "countUniqueProfiles" : 2294,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop5",
+    "countProfiles" : 3981
+  },
+  {
+    "countUniqueProfiles" : 1414,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop6",
+    "countProfiles" : 2793
+  },
+  {
+    "countUniqueProfiles" : 1677,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop7",
+    "countProfiles" : 3208
+  },
+  {
+    "countUniqueProfiles" : 1886,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop8",
+    "countProfiles" : 3391
+  },
+  {
+    "countUniqueProfiles" : 1931,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop9",
+    "countProfiles" : 3573
+  },
+  {
+    "countUniqueProfiles" : 1476,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words3_loop10",
+    "countProfiles" : 2820
+  },
+  {
+    "countUniqueProfiles" : 6565,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words4_loop1",
+    "countProfiles" : 8666
+  },
+  {
+    "countUniqueProfiles" : 5488,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words4_loop2",
+    "countProfiles" : 7701
+  },
+  {
+    "countUniqueProfiles" : 6369,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words4_loop3",
+    "countProfiles" : 8446
+  },
+  {
+    "countUniqueProfiles" : 4873,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words4_loop4",
+    "countProfiles" : 7036
+  },
+  {
+    "countUniqueProfiles" : 5252,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words4_loop5",
+    "countProfiles" : 7479
+  },
+  {
+    "countUniqueProfiles" : 10617,
+    "avgPossibleWords" : 0,
+    "name" : "set24a_words5_loop1",
+    "countProfiles" : 11671
+  },
+  {
+    "countUniqueProfiles" : 17,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words1_loop1",
+    "countProfiles" : 86
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words1_loop2",
+    "countProfiles" : 103
+  },
+  {
+    "countUniqueProfiles" : 16,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words1_loop3",
+    "countProfiles" : 123
+  },
+  {
+    "countUniqueProfiles" : 26,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words1_loop4",
+    "countProfiles" : 113
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words1_loop5",
+    "countProfiles" : 98
+  },
+  {
+    "countUniqueProfiles" : 276,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop1",
+    "countProfiles" : 792
+  },
+  {
+    "countUniqueProfiles" : 386,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop2",
+    "countProfiles" : 1019
+  },
+  {
+    "countUniqueProfiles" : 414,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop3",
+    "countProfiles" : 1080
+  },
+  {
+    "countUniqueProfiles" : 352,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop4",
+    "countProfiles" : 881
+  },
+  {
+    "countUniqueProfiles" : 324,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop5",
+    "countProfiles" : 869
+  },
+  {
+    "countUniqueProfiles" : 377,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop6",
+    "countProfiles" : 1029
+  },
+  {
+    "countUniqueProfiles" : 284,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop7",
+    "countProfiles" : 846
+  },
+  {
+    "countUniqueProfiles" : 248,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop8",
+    "countProfiles" : 678
+  },
+  {
+    "countUniqueProfiles" : 374,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop9",
+    "countProfiles" : 1097
+  },
+  {
+    "countUniqueProfiles" : 351,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words2_loop10",
+    "countProfiles" : 949
+  },
+  {
+    "countUniqueProfiles" : 1987,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop1",
+    "countProfiles" : 3647
+  },
+  {
+    "countUniqueProfiles" : 1693,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop2",
+    "countProfiles" : 3175
+  },
+  {
+    "countUniqueProfiles" : 2177,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop3",
+    "countProfiles" : 3779
+  },
+  {
+    "countUniqueProfiles" : 2036,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop4",
+    "countProfiles" : 3750
+  },
+  {
+    "countUniqueProfiles" : 1324,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop5",
+    "countProfiles" : 2642
+  },
+  {
+    "countUniqueProfiles" : 2116,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop6",
+    "countProfiles" : 3911
+  },
+  {
+    "countUniqueProfiles" : 1692,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop7",
+    "countProfiles" : 3195
+  },
+  {
+    "countUniqueProfiles" : 1845,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop8",
+    "countProfiles" : 3346
+  },
+  {
+    "countUniqueProfiles" : 1388,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop9",
+    "countProfiles" : 2756
+  },
+  {
+    "countUniqueProfiles" : 2271,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words3_loop10",
+    "countProfiles" : 4055
+  },
+  {
+    "countUniqueProfiles" : 6313,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words4_loop1",
+    "countProfiles" : 8373
+  },
+  {
+    "countUniqueProfiles" : 5346,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words4_loop2",
+    "countProfiles" : 7543
+  },
+  {
+    "countUniqueProfiles" : 4685,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words4_loop3",
+    "countProfiles" : 6767
+  },
+  {
+    "countUniqueProfiles" : 6510,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words4_loop4",
+    "countProfiles" : 8544
+  },
+  {
+    "countUniqueProfiles" : 5384,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words4_loop5",
+    "countProfiles" : 7591
+  },
+  {
+    "countUniqueProfiles" : 10636,
+    "avgPossibleWords" : 0,
+    "name" : "set24b_words5_loop1",
+    "countProfiles" : 11659
+  },
+  {
+    "countUniqueProfiles" : 25,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words1_loop1",
+    "countProfiles" : 121
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words1_loop2",
+    "countProfiles" : 109
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words1_loop3",
+    "countProfiles" : 103
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words1_loop4",
+    "countProfiles" : 111
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words1_loop5",
+    "countProfiles" : 119
+  },
+  {
+    "countUniqueProfiles" : 352,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop1",
+    "countProfiles" : 988
+  },
+  {
+    "countUniqueProfiles" : 235,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop2",
+    "countProfiles" : 656
+  },
+  {
+    "countUniqueProfiles" : 316,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop3",
+    "countProfiles" : 856
+  },
+  {
+    "countUniqueProfiles" : 441,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop4",
+    "countProfiles" : 1141
+  },
+  {
+    "countUniqueProfiles" : 366,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop5",
+    "countProfiles" : 1009
+  },
+  {
+    "countUniqueProfiles" : 346,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop6",
+    "countProfiles" : 966
+  },
+  {
+    "countUniqueProfiles" : 415,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop7",
+    "countProfiles" : 1088
+  },
+  {
+    "countUniqueProfiles" : 418,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop8",
+    "countProfiles" : 1048
+  },
+  {
+    "countUniqueProfiles" : 381,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop9",
+    "countProfiles" : 1006
+  },
+  {
+    "countUniqueProfiles" : 420,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words2_loop10",
+    "countProfiles" : 1062
+  },
+  {
+    "countUniqueProfiles" : 1305,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop1",
+    "countProfiles" : 2648
+  },
+  {
+    "countUniqueProfiles" : 2285,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop2",
+    "countProfiles" : 4108
+  },
+  {
+    "countUniqueProfiles" : 1611,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop3",
+    "countProfiles" : 3085
+  },
+  {
+    "countUniqueProfiles" : 1897,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop4",
+    "countProfiles" : 3606
+  },
+  {
+    "countUniqueProfiles" : 2243,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop5",
+    "countProfiles" : 3961
+  },
+  {
+    "countUniqueProfiles" : 1474,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop6",
+    "countProfiles" : 2928
+  },
+  {
+    "countUniqueProfiles" : 2007,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop7",
+    "countProfiles" : 3641
+  },
+  {
+    "countUniqueProfiles" : 2438,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop8",
+    "countProfiles" : 4272
+  },
+  {
+    "countUniqueProfiles" : 2292,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop9",
+    "countProfiles" : 4020
+  },
+  {
+    "countUniqueProfiles" : 2135,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words3_loop10",
+    "countProfiles" : 3887
+  },
+  {
+    "countUniqueProfiles" : 5260,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words4_loop1",
+    "countProfiles" : 7464
+  },
+  {
+    "countUniqueProfiles" : 5185,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words4_loop2",
+    "countProfiles" : 7366
+  },
+  {
+    "countUniqueProfiles" : 7190,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words4_loop3",
+    "countProfiles" : 9174
+  },
+  {
+    "countUniqueProfiles" : 5576,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words4_loop4",
+    "countProfiles" : 7766
+  },
+  {
+    "countUniqueProfiles" : 6642,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words4_loop5",
+    "countProfiles" : 8755
+  },
+  {
+    "countUniqueProfiles" : 10858,
+    "avgPossibleWords" : 0,
+    "name" : "set24c_words5_loop1",
+    "countProfiles" : 11811
+  },
+  {
+    "countUniqueProfiles" : 21,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words1_loop1",
+    "countProfiles" : 115
+  },
+  {
+    "countUniqueProfiles" : 17,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words1_loop2",
+    "countProfiles" : 86
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words1_loop3",
+    "countProfiles" : 100
+  },
+  {
+    "countUniqueProfiles" : 24,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words1_loop4",
+    "countProfiles" : 126
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words1_loop5",
+    "countProfiles" : 106
+  },
+  {
+    "countUniqueProfiles" : 313,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop1",
+    "countProfiles" : 873
+  },
+  {
+    "countUniqueProfiles" : 352,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop2",
+    "countProfiles" : 933
+  },
+  {
+    "countUniqueProfiles" : 276,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop3",
+    "countProfiles" : 815
+  },
+  {
+    "countUniqueProfiles" : 376,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop4",
+    "countProfiles" : 1071
+  },
+  {
+    "countUniqueProfiles" : 184,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop5",
+    "countProfiles" : 611
+  },
+  {
+    "countUniqueProfiles" : 261,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop6",
+    "countProfiles" : 752
+  },
+  {
+    "countUniqueProfiles" : 420,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop7",
+    "countProfiles" : 1114
+  },
+  {
+    "countUniqueProfiles" : 342,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop8",
+    "countProfiles" : 969
+  },
+  {
+    "countUniqueProfiles" : 427,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop9",
+    "countProfiles" : 1150
+  },
+  {
+    "countUniqueProfiles" : 533,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words2_loop10",
+    "countProfiles" : 1337
+  },
+  {
+    "countUniqueProfiles" : 1703,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop1",
+    "countProfiles" : 3263
+  },
+  {
+    "countUniqueProfiles" : 1396,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop2",
+    "countProfiles" : 2787
+  },
+  {
+    "countUniqueProfiles" : 1522,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop3",
+    "countProfiles" : 3042
+  },
+  {
+    "countUniqueProfiles" : 978,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop4",
+    "countProfiles" : 2136
+  },
+  {
+    "countUniqueProfiles" : 2054,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop5",
+    "countProfiles" : 3840
+  },
+  {
+    "countUniqueProfiles" : 2309,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop6",
+    "countProfiles" : 4166
+  },
+  {
+    "countUniqueProfiles" : 2151,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop7",
+    "countProfiles" : 3983
+  },
+  {
+    "countUniqueProfiles" : 2751,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop8",
+    "countProfiles" : 4736
+  },
+  {
+    "countUniqueProfiles" : 1696,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop9",
+    "countProfiles" : 3246
+  },
+  {
+    "countUniqueProfiles" : 2161,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words3_loop10",
+    "countProfiles" : 3897
+  },
+  {
+    "countUniqueProfiles" : 3813,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words4_loop1",
+    "countProfiles" : 5965
+  },
+  {
+    "countUniqueProfiles" : 6646,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words4_loop2",
+    "countProfiles" : 8841
+  },
+  {
+    "countUniqueProfiles" : 5899,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words4_loop3",
+    "countProfiles" : 8097
+  },
+  {
+    "countUniqueProfiles" : 6717,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words4_loop4",
+    "countProfiles" : 8811
+  },
+  {
+    "countUniqueProfiles" : 4842,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words4_loop5",
+    "countProfiles" : 7054
+  },
+  {
+    "countUniqueProfiles" : 10283,
+    "avgPossibleWords" : 0,
+    "name" : "set23a_words5_loop1",
+    "countProfiles" : 11464
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words1_loop1",
+    "countProfiles" : 145
+  },
+  {
+    "countUniqueProfiles" : 17,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words1_loop2",
+    "countProfiles" : 107
+  },
+  {
+    "countUniqueProfiles" : 17,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words1_loop3",
+    "countProfiles" : 126
+  },
+  {
+    "countUniqueProfiles" : 24,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words1_loop4",
+    "countProfiles" : 105
+  },
+  {
+    "countUniqueProfiles" : 18,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words1_loop5",
+    "countProfiles" : 131
+  },
+  {
+    "countUniqueProfiles" : 440,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop1",
+    "countProfiles" : 1172
+  },
+  {
+    "countUniqueProfiles" : 553,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop2",
+    "countProfiles" : 1467
+  },
+  {
+    "countUniqueProfiles" : 448,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop3",
+    "countProfiles" : 1147
+  },
+  {
+    "countUniqueProfiles" : 452,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop4",
+    "countProfiles" : 1144
+  },
+  {
+    "countUniqueProfiles" : 357,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop5",
+    "countProfiles" : 898
+  },
+  {
+    "countUniqueProfiles" : 415,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop6",
+    "countProfiles" : 1075
+  },
+  {
+    "countUniqueProfiles" : 351,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop7",
+    "countProfiles" : 999
+  },
+  {
+    "countUniqueProfiles" : 416,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop8",
+    "countProfiles" : 1118
+  },
+  {
+    "countUniqueProfiles" : 291,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop9",
+    "countProfiles" : 858
+  },
+  {
+    "countUniqueProfiles" : 388,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words2_loop10",
+    "countProfiles" : 1040
+  },
+  {
+    "countUniqueProfiles" : 2894,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop1",
+    "countProfiles" : 4870
+  },
+  {
+    "countUniqueProfiles" : 2332,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop2",
+    "countProfiles" : 4068
+  },
+  {
+    "countUniqueProfiles" : 2903,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop3",
+    "countProfiles" : 4854
+  },
+  {
+    "countUniqueProfiles" : 2207,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop4",
+    "countProfiles" : 3949
+  },
+  {
+    "countUniqueProfiles" : 2103,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop5",
+    "countProfiles" : 3834
+  },
+  {
+    "countUniqueProfiles" : 1685,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop6",
+    "countProfiles" : 3248
+  },
+  {
+    "countUniqueProfiles" : 1799,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop7",
+    "countProfiles" : 3352
+  },
+  {
+    "countUniqueProfiles" : 1998,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop8",
+    "countProfiles" : 3722
+  },
+  {
+    "countUniqueProfiles" : 2214,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop9",
+    "countProfiles" : 3940
+  },
+  {
+    "countUniqueProfiles" : 1647,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words3_loop10",
+    "countProfiles" : 3201
+  },
+  {
+    "countUniqueProfiles" : 7694,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words4_loop1",
+    "countProfiles" : 9596
+  },
+  {
+    "countUniqueProfiles" : 5637,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words4_loop2",
+    "countProfiles" : 7800
+  },
+  {
+    "countUniqueProfiles" : 6623,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words4_loop3",
+    "countProfiles" : 8646
+  },
+  {
+    "countUniqueProfiles" : 5512,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words4_loop4",
+    "countProfiles" : 7699
+  },
+  {
+    "countUniqueProfiles" : 5544,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words4_loop5",
+    "countProfiles" : 7785
+  },
+  {
+    "countUniqueProfiles" : 10775,
+    "avgPossibleWords" : 0,
+    "name" : "set23b_words5_loop1",
+    "countProfiles" : 11750
+  },
+  {
+    "countUniqueProfiles" : 23,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words1_loop1",
+    "countProfiles" : 134
+  },
+  {
+    "countUniqueProfiles" : 16,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words1_loop2",
+    "countProfiles" : 105
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words1_loop3",
+    "countProfiles" : 108
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words1_loop4",
+    "countProfiles" : 109
+  },
+  {
+    "countUniqueProfiles" : 20,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words1_loop5",
+    "countProfiles" : 122
+  },
+  {
+    "countUniqueProfiles" : 476,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop1",
+    "countProfiles" : 1193
+  },
+  {
+    "countUniqueProfiles" : 355,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop2",
+    "countProfiles" : 1008
+  },
+  {
+    "countUniqueProfiles" : 365,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop3",
+    "countProfiles" : 980
+  },
+  {
+    "countUniqueProfiles" : 493,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop4",
+    "countProfiles" : 1265
+  },
+  {
+    "countUniqueProfiles" : 268,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop5",
+    "countProfiles" : 738
+  },
+  {
+    "countUniqueProfiles" : 377,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop6",
+    "countProfiles" : 984
+  },
+  {
+    "countUniqueProfiles" : 380,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop7",
+    "countProfiles" : 1003
+  },
+  {
+    "countUniqueProfiles" : 475,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop8",
+    "countProfiles" : 1159
+  },
+  {
+    "countUniqueProfiles" : 430,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop9",
+    "countProfiles" : 1090
+  },
+  {
+    "countUniqueProfiles" : 481,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words2_loop10",
+    "countProfiles" : 1218
+  },
+  {
+    "countUniqueProfiles" : 2209,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop1",
+    "countProfiles" : 4057
+  },
+  {
+    "countUniqueProfiles" : 1952,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop2",
+    "countProfiles" : 3547
+  },
+  {
+    "countUniqueProfiles" : 2244,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop3",
+    "countProfiles" : 4124
+  },
+  {
+    "countUniqueProfiles" : 1541,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop4",
+    "countProfiles" : 2985
+  },
+  {
+    "countUniqueProfiles" : 2212,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop5",
+    "countProfiles" : 3874
+  },
+  {
+    "countUniqueProfiles" : 1929,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop6",
+    "countProfiles" : 3601
+  },
+  {
+    "countUniqueProfiles" : 2418,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop7",
+    "countProfiles" : 4158
+  },
+  {
+    "countUniqueProfiles" : 2408,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop8",
+    "countProfiles" : 4154
+  },
+  {
+    "countUniqueProfiles" : 1871,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop9",
+    "countProfiles" : 3405
+  },
+  {
+    "countUniqueProfiles" : 2447,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words3_loop10",
+    "countProfiles" : 4303
+  },
+  {
+    "countUniqueProfiles" : 5781,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words4_loop1",
+    "countProfiles" : 8003
+  },
+  {
+    "countUniqueProfiles" : 6361,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words4_loop2",
+    "countProfiles" : 8450
+  },
+  {
+    "countUniqueProfiles" : 5402,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words4_loop3",
+    "countProfiles" : 7477
+  },
+  {
+    "countUniqueProfiles" : 6797,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words4_loop4",
+    "countProfiles" : 8883
+  },
+  {
+    "countUniqueProfiles" : 5844,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words4_loop5",
+    "countProfiles" : 7947
+  },
+  {
+    "countUniqueProfiles" : 10496,
+    "avgPossibleWords" : 0,
+    "name" : "set23c_words5_loop1",
+    "countProfiles" : 11573
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words1_loop1",
+    "countProfiles" : 129
+  },
+  {
+    "countUniqueProfiles" : 23,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words1_loop2",
+    "countProfiles" : 102
+  },
+  {
+    "countUniqueProfiles" : 18,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words1_loop3",
+    "countProfiles" : 96
+  },
+  {
+    "countUniqueProfiles" : 26,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words1_loop4",
+    "countProfiles" : 148
+  },
+  {
+    "countUniqueProfiles" : 22,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words1_loop5",
+    "countProfiles" : 121
+  },
+  {
+    "countUniqueProfiles" : 397,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop1",
+    "countProfiles" : 1034
+  },
+  {
+    "countUniqueProfiles" : 395,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop2",
+    "countProfiles" : 1078
+  },
+  {
+    "countUniqueProfiles" : 202,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop3",
+    "countProfiles" : 548
+  },
+  {
+    "countUniqueProfiles" : 344,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop4",
+    "countProfiles" : 978
+  },
+  {
+    "countUniqueProfiles" : 449,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop5",
+    "countProfiles" : 1120
+  },
+  {
+    "countUniqueProfiles" : 417,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop6",
+    "countProfiles" : 1155
+  },
+  {
+    "countUniqueProfiles" : 511,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop7",
+    "countProfiles" : 1315
+  },
+  {
+    "countUniqueProfiles" : 324,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop8",
+    "countProfiles" : 861
+  },
+  {
+    "countUniqueProfiles" : 331,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop9",
+    "countProfiles" : 958
+  },
+  {
+    "countUniqueProfiles" : 536,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words2_loop10",
+    "countProfiles" : 1398
+  },
+  {
+    "countUniqueProfiles" : 1511,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop1",
+    "countProfiles" : 2902
+  },
+  {
+    "countUniqueProfiles" : 1845,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop2",
+    "countProfiles" : 3393
+  },
+  {
+    "countUniqueProfiles" : 1853,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop3",
+    "countProfiles" : 3543
+  },
+  {
+    "countUniqueProfiles" : 1618,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop4",
+    "countProfiles" : 3074
+  },
+  {
+    "countUniqueProfiles" : 2243,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop5",
+    "countProfiles" : 4003
+  },
+  {
+    "countUniqueProfiles" : 2425,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop6",
+    "countProfiles" : 4327
+  },
+  {
+    "countUniqueProfiles" : 1303,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop7",
+    "countProfiles" : 2562
+  },
+  {
+    "countUniqueProfiles" : 2308,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop8",
+    "countProfiles" : 4146
+  },
+  {
+    "countUniqueProfiles" : 2446,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop9",
+    "countProfiles" : 4244
+  },
+  {
+    "countUniqueProfiles" : 2653,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words3_loop10",
+    "countProfiles" : 4586
+  },
+  {
+    "countUniqueProfiles" : 4630,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words4_loop1",
+    "countProfiles" : 6781
+  },
+  {
+    "countUniqueProfiles" : 5495,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words4_loop2",
+    "countProfiles" : 7650
+  },
+  {
+    "countUniqueProfiles" : 6067,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words4_loop3",
+    "countProfiles" : 8217
+  },
+  {
+    "countUniqueProfiles" : 6658,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words4_loop4",
+    "countProfiles" : 8854
+  },
+  {
+    "countUniqueProfiles" : 5781,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words4_loop5",
+    "countProfiles" : 7954
+  },
+  {
+    "countUniqueProfiles" : 10110,
+    "avgPossibleWords" : 0,
+    "name" : "set23d_words5_loop1",
+    "countProfiles" : 11354
+  },
+  {
+    "countUniqueProfiles" : 29,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words1_loop1",
+    "countProfiles" : 146
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words1_loop2",
+    "countProfiles" : 114
+  },
+  {
+    "countUniqueProfiles" : 15,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words1_loop3",
+    "countProfiles" : 107
+  },
+  {
+    "countUniqueProfiles" : 19,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words1_loop4",
+    "countProfiles" : 108
+  },
+  {
+    "countUniqueProfiles" : 14,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words1_loop5",
+    "countProfiles" : 104
+  },
+  {
+    "countUniqueProfiles" : 564,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop1",
+    "countProfiles" : 1462
+  },
+  {
+    "countUniqueProfiles" : 311,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop2",
+    "countProfiles" : 849
+  },
+  {
+    "countUniqueProfiles" : 429,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop3",
+    "countProfiles" : 1083
+  },
+  {
+    "countUniqueProfiles" : 460,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop4",
+    "countProfiles" : 1231
+  },
+  {
+    "countUniqueProfiles" : 428,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop5",
+    "countProfiles" : 1066
+  },
+  {
+    "countUniqueProfiles" : 348,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop6",
+    "countProfiles" : 927
+  },
+  {
+    "countUniqueProfiles" : 565,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop7",
+    "countProfiles" : 1367
+  },
+  {
+    "countUniqueProfiles" : 343,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop8",
+    "countProfiles" : 991
+  },
+  {
+    "countUniqueProfiles" : 359,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop9",
+    "countProfiles" : 959
+  },
+  {
+    "countUniqueProfiles" : 239,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words2_loop10",
+    "countProfiles" : 704
+  },
+  {
+    "countUniqueProfiles" : 2017,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop1",
+    "countProfiles" : 3654
+  },
+  {
+    "countUniqueProfiles" : 2989,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop2",
+    "countProfiles" : 4975
+  },
+  {
+    "countUniqueProfiles" : 1631,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop3",
+    "countProfiles" : 3178
+  },
+  {
+    "countUniqueProfiles" : 2245,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop4",
+    "countProfiles" : 3951
+  },
+  {
+    "countUniqueProfiles" : 2992,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop5",
+    "countProfiles" : 4969
+  },
+  {
+    "countUniqueProfiles" : 1882,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop6",
+    "countProfiles" : 3409
+  },
+  {
+    "countUniqueProfiles" : 2208,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop7",
+    "countProfiles" : 3913
+  },
+  {
+    "countUniqueProfiles" : 2048,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop8",
+    "countProfiles" : 3832
+  },
+  {
+    "countUniqueProfiles" : 1651,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop9",
+    "countProfiles" : 3167
+  },
+  {
+    "countUniqueProfiles" : 1483,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words3_loop10",
+    "countProfiles" : 2925
+  },
+  {
+    "countUniqueProfiles" : 6165,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words4_loop1",
+    "countProfiles" : 8288
+  },
+  {
+    "countUniqueProfiles" : 6130,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words4_loop2",
+    "countProfiles" : 8179
+  },
+  {
+    "countUniqueProfiles" : 7193,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words4_loop3",
+    "countProfiles" : 9210
+  },
+  {
+    "countUniqueProfiles" : 4851,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words4_loop4",
+    "countProfiles" : 7082
+  },
+  {
+    "countUniqueProfiles" : 5787,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words4_loop5",
+    "countProfiles" : 7908
+  },
+  {
+    "countUniqueProfiles" : 10671,
+    "avgPossibleWords" : 0,
+    "name" : "set23e_words5_loop1",
+    "countProfiles" : 11680
+  }
+]
