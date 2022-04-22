@@ -48,6 +48,7 @@ struct WordProfiler {
         for wordSet in allWordSets {
             iterateLesserWordSets(wordSet: wordSet)
         }
+//        iterateLesserWordSets(wordSet: allWordSets[0])
         
         let fileName = "wordle_profiles_metadata.json"
         exportMetadataJson(fileName: fileName, json: metadata)
@@ -108,10 +109,12 @@ struct WordProfiler {
     }
     
     mutating func saveMetadata(wordSet: WordSet) {
+        let avgPossibleWords = (12947 - Double(wordSet.countUniqueProfiles!)) / (Double(wordSet.countProfiles!) - Double(wordSet.countUniqueProfiles!))
         let wordSetMetadata = WordSetMetadata(name: wordSet.name,
+                                              words: wordSet.words,
                                               countProfiles: wordSet.countProfiles!,
                                               countUniqueProfiles: wordSet.countUniqueProfiles!,
-                                              avgPossibleWords: Double((wordSet.countProfiles! - wordSet.countUniqueProfiles!) / 12947))
+                                              avgPossibleWords: avgPossibleWords)
         metadata.append(wordSetMetadata)
     }
     
@@ -244,6 +247,7 @@ struct WordProfiler {
 
 struct WordSetMetadata: Codable {
     var name: String
+    var words: [String]
     var countProfiles: Int
     var countUniqueProfiles: Int
     var avgPossibleWords: Double // This excludes the unique counts

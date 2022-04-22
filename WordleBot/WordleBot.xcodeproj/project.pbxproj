@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7447419328109D3C00B52BDE /* wordle_profiles_set23a_words1_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7447419228109D3C00B52BDE /* wordle_profiles_set23a_words1_loop1.json */; };
+		7447419528109D4A00B52BDE /* wordle_profiles_set23a_words2_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7447419428109D4A00B52BDE /* wordle_profiles_set23a_words2_loop1.json */; };
+		7447419728109D5A00B52BDE /* wordle_profiles_set23a_words3_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7447419628109D5A00B52BDE /* wordle_profiles_set23a_words3_loop1.json */; };
+		7447419928109D6800B52BDE /* wordle_profiles_set23a_words4_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7447419828109D6800B52BDE /* wordle_profiles_set23a_words4_loop1.json */; };
 		74518A72280B154E00DAC8E4 /* WordleBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74518A71280B154E00DAC8E4 /* WordleBotApp.swift */; };
-		74518A74280B154E00DAC8E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74518A73280B154E00DAC8E4 /* ContentView.swift */; };
+		74518A74280B154E00DAC8E4 /* WordleBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74518A73280B154E00DAC8E4 /* WordleBotView.swift */; };
 		74518A76280B154F00DAC8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74518A75280B154F00DAC8E4 /* Assets.xcassets */; };
 		74518A79280B154F00DAC8E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74518A78280B154F00DAC8E4 /* Preview Assets.xcassets */; };
+		74518A80280B156A00DAC8E4 /* WordleBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74518A7F280B156A00DAC8E4 /* WordleBot.swift */; };
+		74518A82280B157200DAC8E4 /* WordleBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74518A81280B157200DAC8E4 /* WordleBotViewController.swift */; };
+		74518A84280C8C6900DAC8E4 /* wordle_profiles_set23a_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74518A83280C8C6800DAC8E4 /* wordle_profiles_set23a_words5_loop1.json */; };
+		74DBE1A22811D5F100AEE859 /* dict_freq.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1A12811D5F100AEE859 /* dict_freq.json */; };
+		74DBE1A4281233A200AEE859 /* wordle_profiles_set23b_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1A3281233A200AEE859 /* wordle_profiles_set23b_words5_loop1.json */; };
+		74DBE1A6281233AA00AEE859 /* wordle_profiles_set23c_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1A5281233AA00AEE859 /* wordle_profiles_set23c_words5_loop1.json */; };
+		74DBE1A8281233B200AEE859 /* wordle_profiles_set23d_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1A7281233B200AEE859 /* wordle_profiles_set23d_words5_loop1.json */; };
+		74DBE1AA281233BA00AEE859 /* wordle_profiles_set23e_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1A9281233BA00AEE859 /* wordle_profiles_set23e_words5_loop1.json */; };
+		74DBE1AC281233C100AEE859 /* wordle_profiles_set24a_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1AB281233C100AEE859 /* wordle_profiles_set24a_words5_loop1.json */; };
+		74DBE1AE281233CA00AEE859 /* wordle_profiles_set24b_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1AD281233CA00AEE859 /* wordle_profiles_set24b_words5_loop1.json */; };
+		74DBE1B0281233D100AEE859 /* wordle_profiles_set24c_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1AF281233D100AEE859 /* wordle_profiles_set24c_words5_loop1.json */; };
+		74DBE1B2281233D800AEE859 /* wordle_profiles_set25a_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1B1281233D800AEE859 /* wordle_profiles_set25a_words5_loop1.json */; };
+		74DBE1B4281233E000AEE859 /* wordle_profiles_set25b_words5_loop1.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBE1B3281233E000AEE859 /* wordle_profiles_set25b_words5_loop1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7447419228109D3C00B52BDE /* wordle_profiles_set23a_words1_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23a_words1_loop1.json; sourceTree = "<group>"; };
+		7447419428109D4A00B52BDE /* wordle_profiles_set23a_words2_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23a_words2_loop1.json; sourceTree = "<group>"; };
+		7447419628109D5A00B52BDE /* wordle_profiles_set23a_words3_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23a_words3_loop1.json; sourceTree = "<group>"; };
+		7447419828109D6800B52BDE /* wordle_profiles_set23a_words4_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23a_words4_loop1.json; sourceTree = "<group>"; };
 		74518A6E280B154E00DAC8E4 /* WordleBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74518A71280B154E00DAC8E4 /* WordleBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBotApp.swift; sourceTree = "<group>"; };
-		74518A73280B154E00DAC8E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74518A73280B154E00DAC8E4 /* WordleBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBotView.swift; sourceTree = "<group>"; };
 		74518A75280B154F00DAC8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74518A78280B154F00DAC8E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74518A7F280B156A00DAC8E4 /* WordleBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBot.swift; sourceTree = "<group>"; };
+		74518A81280B157200DAC8E4 /* WordleBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBotViewController.swift; sourceTree = "<group>"; };
+		74518A83280C8C6800DAC8E4 /* wordle_profiles_set23a_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23a_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1A12811D5F100AEE859 /* dict_freq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dict_freq.json; sourceTree = "<group>"; };
+		74DBE1A3281233A200AEE859 /* wordle_profiles_set23b_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23b_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1A5281233AA00AEE859 /* wordle_profiles_set23c_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23c_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1A7281233B200AEE859 /* wordle_profiles_set23d_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23d_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1A9281233BA00AEE859 /* wordle_profiles_set23e_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set23e_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1AB281233C100AEE859 /* wordle_profiles_set24a_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set24a_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1AD281233CA00AEE859 /* wordle_profiles_set24b_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set24b_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1AF281233D100AEE859 /* wordle_profiles_set24c_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set24c_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1B1281233D800AEE859 /* wordle_profiles_set25a_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set25a_words5_loop1.json; sourceTree = "<group>"; };
+		74DBE1B3281233E000AEE859 /* wordle_profiles_set25b_words5_loop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordle_profiles_set25b_words5_loop1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +86,24 @@
 			isa = PBXGroup;
 			children = (
 				74518A71280B154E00DAC8E4 /* WordleBotApp.swift */,
-				74518A73280B154E00DAC8E4 /* ContentView.swift */,
+				74518A73280B154E00DAC8E4 /* WordleBotView.swift */,
+				74518A81280B157200DAC8E4 /* WordleBotViewController.swift */,
+				74518A7F280B156A00DAC8E4 /* WordleBot.swift */,
+				7447419228109D3C00B52BDE /* wordle_profiles_set23a_words1_loop1.json */,
+				7447419428109D4A00B52BDE /* wordle_profiles_set23a_words2_loop1.json */,
+				7447419628109D5A00B52BDE /* wordle_profiles_set23a_words3_loop1.json */,
+				7447419828109D6800B52BDE /* wordle_profiles_set23a_words4_loop1.json */,
+				74518A83280C8C6800DAC8E4 /* wordle_profiles_set23a_words5_loop1.json */,
+				74DBE1A3281233A200AEE859 /* wordle_profiles_set23b_words5_loop1.json */,
+				74DBE1A5281233AA00AEE859 /* wordle_profiles_set23c_words5_loop1.json */,
+				74DBE1A7281233B200AEE859 /* wordle_profiles_set23d_words5_loop1.json */,
+				74DBE1A9281233BA00AEE859 /* wordle_profiles_set23e_words5_loop1.json */,
+				74DBE1AB281233C100AEE859 /* wordle_profiles_set24a_words5_loop1.json */,
+				74DBE1AD281233CA00AEE859 /* wordle_profiles_set24b_words5_loop1.json */,
+				74DBE1AF281233D100AEE859 /* wordle_profiles_set24c_words5_loop1.json */,
+				74DBE1B1281233D800AEE859 /* wordle_profiles_set25a_words5_loop1.json */,
+				74DBE1B3281233E000AEE859 /* wordle_profiles_set25b_words5_loop1.json */,
+				74DBE1A12811D5F100AEE859 /* dict_freq.json */,
 				74518A75280B154F00DAC8E4 /* Assets.xcassets */,
 				74518A77280B154F00DAC8E4 /* Preview Content */,
 			);
@@ -125,8 +176,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DBE1B2281233D800AEE859 /* wordle_profiles_set25a_words5_loop1.json in Resources */,
+				74DBE1A22811D5F100AEE859 /* dict_freq.json in Resources */,
+				74DBE1A4281233A200AEE859 /* wordle_profiles_set23b_words5_loop1.json in Resources */,
+				74DBE1B4281233E000AEE859 /* wordle_profiles_set25b_words5_loop1.json in Resources */,
+				74DBE1A6281233AA00AEE859 /* wordle_profiles_set23c_words5_loop1.json in Resources */,
+				74518A84280C8C6900DAC8E4 /* wordle_profiles_set23a_words5_loop1.json in Resources */,
+				74DBE1B0281233D100AEE859 /* wordle_profiles_set24c_words5_loop1.json in Resources */,
 				74518A79280B154F00DAC8E4 /* Preview Assets.xcassets in Resources */,
+				7447419728109D5A00B52BDE /* wordle_profiles_set23a_words3_loop1.json in Resources */,
+				7447419528109D4A00B52BDE /* wordle_profiles_set23a_words2_loop1.json in Resources */,
+				74DBE1AC281233C100AEE859 /* wordle_profiles_set24a_words5_loop1.json in Resources */,
+				74DBE1AE281233CA00AEE859 /* wordle_profiles_set24b_words5_loop1.json in Resources */,
+				7447419328109D3C00B52BDE /* wordle_profiles_set23a_words1_loop1.json in Resources */,
+				7447419928109D6800B52BDE /* wordle_profiles_set23a_words4_loop1.json in Resources */,
 				74518A76280B154F00DAC8E4 /* Assets.xcassets in Resources */,
+				74DBE1AA281233BA00AEE859 /* wordle_profiles_set23e_words5_loop1.json in Resources */,
+				74DBE1A8281233B200AEE859 /* wordle_profiles_set23d_words5_loop1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74518A74280B154E00DAC8E4 /* ContentView.swift in Sources */,
+				74518A74280B154E00DAC8E4 /* WordleBotView.swift in Sources */,
+				74518A82280B157200DAC8E4 /* WordleBotViewController.swift in Sources */,
+				74518A80280B156A00DAC8E4 /* WordleBot.swift in Sources */,
 				74518A72280B154E00DAC8E4 /* WordleBotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
