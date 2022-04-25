@@ -29,7 +29,8 @@ class WordleBotViewController: ObservableObject {
         return guesses
     }
     func remainingPossibleWords() -> Int {
-        wordleBot.remainingPossibleWords()
+//        wordleBot.remainingPossibleWords()
+        wordleBot.profileOfWOTD.words.count
     }
     func lastWordByFreq() -> String {
         if countOfGuesses() < 5 {
@@ -39,11 +40,17 @@ class WordleBotViewController: ObservableObject {
     }
     
     func guessWord() {
+        if countOfGuesses() == 6 {
+            wordleBot = WordleBot.init()
+        }
         if countOfGuesses() < 5 {
-            wordleBot.guess(word: guessSequence()[countOfGuesses()])
+            let word = guessSequence()[countOfGuesses()]
+            wordleBot.guess(word: word)
+            wordleBot.removeWordsFromProfileWOTD(basedOn: word)
         } else {
             let word = wordleBot.guessByProfile()
             wordleBot.guess(word: word)
+            wordleBot.removeWordsFromProfileWOTD(basedOn: word)
         }
     }
     func guessByFrequency() {

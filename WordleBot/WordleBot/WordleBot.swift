@@ -7,7 +7,30 @@
 
 import Foundation
 
+
+
 struct WordleBot {
+    let perfectMemory = true
+    let guessMethodology = true // true == Profile
+    let guessMethodFrequency = true
+    let unluckiestBotInTheWorld = false
+    let onRails = true
+    let oneLoop = false
+    let debugging = false
+    let seekingKnowledge = true
+    let lengthOfSequence = 1
+//    let limitIncludedLetters = true
+    let limitCountIncludedLetters = 4
+//    let limitKnownPositions = false
+//    let limitCountKnownPositions = 1
+    let totalCheater = false
+    let frequencyCheater = false
+    let specialGame = false
+    let specialGameWords = ["raise", "clout", "nymph"]
+    let answersSortedByFrequency = false
+    
+    // TASK: Need to code in a score-keeper to compare results between otherwise similar bots.
+    
     private var wordOfTheDay = "cigar"
     var guessSequence = ["bunch","fjord","glitz","twerk","vamps"]
     var guesses: [GuessWord] = []
@@ -16,10 +39,73 @@ struct WordleBot {
                                                  words: [])
     var gameResults: [GameResult] = []
     var profilesFromFile: WordSet = WordSet(name: "", words: [])
+    var memoryOfPastWords: [String] = []
+    let knownPositions = [1,2,3,4,5]
     
     init() {
         let filename = "wordle_profiles_set23a_words5_loop1.json"
         profilesFromFile = loadWordSetFromFile(filename: filename)
+        loadProfileOfWOTDWords(with: nil)
+    }
+    func isArrayTrue(array: [Bool]) -> Bool {
+        for index in 0..<array.count {
+            if !array[index] {
+                return false
+            }
+        }
+        return true
+    }
+  
+    func evaluateThePlausibilityOfPerfectFrequencyGames() {
+        var testProfiles: WordSet = WordSet(name: "", words: [])
+        var sortedAnswers = sortDictionaryByFrequency(answersOnly: true)
+        var sortedDictionary = sortDictionaryByFrequency(answersOnly: false)
+        
+        for profile in profilesFromFile.profiles {
+            if profile.words.count == 1 {
+                if sortedAnswers.contains(profile.words[0]) {
+                    sortedAnswers.remove(at: sortedAnswers.firstIndex(of: profile.words[0])!)
+                }
+                sortedDictionary.remove(at: sortedDictionary.firstIndex(of: profile.words[0])!)
+            }
+            if profile.words.count > 1 {
+                testProfiles.profiles.append(profile)
+            }
+        }
+        
+        for profile in testProfiles.profiles {
+            var tempAnswers = [String]()
+            var tempDictionary = [String]()
+            
+            for word in sortedDictionary {
+                for index in 0..<profile.words.count {
+                    if profile.words[index] == word {
+                        tempDictionary.append(word)
+                        if sortedAnswers.contains(word) {
+                            tempAnswers.append(word)
+                        }
+                    }
+                }
+            }
+            
+            
+            for word in tempAnswers {
+                if tempDictionary[0] == word {
+                    tempDictionary.remove(at: 0)
+                } else {
+                    repeat {
+                        print("Dictionary \(tempDictionary[0]), and \(tempAnswers.contains(tempDictionary[0])), so probably lose on game \(word)")
+                        tempDictionary.remove(at: 0)
+                    } while (tempDictionary[0] != word)
+                    tempDictionary.remove(at: 0)
+                }
+            }
+        }
+        
+    }
+    
+    mutating func loadProfileOfWOTDWords(with providedDictionary: [String]?) {
+        profileOfWOTD.words = providedDictionary ?? convertStringsCSVIntoArray(filename: "combinedDictionary")
     }
     
     mutating func autoplay() {
@@ -33,44 +119,291 @@ struct WordleBot {
                          "wordle_profiles_set24c_words5_loop1.json",
                          "wordle_profiles_set25a_words5_loop1.json",
                          "wordle_profiles_set25b_words5_loop1.json"]
+        let answers = convertStringsCSVIntoArray(filename: "answers")
+        let dictionaryOfAllWords = convertStringsCSVIntoArray(filename: "combinedDictionary")
+        
+        var cheatersDictionary: [String] = []
+        if (frequencyCheater) {
+            let filename = "dict_freq.json"
+            var dictionaryFrequency = DictFreq(entry: [:])
+            if let fileUrl = Bundle.main.url(forResource: filename, withExtension: nil) {
+                do {
+                    // Getting data from JSON file using the file URL
+                    let data = try Data(contentsOf: fileUrl, options: .mappedIfSafe)
+                    dictionaryFrequency = parseDictionaryFrequency(json: data)
+                } catch {
+                    // Handle error here
+                }
+            }
+            
+            let minimumFrequency = dictionaryFrequency.entry["geeky"] ?? 0.0000002834628
+            
+            for word in dictionaryOfAllWords {
+                let frequencyOfWord = dictionaryFrequency.entry[word] ?? 0
+                if frequencyOfWord >= minimumFrequency {
+                    cheatersDictionary.append(word)
+                }
+            }
+            print("Our dictionary has \(cheatersDictionary.count) words.")
+        }
         
         var counter = 0
+        var loopCounter = 0
         var countOfWinningGames = 0
         let answerCount = answers.count
+        
+        // onRails
         var filesProcessed = 0
-        repeat {
-            profilesFromFile = loadWordSetFromFile(filename: fileNames[filesProcessed])
-            guessSequence = profilesFromFile.words
-            counter = 0
-            countOfWinningGames = 0
-            
-            for wotd in answers {
-                self.wordOfTheDay = wotd
-                profileOfWOTD = WordProfile(includedLetters: [],
-                                            knownPositions: [:],
-                                            words: [])
-                var gameResult = GameResult(wordToGuess: wotd, guessedWords: [], result: false)
-                
-                for word in guessSequence {
-                    guess(word: word)
-                    gameResult.guessedWords.append(word)
+        
+        // 3 words
+        var combinationsOfWords: [[String]] = []
+        var includeWordInSet = [false,false,false,false,false]
+        if !onRails {
+            var tempWords: [String] = []
+            repeat {
+                // loops through the includeWordInSet [Bool] and flips bools accordingly.
+                for index in 0..<includeWordInSet.count {
+                    if includeWordInSet[index] {
+                        includeWordInSet[index] = !includeWordInSet[index]
+                    } else {
+                        includeWordInSet[index] = !includeWordInSet[index]
+                        break
+                    }
                 }
-                let guessProfileWord = guessByProfile()
-                guess(word: guessProfileWord)
-                gameResult.guessedWords.append(guessProfileWord)
-                gameResult.result = guessProfileWord == wordOfTheDay
-                if (gameResult.result) { countOfWinningGames += 1 }
-                gameResults.append(gameResult)
                 
-                counter += 1
-            }
-            print("\(profilesFromFile.name) won \(countOfWinningGames) out of \(answerCount).")
-            exportGameResults(fileName: "\(profilesFromFile.name)-game-results.json", json: gameResults)
+                var countOfTrue = 0
+                for index in 0..<includeWordInSet.count {
+                    if includeWordInSet[index] { countOfTrue += 1 }
+                }
+                
+                if countOfTrue == lengthOfSequence {
+                    for index in 0..<includeWordInSet.count {
+                        if includeWordInSet[index] {
+                            tempWords.append(guessSequence[index])
+                        }
+                    }
+                    
+                    combinationsOfWords.append(tempWords)
+                }
+                
+                
+                tempWords = []
+            } while (!isArrayTrue(array: includeWordInSet))
+        }
+        
+        repeat {
+            if loopCounter > 0 {
+                combinationsOfWords = []
+                includeWordInSet = [false,true,true,false,false]
+                guessSequence = loadWordSetFromFile(filename: fileNames[loopCounter]).words
+                
             
-            filesProcessed += 1
-        } while (filesProcessed < fileNames.count)
+                var tempWords: [String] = []
+                repeat {
+                    // loops through the includeWordInSet [Bool] and flips bools accordingly.
+                    for index in 0..<includeWordInSet.count {
+                        if includeWordInSet[index] {
+                            includeWordInSet[index] = !includeWordInSet[index]
+                        } else {
+                            includeWordInSet[index] = !includeWordInSet[index]
+                            break
+                        }
+                    }
+                    
+                    var countOfTrue = 0
+                    for index in 0..<includeWordInSet.count {
+                        if includeWordInSet[index] { countOfTrue += 1 }
+                    }
+                    
+                    if countOfTrue == lengthOfSequence {
+                        for index in 0..<includeWordInSet.count {
+                            if includeWordInSet[index] {
+                                tempWords.append(guessSequence[index])
+                            }
+                        }
+                        
+                        combinationsOfWords.append(tempWords)
+                    }
+                    
+                    tempWords = []
+                } while (!isArrayTrue(array: includeWordInSet))
+            }
+            filesProcessed = 0
+            gameResults = []
+            
+            repeat {
+                if !onRails && (combinationsOfWords.count <= filesProcessed) {
+                    break
+                }
+                // Load the guess sequence
+                if specialGame {
+                    guessSequence = specialGameWords
+                }
+                else if onRails {
+                    profilesFromFile = loadWordSetFromFile(filename: fileNames[filesProcessed])
+                    guessSequence = profilesFromFile.words
+                }
+                else {
+                    guessSequence = combinationsOfWords[filesProcessed]
+                }
+                print(guessSequence)
+                
+                counter = 0
+                countOfWinningGames = 0
+                memoryOfPastWords = []
+                var answerSequence = [String]()
+                if answersSortedByFrequency {
+                    answerSequence = sortDictionaryByFrequency(answersOnly: true)
+                } else {
+                    answerSequence = answers
+                }
+                
+                for wotd in answerSequence {
+                    var sequenceEndingResultString = ""
+                    self.wordOfTheDay = wotd
+                    profileOfWOTD.knownPositions = [:]
+                    profileOfWOTD.includedLetters = []
+                    if frequencyCheater {
+                        loadProfileOfWOTDWords(with: cheatersDictionary)
+                    } else if totalCheater {
+                        loadProfileOfWOTDWords(with: answers)
+                    } else {
+                        loadProfileOfWOTDWords(with: dictionaryOfAllWords)
+                    }
+                    // should perfectMemory remove memoryOfPastWords during loop initialization or leave its check in the functions which call it?
+                    // if perfectMemory { }
+                    
+                    guesses = []
+                    var gameResult = GameResult(wordToGuess: wotd, guessedWords: [], result: false)
+                    
+                    
+                    repeat {
+                        let guessCounter = guesses.count
+                        
+                        // brute force
+                        if (profileOfWOTD.words.count) <= (6 - guessCounter) {
+                            let word = profileOfWOTD.words[0]
+                            guess(word: word)
+                            gameResult.guessedWords.append(word)
+                            removeWordsFromProfileWOTD(basedOn: word)
+                            if wotd != word {
+                                if let indexOfWord = profileOfWOTD.words.firstIndex(of: word) {
+                                    profileOfWOTD.words.remove(at: indexOfWord)
+                                }
+                            }
+                        }
+                        
+                        // Sequence
+                        else if guessCounter < guessSequence.count {
+                            let word = guessSequence[guessCounter]
+                            guess(word: word)
+                            gameResult.guessedWords.append(word)
+                            removeWordsFromProfileWOTD(basedOn: word)
+                            
+                            if debugging {
+                                if (guesses.count == guessSequence.count) {
+                                    sequenceEndingResultString = "Ending \(guessSequence) | Included | \(profileOfWOTD.includedLetters.count) | Known | \(profileOfWOTD.knownPositions.count) | Possible Words | \(profileOfWOTD.words.count) | WOTD | \(wotd) | Result | "
+                                }
+                            }
+                        }
+                        
+                        // seek knowledge
+                        else if seekingKnowledge && (profileOfWOTD.includedLetters.count < limitCountIncludedLetters) {
+                            let word = guessByPosition(guessedWords: gameResult.guessedWords)
+                            guess(word: word)
+                            gameResult.guessedWords.append(word)
+                            removeWordsFromProfileWOTD(basedOn: word)
+                            if wotd != word {
+                                if let indexOfWord = profileOfWOTD.words.firstIndex(of: word) {
+                                    profileOfWOTD.words.remove(at: indexOfWord)
+                                }
+                            }
+                        }
+                        
+                        // Frequency
+                        else if (guessMethodFrequency) {
+                            let word = guessByWordFrequency()
+                            guess(word: word)
+                            gameResult.guessedWords.append(word)
+                            removeWordsFromProfileWOTD(basedOn: word)
+                            if wotd != word {
+                                if let indexOfWord = profileOfWOTD.words.firstIndex(of: word) {
+                                    profileOfWOTD.words.remove(at: indexOfWord)
+                                }
+                            }
+                        }
+                        
+                        // random guessing
+                        else {
+                            let word = profileOfWOTD.words.randomElement()!
+                            guess(word: word)
+                            gameResult.guessedWords.append(word)
+                            removeWordsFromProfileWOTD(basedOn: word)
+                            if wotd != word {
+                                if let indexOfWord = profileOfWOTD.words.firstIndex(of: word) {
+                                    profileOfWOTD.words.remove(at: indexOfWord)
+                                }
+                            }
+                        }
+                        
+                        
+                    } while (wotd != gameResult.guessedWords.last)
+                    
+                    
+//                    if onRails {
+//                        // I should refator this as guessProfileWord = GuessMethod() w/ getter-setter property
+//                        var guessProfileWord = ""
+//                        if guessMethodology {
+//                            guessProfileWord = guessByProfile()
+//                        } else {
+//                            guessProfileWord = guessByWordFrequency()
+//                        }
+//                        guess(word: guessProfileWord)
+//                        gameResult.guessedWords.append(guessProfileWord)
+//                    }
         
+                    gameResult.result = gameResult.guessedWords.last == wotd
+                    if (gameResult.result) { countOfWinningGames += 1 }
+                    gameResults.append(gameResult)
+                    if perfectMemory { memoryOfPastWords.append(wotd) }
+                    
+                    counter += 1
+                    
+                    if debugging { print("\(sequenceEndingResultString)\(gameResult.result)") }
+                }
+                print("\(guessSequence) won \(countOfWinningGames) out of \(answerCount).")
+                exportGameResults(fileName: "\(guessSequence)-game-results.json", json: gameResults)
+                
+                filesProcessed += 1
+            } while (filesProcessed < fileNames.count)
+            loopCounter += 1
+        } while (!onRails && loopCounter < fileNames.count && !oneLoop)
+    }
+    
+    func sortDictionaryByFrequency(answersOnly: Bool) -> [String] {
+        let filename = "dict_freq.json"
+        var dictionaryFrequency = DictFreq(entry: [:])
+        if let fileUrl = Bundle.main.url(forResource: filename, withExtension: nil) {
+            do {
+                // Getting data from JSON file using the file URL
+                let data = try Data(contentsOf: fileUrl, options: .mappedIfSafe)
+                dictionaryFrequency = parseDictionaryFrequency(json: data)
+            } catch {
+                // Handle error here
+            }
+        }
         
+        let answers = convertStringsCSVIntoArray(filename: "answers")
+        var answersSorted = [String]()
+        for word in dictionaryFrequency.entry.sorted(by: { $0.value > $1.value } ) {
+            if answersOnly && answers.contains(word.key) {
+                answersSorted.append(word.key)
+            } else if !answersOnly {
+                answersSorted.append(word.key)
+            }
+        }
+        
+        return answersSorted
     }
     
     mutating func guess(word: String) {
@@ -98,8 +431,71 @@ struct WordleBot {
         }
         guesses.append(currentGuess)
         profileOfWOTD.includedLetters.sort()
-//        print(profileOfWOTD)
-//        print("Count of guesses: \(guesses.count)")
+    }
+    
+    mutating func removeWordsFromProfileWOTD(basedOn word: String) {
+        var newDictionary = profileOfWOTD.words
+        var dictionaryCount = newDictionary.count
+        var tempIncludedLetters = profileOfWOTD.includedLetters
+        let countOfIncludedLetters = profileOfWOTD.includedLetters.count
+        
+        // Remove words that do not have a letter in a known position.
+        for index in 0..<dictionaryCount {
+            let word = dictionaryCount - index - 1
+            for letter in profileOfWOTD.knownPositions {
+                if String(newDictionary[word][letter.key - 1]) != letter.value {
+                    newDictionary.remove(at: word)
+                    break
+                }
+            }
+        }
+        
+        // Remove words that do not contain letters that we know are included.
+        dictionaryCount = newDictionary.count
+        for index in 0..<dictionaryCount {
+            let word = dictionaryCount - index - 1
+            tempIncludedLetters = profileOfWOTD.includedLetters
+            for letterIndex in 0..<countOfIncludedLetters {
+                let letter = countOfIncludedLetters - letterIndex - 1
+                if String(newDictionary[word]).contains(profileOfWOTD.includedLetters[letter]) {
+                    tempIncludedLetters.remove(at: letter)
+                } else {
+                    newDictionary.remove(at: word)
+                    break
+                }
+            }
+        }
+        
+        // Remove words that DO contain letters in positions we know they are not.
+        var falsePositions: [Int:String] = [:]
+        if profileOfWOTD.knownPositions[1] == nil {
+            falsePositions[1] = String(word[0]) }
+        if profileOfWOTD.knownPositions[2] == nil {
+            falsePositions[2] = String(word[1]) }
+        if profileOfWOTD.knownPositions[3] == nil {
+            falsePositions[3] = String(word[2]) }
+        if profileOfWOTD.knownPositions[4] == nil {
+            falsePositions[4] = String(word[3]) }
+        if profileOfWOTD.knownPositions[5] == nil {
+            falsePositions[5] = String(word[4]) }
+        
+        dictionaryCount = newDictionary.count
+        for index in 0..<dictionaryCount {
+            let word = dictionaryCount - index - 1
+            for letter in falsePositions {
+                if String(newDictionary[word][letter.key - 1]) == letter.value {
+                    newDictionary.remove(at: word)
+                    break
+                }
+            }
+        }
+        
+        if (!newDictionary.contains(wordOfTheDay)) {
+            print("WARNING!!! \(wordOfTheDay) was eliminated!!!")
+        }
+        
+                
+        profileOfWOTD.words = newDictionary
     }
     
     mutating func loadWordSetFromFile(filename: String) -> WordSet {
@@ -120,9 +516,19 @@ struct WordleBot {
         return jsonTweets!
     }
     func guessByProfile() -> String {
-        for index in 0..<self.profilesFromFile.profiles.count {
-            if self.profilesFromFile.profiles[index] == profileOfWOTD {
-                return self.profilesFromFile.profiles[index].words[0]
+        let remainingWords = findMatchingProfile(test: profileOfWOTD).sorted()
+        
+        if unluckiestBotInTheWorld && remainingWords.count > 1 {
+            return "waqfs"
+        }
+        
+        if !perfectMemory {
+            return remainingWords[0]
+        } else {
+            for word in remainingWords {
+                if !memoryOfPastWords.contains(word) {
+                    return word
+                }
             }
         }
         return ""
@@ -145,12 +551,130 @@ struct WordleBot {
                 // Handle error here
             }
         }
-        
-        let remainingWords = findMatchingProfile(test: profileOfWOTD)
-        
+
+        var remainingWords: [String] = []
+        remainingWords = profileOfWOTD.words.sorted()
+
         var currentWord = remainingWords[0]
         for word in remainingWords {
             if (dictionaryFrequency.entry[word] ?? 0) > (dictionaryFrequency.entry[currentWord] ?? 0) {
+                if !perfectMemory {
+                    currentWord = word
+                } else {
+                    if !memoryOfPastWords.contains(word) {
+                        currentWord = word
+                    }
+                }
+            }
+        }
+        
+        return currentWord
+    }
+    
+    func convertLetterPositionCSVIntoArray(hasHeader: Bool) -> [[Int]] {
+        var letterFrequency: [[Int]] = []
+        
+        //locate the file you want to use
+        guard let filepath = Bundle.main.path(forResource: "letter_pos_count_large_sample", ofType: "csv") else {
+            return []
+        }
+        
+        //convert that file into one long string
+        var data = ""
+        do {
+            data = try String(contentsOfFile: filepath)
+        } catch {
+            print(error)
+            return []
+        }
+        
+        //now split that string into an array of "rows" of data.  Each row is a string.
+        var rows = data.components(separatedBy: "\n")
+        
+        //if you have a header row, remove it here
+        if (hasHeader) {
+            rows.removeFirst()
+        }
+        
+        //now loop around each row, and split it into each of its columns
+        for row in rows {
+            let columns = row.components(separatedBy: ",")
+            //check that we have enough columns
+            if columns.count == 27 {
+                let pos = Int(columns[0]) ?? 0
+                let a = Int(columns[1]) ?? 0
+                let b = Int(columns[2]) ?? 0
+                let c = Int(columns[3]) ?? 0
+                let d = Int(columns[4]) ?? 0
+                let e = Int(columns[5]) ?? 0
+                let f = Int(columns[6]) ?? 0
+                let g = Int(columns[7]) ?? 0
+                let h = Int(columns[8]) ?? 0
+                let i = Int(columns[9]) ?? 0
+                let j = Int(columns[10]) ?? 0
+                let k = Int(columns[11]) ?? 0
+                let l = Int(columns[12]) ?? 0
+                let m = Int(columns[13]) ?? 0
+                let n = Int(columns[14]) ?? 0
+                let o = Int(columns[15]) ?? 0
+                let p = Int(columns[16]) ?? 0
+                let q = Int(columns[17]) ?? 0
+                let r = Int(columns[18]) ?? 0
+                let s = Int(columns[19]) ?? 0
+                let t = Int(columns[20]) ?? 0
+                let u = Int(columns[21]) ?? 0
+                let v = Int(columns[22]) ?? 0
+                let w = Int(columns[23]) ?? 0
+                let x = Int(columns[24]) ?? 0
+                let y = Int(columns[25]) ?? 0
+                let z = Int(columns[26]) ?? 0
+                
+                let frequencies = [pos, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+//                let frequencies = LetterPosition(pos: pos, a: a, b: b, c: c, d: d, e: e, f: f, g: g, h: h, i: i, j: j, k: k, l: l, m: m, n: n, o: o, p: p, q: q, r: r, s: s, t: t, u: u, v: v, w: w, x: x, y: y, z: z)
+                letterFrequency.append(frequencies)
+            }
+        }
+        return letterFrequency
+    }
+    func guessByPosition(guessedWords: [String]) -> String {
+        let letterFrequency = convertLetterPositionCSVIntoArray(hasHeader: true)
+        let letterValue = ["a": 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8, "i": 9, "j": 10, "k": 11, "l": 12, "m": 13, "n": 14, "o": 15, "p": 16, "q": 17, "r": 18, "s": 19, "t": 20, "u": 21, "v": 22, "w": 23, "x": 24, "y": 25, "z": 26]
+        
+        var guessedLetters: [String] = []
+        for word in guessedWords {
+            var tempGuessedLetters = guessedLetters
+            for char in word {
+                if tempGuessedLetters.contains(String(char)) {
+                    tempGuessedLetters.remove(at: tempGuessedLetters.firstIndex(of: String(char))!)
+                } else {
+                    guessedLetters.append(String(char))
+                }
+            }
+        }
+        
+        var currentWord = ""
+        var currentValue = -1
+        for word in profileOfWOTD.words {
+            var tempValue = 0
+            var tempGuessedLetters = guessedLetters
+            for index in 0..<word.count {
+                if tempGuessedLetters.contains(String(word[index])) {
+                    tempGuessedLetters.remove(at: tempGuessedLetters.firstIndex(of: String(word[index]))!)
+                } else {
+                    let letterIndex = letterValue[String(word[index])]
+                    tempValue += letterFrequency[index][letterIndex!]
+                }
+            }
+            
+            if perfectMemory {
+                if memoryOfPastWords.contains(word) {
+                    tempValue = 0
+                }
+            }
+            
+            if tempValue > currentValue {
+                currentValue = tempValue
+                tempValue = 0
                 currentWord = word
             }
         }
@@ -159,28 +683,28 @@ struct WordleBot {
     }
     
     func findMatchingProfile(test: WordProfile) -> [String] {
-        for example in 0..<self.profilesFromFile.profiles.count {
-            if self.profilesFromFile.profiles[example] == profileOfWOTD {
-                return self.profilesFromFile.profiles[example].words
+        for index in 0..<self.profilesFromFile.profiles.count {
+            if self.profilesFromFile.profiles[index] == profileOfWOTD {
+                return self.profilesFromFile.profiles[index].words
             }
         }
         
         return [""]
     }
     
-    func remainingPossibleWords() -> Int {
-        if (guesses.count == 0) { return 12947 }
-        
-        var count = 0
-        
-        for index in 0..<self.profilesFromFile.profiles.count {
-            if self.profilesFromFile.profiles[index] == profileOfWOTD {
-                count += self.profilesFromFile.profiles[index].words.count
-            }
-        }
-        
-        return count
-    }
+//    func remainingPossibleWords() -> Int {
+//        if (guesses.count == 0) { return 12947 }
+//
+//        var count = 0
+//
+//        for index in 0..<self.profilesFromFile.profiles.count {
+//            if self.profilesFromFile.profiles[index] == profileOfWOTD {
+//                count += self.profilesFromFile.profiles[index].words.count
+//            }
+//        }
+//
+//        return count
+//    }
     
     func exportGameResults(fileName: String, json: [GameResult]) {
         do {
@@ -203,7 +727,27 @@ struct WordleBot {
         }
     }
     
-    let answers = ["cigar", "rebut", "sissy", "humph", "awake", "blush", "focal", "evade", "naval", "serve", "heath", "dwarf", "model", "karma", "stink", "grade", "quiet", "bench", "abate", "feign", "major", "death", "fresh", "crust", "stool", "colon", "abase", "marry", "react", "batty", "pride", "floss", "helix", "croak", "staff", "paper", "unfed", "whelp", "trawl", "outdo", "adobe", "crazy", "sower", "repay", "digit", "crate", "cluck", "spike", "mimic", "pound", "maxim", "linen", "unmet", "flesh", "booby", "forth", "first", "stand", "belly", "ivory", "seedy", "print", "yearn", "drain", "bribe", "stout", "panel", "crass", "flume", "offal", "agree", "error", "swirl", "argue", "bleed", "delta", "flick", "totem", "wooer", "front", "shrub", "parry", "biome", "lapel", "start", "greet", "goner", "golem", "lusty", "loopy", "round", "audit", "lying", "gamma", "labor", "islet", "civic", "forge", "corny", "moult", "basic", "salad", "agate", "spicy", "spray", "essay", "fjord", "spend", "kebab", "guild", "aback", "motor", "alone", "hatch", "hyper", "thumb", "dowry", "ought", "belch", "dutch", "pilot", "tweed", "comet", "jaunt", "enema", "steed", "abyss", "growl", "fling", "dozen", "boozy", "erode", "world", "gouge", "click", "briar", "great", "altar", "pulpy", "blurt", "coast", "duchy", "groin", "fixer", "group", "rogue", "badly", "smart", "pithy", "gaudy", "chill", "heron", "vodka", "finer", "surer", "radio", "rouge", "perch", "retch", "wrote", "clock", "tilde", "store", "prove", "bring", "solve", "cheat", "grime", "exult", "usher", "epoch", "triad", "break", "rhino", "viral", "conic", "masse", "sonic", "vital", "trace", "using", "peach", "champ", "baton", "brake", "pluck", "craze", "gripe", "weary", "picky", "acute", "ferry", "aside", "tapir", "troll", "unify", "rebus", "boost", "truss", "siege", "tiger", "banal", "slump", "crank", "gorge", "query", "drink", "favor", "abbey", "tangy", "panic", "solar", "shire", "proxy", "point", "robot", "prick", "wince", "crimp", "knoll", "sugar", "whack", "mount", "perky", "could", "wrung", "light", "those", "moist", "shard", "pleat", "aloft", "skill", "elder", "frame", "humor", "pause", "ulcer", "ultra", "robin", "cynic", "aroma", "caulk", "shake", "dodge", "swill", "tacit", "other", "thorn", "trove", "bloke", "vivid", "spill", "chant", "choke", "rupee", "nasty", "mourn", "ahead", "brine", "cloth", "hoard", "sweet", "month", "lapse", "watch", "today", "focus", "smelt", "tease", "cater", "movie", "saute", "allow", "renew", "their", "slosh", "purge", "chest", "depot", "epoxy", "nymph", "found", "shall", "harry", "stove", "lowly", "snout", "trope", "fewer", "shawl", "natal", "comma", "foray", "scare", "stair", "black", "squad", "royal", "chunk", "mince", "shame", "cheek", "ample", "flair", "foyer", "cargo", "oxide", "plant", "olive", "inert", "askew", "heist", "shown", "zesty", "hasty", "trash", "fella", "larva", "forgo", "story", "hairy", "train", "homer", "badge", "midst", "canny", "fetus", "butch", "farce", "slung", "tipsy", "metal", "yield", "delve", "being", "scour", "glass", "gamer", "scrap", "money", "hinge", "album", "vouch", "asset", "tiara", "crept", "bayou", "atoll", "manor", "creak", "showy", "phase", "froth", "depth", "gloom", "flood", "trait", "girth", "piety", "payer", "goose", "float", "donor", "atone", "primo", "apron", "blown", "cacao", "loser", "input", "gloat", "awful", "brink", "smite", "beady", "rusty", "retro", "droll", "gawky", "hutch", "pinto", "gaily", "egret", "lilac", "sever", "field", "fluff", "hydro", "flack", "agape", "voice", "stead", "stalk", "berth", "madam", "night", "bland", "liver", "wedge", "augur", "roomy", "wacky", "flock", "angry", "bobby", "trite", "aphid", "tryst", "midge", "power", "elope", "cinch", "motto", "stomp", "upset", "bluff", "cramp", "quart", "coyly", "youth", "rhyme", "buggy", "alien", "smear", "unfit", "patty", "cling", "glean", "label", "hunky", "khaki", "poker", "gruel", "twice", "twang", "shrug", "treat", "unlit", "waste", "merit", "woven", "octal", "needy", "clown", "widow", "irony", "ruder", "gauze", "chief", "onset", "prize", "fungi", "charm", "gully", "inter", "whoop", "taunt", "leery", "class", "theme", "lofty", "tibia", "booze", "alpha", "thyme", "eclat", "doubt", "parer", "chute", "stick", "trice", "alike", "sooth", "recap", "saint", "liege", "glory", "grate", "admit", "brisk", "soggy", "usurp", "scald", "scorn", "leave", "twine", "sting", "bough", "marsh", "sloth", "dandy", "vigor", "howdy", "enjoy", "valid", "ionic", "equal", "unset", "floor", "catch", "spade", "stein", "exist", "quirk", "denim", "grove", "spiel", "mummy", "fault", "foggy", "flout", "carry", "sneak", "libel", "waltz", "aptly", "piney", "inept", "aloud", "photo", "dream", "stale", "vomit", "ombre", "fanny", "unite", "snarl", "baker", "there", "glyph", "pooch", "hippy", "spell", "folly", "louse", "gulch", "vault", "godly", "threw", "fleet", "grave", "inane", "shock", "crave", "spite", "valve", "skimp", "claim", "rainy", "musty", "pique", "daddy", "quasi", "arise", "aging", "valet", "opium", "avert", "stuck", "recut", "mulch", "genre", "plume", "rifle", "count", "incur", "total", "wrest", "mocha", "deter", "study", "lover", "safer", "rivet", "funny", "smoke", "mound", "undue", "sedan", "pagan", "swine", "guile", "gusty", "equip", "tough", "canoe", "chaos", "covet", "human", "udder", "lunch", "blast", "stray", "manga", "melee", "lefty", "quick", "paste", "given", "octet", "risen", "groan", "leaky", "grind", "carve", "loose", "sadly", "spilt", "apple", "slack", "honey", "final", "sheen", "eerie", "minty", "slick", "derby", "wharf", "spelt", "coach", "erupt", "singe", "price", "spawn", "fairy", "jiffy", "filmy", "stack", "chose", "sleep", "ardor", "nanny", "niece", "woozy", "handy", "grace", "ditto", "stank", "cream", "usual", "diode", "valor", "angle", "ninja", "muddy", "chase", "reply", "prone", "spoil", "heart", "shade", "diner", "arson", "onion", "sleet", "dowel", "couch", "palsy", "bowel", "smile", "evoke", "creek", "lance", "eagle", "idiot", "siren", "built", "embed", "award", "dross", "annul", "goody", "frown", "patio", "laden", "humid", "elite", "lymph", "edify", "might", "reset", "visit", "gusto", "purse", "vapor", "crock", "write", "sunny", "loath", "chaff", "slide", "queer", "venom", "stamp", "sorry", "still", "acorn", "aping", "pushy", "tamer", "hater", "mania", "awoke", "brawn", "swift", "exile", "birch", "lucky", "freer", "risky", "ghost", "plier", "lunar", "winch", "snare", "nurse", "house", "borax", "nicer", "lurch", "exalt", "about", "savvy", "toxin", "tunic", "pried", "inlay", "chump", "lanky", "cress", "eater", "elude", "cycle", "kitty", "boule", "moron", "tenet", "place", "lobby", "plush", "vigil", "index", "blink", "clung", "qualm", "croup", "clink", "juicy", "stage", "decay", "nerve", "flier", "shaft", "crook", "clean", "china", "ridge", "vowel", "gnome", "snuck", "icing", "spiny", "rigor", "snail", "flown", "rabid", "prose", "thank", "poppy", "budge", "fiber", "moldy", "dowdy", "kneel", "track", "caddy", "quell", "dumpy", "paler", "swore", "rebar", "scuba", "splat", "flyer", "horny", "mason", "doing", "ozone", "amply", "molar", "ovary", "beset", "queue", "cliff", "magic", "truce", "sport", "fritz", "edict", "twirl", "verse", "llama", "eaten", "range", "whisk", "hovel", "rehab", "macaw", "sigma", "spout", "verve", "sushi", "dying", "fetid", "brain", "buddy", "thump", "scion", "candy", "chord", "basin", "march", "crowd", "arbor", "gayly", "musky", "stain", "dally", "bless", "bravo", "stung", "title", "ruler", "kiosk", "blond", "ennui", "layer", "fluid", "tatty", "score", "cutie", "zebra", "barge", "matey", "bluer", "aider", "shook", "river", "privy", "betel", "frisk", "bongo", "begun", "azure", "weave", "genie", "sound", "glove", "braid", "scope", "wryly", "rover", "assay", "ocean", "bloom", "irate", "later", "woken", "silky", "wreck", "dwelt", "slate", "smack", "solid", "amaze", "hazel", "wrist", "jolly", "globe", "flint", "rouse", "civil", "vista", "relax", "cover", "alive", "beech", "jetty", "bliss", "vocal", "often", "dolly", "eight", "joker", "since", "event", "ensue", "shunt", "diver", "poser", "worst", "sweep", "alley", "creed", "anime", "leafy", "bosom", "dunce", "stare", "pudgy", "waive", "choir", "stood", "spoke", "outgo", "delay", "bilge", "ideal", "clasp", "seize", "hotly", "laugh", "sieve", "block", "meant", "grape", "noose", "hardy", "shied", "drawl", "daisy", "putty", "strut", "burnt", "tulip", "crick", "idyll", "vixen", "furor", "geeky", "cough", "naive", "shoal", "stork", "bathe", "aunty", "check", "prime", "brass", "outer", "furry", "razor", "elect", "evict", "imply", "demur", "quota", "haven", "cavil", "swear", "crump", "dough", "gavel", "wagon", "salon", "nudge", "harem", "pitch", "sworn", "pupil", "excel", "stony", "cabin", "unzip", "queen", "trout", "polyp", "earth", "storm", "until", "taper", "enter", "child", "adopt", "minor", "fatty", "husky", "brave", "filet", "slime", "glint", "tread", "steal", "regal", "guest", "every", "murky", "share", "spore", "hoist", "buxom", "inner", "otter", "dimly", "level", "sumac", "donut", "stilt", "arena", "sheet", "scrub", "fancy", "slimy", "pearl", "silly", "porch", "dingo", "sepia", "amble", "shady", "bread", "friar", "reign", "dairy", "quill", "cross", "brood", "tuber", "shear", "posit", "blank", "villa", "shank", "piggy", "freak", "which", "among", "fecal", "shell", "would", "algae", "large", "rabbi", "agony", "amuse", "bushy", "copse", "swoon", "knife", "pouch", "ascot", "plane", "crown", "urban", "snide", "relay", "abide", "viola", "rajah", "straw", "dilly", "crash", "amass", "third", "trick", "tutor", "woody", "blurb", "grief", "disco", "where", "sassy", "beach", "sauna", "comic", "clued", "creep", "caste", "graze", "snuff", "frock", "gonad", "drunk", "prong", "lurid", "steel", "halve", "buyer", "vinyl", "utile", "smell", "adage", "worry", "tasty", "local", "trade", "finch", "ashen", "modal", "gaunt", "clove", "enact", "adorn", "roast", "speck", "sheik", "missy", "grunt", "snoop", "party", "touch", "mafia", "emcee", "array", "south", "vapid", "jelly", "skulk", "angst", "tubal", "lower", "crest", "sweat", "cyber", "adore", "tardy", "swami", "notch", "groom", "roach", "hitch", "young", "align", "ready", "frond", "strap", "puree", "realm", "venue", "swarm", "offer", "seven", "dryer", "diary", "dryly", "drank", "acrid", "heady", "theta", "junto", "pixie", "quoth", "bonus", "shalt", "penne", "amend", "datum", "build", "piano", "shelf", "lodge", "suing", "rearm", "coral", "ramen", "worth", "psalm", "infer", "overt", "mayor", "ovoid", "glide", "usage", "poise", "randy", "chuck", "prank", "fishy", "tooth", "ether", "drove", "idler", "swath", "stint", "while", "begat", "apply", "slang", "tarot", "radar", "credo", "aware", "canon", "shift", "timer", "bylaw", "serum", "three", "steak", "iliac", "shirk", "blunt", "puppy", "penal", "joist", "bunny", "shape", "beget", "wheel", "adept", "stunt", "stole", "topaz", "chore", "fluke", "afoot", "bloat", "bully", "dense", "caper", "sneer", "boxer", "jumbo", "lunge", "space", "avail", "short", "slurp", "loyal", "flirt", "pizza", "conch", "tempo", "droop", "plate", "bible", "plunk", "afoul", "savoy", "steep", "agile", "stake", "dwell", "knave", "beard", "arose", "motif", "smash", "broil", "glare", "shove", "baggy", "mammy", "swamp", "along", "rugby", "wager", "quack", "squat", "snaky", "debit", "mange", "skate", "ninth", "joust", "tramp", "spurn", "medal", "micro", "rebel", "flank", "learn", "nadir", "maple", "comfy", "remit", "gruff", "ester", "least", "mogul", "fetch", "cause", "oaken", "aglow", "meaty", "gaffe", "shyly", "racer", "prowl", "thief", "stern", "poesy", "rocky", "tweet", "waist", "spire", "grope", "havoc", "patsy", "truly", "forty", "deity", "uncle", "swish", "giver", "preen", "bevel", "lemur", "draft", "slope", "annoy", "lingo", "bleak", "ditty", "curly", "cedar", "dirge", "grown", "horde", "drool", "shuck", "crypt", "cumin", "stock", "gravy", "locus", "wider", "breed", "quite", "chafe", "cache", "blimp", "deign", "fiend", "logic", "cheap", "elide", "rigid", "false", "renal", "pence", "rowdy", "shoot", "blaze", "envoy", "posse", "brief", "never", "abort", "mouse", "mucky", "sulky", "fiery", "media", "trunk", "yeast", "clear", "skunk", "scalp", "bitty", "cider", "koala", "duvet", "segue", "creme", "super", "grill", "after", "owner", "ember", "reach", "nobly", "empty", "speed", "gipsy", "recur", "smock", "dread", "merge", "burst", "kappa", "amity", "shaky", "hover", "carol", "snort", "synod", "faint", "haunt", "flour", "chair", "detox", "shrew", "tense", "plied", "quark", "burly", "novel", "waxen", "stoic", "jerky", "blitz", "beefy", "lyric", "hussy", "towel", "quilt", "below", "bingo", "wispy", "brash", "scone", "toast", "easel", "saucy", "value", "spice", "honor", "route", "sharp", "bawdy", "radii", "skull", "phony", "issue", "lager", "swell", "urine", "gassy", "trial", "flora", "upper", "latch", "wight", "brick", "retry", "holly", "decal", "grass", "shack", "dogma", "mover", "defer", "sober", "optic", "crier", "vying", "nomad", "flute", "hippo", "shark", "drier", "obese", "bugle", "tawny", "chalk", "feast", "ruddy", "pedal", "scarf", "cruel", "bleat", "tidal", "slush", "semen", "windy", "dusty", "sally", "igloo", "nerdy", "jewel", "shone", "whale", "hymen", "abuse", "fugue", "elbow", "crumb", "pansy", "welsh", "syrup", "terse", "suave", "gamut", "swung", "drake", "freed", "afire", "shirt", "grout", "oddly", "tithe", "plaid", "dummy", "broom", "blind", "torch", "enemy", "again", "tying", "pesky", "alter", "gazer", "noble", "ethos", "bride", "extol", "decor", "hobby", "beast", "idiom", "utter", "these", "sixth", "alarm", "erase", "elegy", "spunk", "piper", "scaly", "scold", "hefty", "chick", "sooty", "canal", "whiny", "slash", "quake", "joint", "swept", "prude", "heavy", "wield", "femme", "lasso", "maize", "shale", "screw", "spree", "smoky", "whiff", "scent", "glade", "spent", "prism", "stoke", "riper", "orbit", "cocoa", "guilt", "humus", "shush", "table", "smirk", "wrong", "noisy", "alert", "shiny", "elate", "resin", "whole", "hunch", "pixel", "polar", "hotel", "sword", "cleat", "mango", "rumba", "puffy", "filly", "billy", "leash", "clout", "dance", "ovate", "facet", "chili", "paint", "liner", "curio", "salty", "audio", "snake", "fable", "cloak", "navel", "spurt", "pesto", "balmy", "flash", "unwed", "early", "churn", "weedy", "stump", "lease", "witty", "wimpy", "spoof", "saner", "blend", "salsa", "thick", "warty", "manic", "blare", "squib", "spoon", "probe", "crepe", "knack", "force", "debut", "order", "haste", "teeth", "agent", "widen", "icily", "slice", "ingot", "clash", "juror", "blood", "abode", "throw", "unity", "pivot", "slept", "troop", "spare", "sewer", "parse", "morph", "cacti", "tacky", "spool", "demon", "moody", "annex", "begin", "fuzzy", "patch", "water", "lumpy", "admin", "omega", "limit", "tabby", "macho", "aisle", "skiff", "basis", "plank", "verge", "botch", "crawl", "lousy", "slain", "cubic", "raise", "wrack", "guide", "foist", "cameo", "under", "actor", "revue", "fraud", "harpy", "scoop", "climb", "refer", "olden", "clerk", "debar", "tally", "ethic", "cairn", "tulle", "ghoul", "hilly", "crude", "apart", "scale", "older", "plain", "sperm", "briny", "abbot", "rerun", "quest", "crisp", "bound", "befit", "drawn", "suite", "itchy", "cheer", "bagel", "guess", "broad", "axiom", "chard", "caput", "leant", "harsh", "curse", "proud", "swing", "opine", "taste", "lupus", "gumbo", "miner", "green", "chasm", "lipid", "topic", "armor", "brush", "crane", "mural", "abled", "habit", "bossy", "maker", "dusky", "dizzy", "lithe", "brook", "jazzy", "fifty", "sense", "giant", "surly", "legal", "fatal", "flunk", "began", "prune", "small", "slant", "scoff", "torus", "ninny", "covey", "viper", "taken", "moral", "vogue", "owing", "token", "entry", "booth", "voter", "chide", "elfin", "ebony", "neigh", "minim", "melon", "kneed", "decoy", "voila", "ankle", "arrow", "mushy", "tribe", "cease", "eager", "birth", "graph", "odder", "terra", "weird", "tried", "clack", "color", "rough", "weigh", "uncut", "ladle", "strip", "craft", "minus", "dicey", "titan", "lucid", "vicar", "dress", "ditch", "gypsy", "pasta", "taffy", "flame", "swoop", "aloof", "sight", "broke", "teary", "chart", "sixty", "wordy", "sheer", "leper", "nosey", "bulge", "savor", "clamp", "funky", "foamy", "toxic", "brand", "plumb", "dingy", "butte", "drill", "tripe", "bicep", "tenor", "krill", "worse", "drama", "hyena", "think", "ratio", "cobra", "basil", "scrum", "bused", "phone", "court", "camel", "proof", "heard", "angel", "petal", "pouty", "throb", "maybe", "fetal", "sprig", "spine", "shout", "cadet", "macro", "dodgy", "satyr", "rarer", "binge", "trend", "nutty", "leapt", "amiss", "split", "myrrh", "width", "sonar", "tower", "baron", "fever", "waver", "spark", "belie", "sloop", "expel", "smote", "baler", "above", "north", "wafer", "scant", "frill", "awash", "snack", "scowl", "frail", "drift", "limbo", "fence", "motel", "ounce", "wreak", "revel", "talon", "prior", "knelt", "cello", "flake", "debug", "anode", "crime", "salve", "scout", "imbue", "pinky", "stave", "vague", "chock", "fight", "video", "stone", "teach", "cleft", "frost", "prawn", "booty", "twist", "apnea", "stiff", "plaza", "ledge", "tweak", "board", "grant", "medic", "bacon", "cable", "brawl", "slunk", "raspy", "forum", "drone", "women", "mucus", "boast", "toddy", "coven", "tumor", "truer", "wrath", "stall", "steam", "axial", "purer", "daily", "trail", "niche", "mealy", "juice", "nylon", "plump", "merry", "flail", "papal", "wheat", "berry", "cower", "erect", "brute", "leggy", "snipe", "sinew", "skier", "penny", "jumpy", "rally", "umbra", "scary", "modem", "gross", "avian", "greed", "satin", "tonic", "parka", "sniff", "livid", "stark", "trump", "giddy", "reuse", "taboo", "avoid", "quote", "devil", "liken", "gloss", "gayer", "beret", "noise", "gland", "dealt", "sling", "rumor", "opera", "thigh", "tonga", "flare", "wound", "white", "bulky", "etude", "horse", "circa", "paddy", "inbox", "fizzy", "grain", "exert", "surge", "gleam", "belle", "salvo", "crush", "fruit", "sappy", "taker", "tract", "ovine", "spiky", "frank", "reedy", "filth", "spasm", "heave", "mambo", "right", "clank", "trust", "lumen", "borne", "spook", "sauce", "amber", "lathe", "carat", "corer", "dirty", "slyly", "affix", "alloy", "taint", "sheep", "kinky", "wooly", "mauve", "flung", "yacht", "fried", "quail", "brunt", "grimy", "curvy", "cagey", "rinse", "deuce", "state", "grasp", "milky", "bison", "graft", "sandy", "baste", "flask", "hedge", "girly", "swash", "boney", "coupe", "endow", "abhor", "welch", "blade", "tight", "geese", "miser", "mirth", "cloud", "cabal", "leech", "close", "tenth", "pecan", "droit", "grail", "clone", "guise", "ralph", "tango", "biddy", "smith", "mower", "payee", "serif", "drape", "fifth", "spank", "glaze", "allot", "truck", "kayak", "virus", "testy", "tepee", "fully", "zonal", "metro", "curry", "grand", "banjo", "axion", "bezel", "occur", "chain", "nasal", "gooey", "filer", "brace", "allay", "pubic", "raven", "plead", "gnash", "flaky", "munch", "dully", "eking", "thing", "slink", "hurry", "theft", "shorn", "pygmy", "ranch", "wring", "lemon", "shore", "mamma", "froze", "newer", "style", "moose", "antic", "drown", "vegan", "chess", "guppy", "union", "lever", "lorry", "image", "cabby", "druid", "exact", "truth", "dopey", "spear", "cried", "chime", "crony", "stunk", "timid", "batch", "gauge", "rotor", "crack", "curve", "latte", "witch", "bunch", "repel", "anvil", "soapy", "meter", "broth", "madly", "dried", "scene", "known", "magma", "roost", "woman", "thong", "punch", "pasty", "downy", "knead", "whirl", "rapid", "clang", "anger", "drive", "goofy", "email", "music", "stuff", "bleep", "rider", "mecca", "folio", "setup", "verso", "quash", "fauna", "gummy", "happy", "newly", "fussy", "relic", "guava", "ratty", "fudge", "femur", "chirp", "forte", "alibi", "whine", "petty", "golly", "plait", "fleck", "felon", "gourd", "brown", "thrum", "ficus", "stash", "decry", "wiser", "junta", "visor", "daunt", "scree", "impel", "await", "press", "whose", "turbo", "stoop", "speak", "mangy", "eying", "inlet", "crone", "pulse", "mossy", "staid", "hence", "pinch", "teddy", "sully", "snore", "ripen", "snowy", "attic", "going", "leach", "mouth", "hound", "clump", "tonal", "bigot", "peril", "piece", "blame", "haute", "spied", "undid", "intro", "basal", "shine", "gecko", "rodeo", "guard", "steer", "loamy", "scamp", "scram", "manly", "hello", "vaunt", "organ", "feral", "knock", "extra", "condo", "adapt", "willy", "polka", "rayon", "skirt", "faith", "torso", "match", "mercy", "tepid", "sleek", "riser", "twixt", "peace", "flush", "catty", "login", "eject", "roger", "rival", "untie", "refit", "aorta", "adult", "judge", "rower", "artsy", "rural", "shave"]
+    func convertStringsCSVIntoArray(filename: String) -> [String] {
+        //locate the file you want to use
+        guard let filepath = Bundle.main.path(forResource: filename, ofType: "csv") else {
+            return []
+        }
+        
+        //convert that file into one long string
+        var data = ""
+        do {
+            data = try String(contentsOfFile: filepath)
+        } catch {
+            print(error)
+            return []
+        }
+        
+        let rows = data.components(separatedBy: "\n")
+            
+        let columns = rows[0].components(separatedBy: ",")
+        
+        return columns
+    }
 }
 
 struct DictFreq: Codable {
@@ -297,9 +841,40 @@ struct KnownPositions: Equatable, Codable {
 }
 
 
+struct LetterPosition {
+    var pos: Int
+    var a: Int
+    var b: Int
+    var c: Int
+    var d: Int
+    var e: Int
+    var f: Int
+    var g: Int
+    var h: Int
+    var i: Int
+    var j: Int
+    var k: Int
+    var l: Int
+    var m: Int
+    var n: Int
+    var o: Int
+    var p: Int
+    var q: Int
+    var r: Int
+    var s: Int
+    var t: Int
+    var u: Int
+    var v: Int
+    var w: Int
+    var x: Int
+    var y: Int
+    var z: Int
+}
+
 
 extension StringProtocol {
     subscript(offset: Int) -> Character {
         self[index(startIndex, offsetBy: offset)]
     }
 }
+

@@ -90,9 +90,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "evade"
+      "deave"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "evade"
   },
   {
@@ -330,9 +330,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "marry"
+      "marra"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "marry"
   },
   {
@@ -354,9 +354,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "batty"
+      "batta"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "batty"
   },
   {
@@ -486,9 +486,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "adobe"
+      "abode"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "adobe"
   },
   {
@@ -510,9 +510,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sower"
+      "resow"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sower"
   },
   {
@@ -522,9 +522,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "repay"
+      "perea"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "repay"
   },
   {
@@ -702,9 +702,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "belly"
+      "belee"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "belly"
   },
   {
@@ -846,9 +846,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "agree"
+      "agger"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "agree"
   },
   {
@@ -978,9 +978,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "parry"
+      "parra"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "parry"
   },
   {
@@ -1014,9 +1014,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "start"
+      "starr"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "start"
   },
   {
@@ -1122,9 +1122,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "gamma"
+      "gamay"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "gamma"
   },
   {
@@ -1182,9 +1182,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "corny"
+      "corno"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "corny"
   },
   {
@@ -1362,9 +1362,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hatch"
+      "catch"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hatch"
   },
   {
@@ -1494,9 +1494,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "enema"
+      "amene"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "enema"
   },
   {
@@ -1506,9 +1506,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "steed"
+      "stedd"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "steed"
   },
   {
@@ -1518,9 +1518,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "abyss"
+      "abbas"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "abyss"
   },
   {
@@ -1686,9 +1686,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "coast"
+      "ascot"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "coast"
   },
   {
@@ -1722,9 +1722,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "fixer"
+      "fifer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "fixer"
   },
   {
@@ -1746,9 +1746,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rogue"
+      "erugo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rogue"
   },
   {
@@ -1806,9 +1806,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "chill"
+      "chili"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "chill"
   },
   {
@@ -1854,9 +1854,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "surer"
+      "russe"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "surer"
   },
   {
@@ -1878,7 +1878,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "rogue"
+      "erugo"
     ],
     "result" : false,
     "wordToGuess" : "rouge"
@@ -2514,9 +2514,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "tangy"
+      "tanga"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "tangy"
   },
   {
@@ -3066,9 +3066,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rupee"
+      "puree"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rupee"
   },
   {
@@ -3150,9 +3150,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sweet"
+      "ewest"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sweet"
   },
   {
@@ -3198,9 +3198,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "today"
+      "toady"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "today"
   },
   {
@@ -3246,9 +3246,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "cater"
+      "caret"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "cater"
   },
   {
@@ -3546,9 +3546,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stair"
+      "astir"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stair"
   },
   {
@@ -3582,9 +3582,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "royal"
+      "loral"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "royal"
   },
   {
@@ -3666,9 +3666,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "foyer"
+      "forex"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "foyer"
   },
   {
@@ -3786,9 +3786,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hasty"
+      "hasta"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hasty"
   },
   {
@@ -3918,9 +3918,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "canny"
+      "canna"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "canny"
   },
   {
@@ -4566,9 +4566,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hutch"
+      "cutch"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hutch"
   },
   {
@@ -4614,9 +4614,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "lilac"
+      "cilia"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "lilac"
   },
   {
@@ -4782,9 +4782,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "liver"
+      "ervil"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "liver"
   },
   {
@@ -4986,9 +4986,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "upset"
+      "setup"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "upset"
   },
   {
@@ -5034,9 +5034,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "coyly"
+      "colly"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "coyly"
   },
   {
@@ -5058,9 +5058,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rhyme"
+      "rehem"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rhyme"
   },
   {
@@ -5826,9 +5826,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "leave"
+      "avale"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "leave"
   },
   {
@@ -6006,9 +6006,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hatch"
+      "catch"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "catch"
   },
   {
@@ -6030,9 +6030,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stein"
+      "sient"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stein"
   },
   {
@@ -6210,9 +6210,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "piney"
+      "penie"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "piney"
   },
   {
@@ -6270,9 +6270,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stale"
+      "least"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stale"
   },
   {
@@ -6402,9 +6402,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "spell"
+      "speel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "spell"
   },
   {
@@ -6618,9 +6618,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "pique"
+      "equip"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "pique"
   },
   {
@@ -6726,9 +6726,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "recut"
+      "cruet"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "recut"
   },
   {
@@ -6774,9 +6774,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rifle"
+      "lifer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rifle"
   },
   {
@@ -6942,9 +6942,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "undue"
+      "endue"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "undue"
   },
   {
@@ -7014,9 +7014,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "pique"
+      "equip"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "equip"
   },
   {
@@ -7086,9 +7086,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "udder"
+      "redux"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "udder"
   },
   {
@@ -7122,9 +7122,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stray"
+      "artsy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stray"
   },
   {
@@ -7158,9 +7158,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "lefty"
+      "lefte"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "lefty"
   },
   {
@@ -7218,9 +7218,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "risen"
+      "resin"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "risen"
   },
   {
@@ -7314,9 +7314,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "apple"
+      "appel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "apple"
   },
   {
@@ -7470,9 +7470,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "singe"
+      "sengi"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "singe"
   },
   {
@@ -7530,9 +7530,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "filmy"
+      "filmi"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "filmy"
   },
   {
@@ -7590,9 +7590,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "nanny"
+      "nanna"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "nanny"
   },
   {
@@ -7722,9 +7722,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "angle"
+      "angel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "angle"
   },
   {
@@ -7770,9 +7770,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reply"
+      "leper"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "reply"
   },
   {
@@ -7854,9 +7854,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "onion"
+      "inion"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "onion"
   },
   {
@@ -7902,9 +7902,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "palsy"
+      "palsa"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "palsy"
   },
   {
@@ -7914,9 +7914,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "bowel"
+      "below"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "bowel"
   },
   {
@@ -7998,7 +7998,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "risen"
+      "resin"
     ],
     "result" : false,
     "wordToGuess" : "siren"
@@ -8154,9 +8154,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "edify"
+      "deify"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "edify"
   },
   {
@@ -8178,9 +8178,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reset"
+      "ester"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "reset"
   },
   {
@@ -8766,9 +8766,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "cress"
+      "crees"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "cress"
   },
   {
@@ -8946,9 +8946,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "qualm"
+      "mulla"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "qualm"
   },
   {
@@ -9018,9 +9018,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "nerve"
+      "erven"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "nerve"
   },
   {
@@ -9090,9 +9090,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ridge"
+      "derig"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ridge"
   },
   {
@@ -9402,9 +9402,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "splat"
+      "spalt"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "splat"
   },
   {
@@ -9906,9 +9906,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "gayly"
+      "galax"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "gayly"
   },
   {
@@ -9954,9 +9954,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "bless"
+      "blebs"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "bless"
   },
   {
@@ -10002,9 +10002,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ruler"
+      "lurer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ruler"
   },
   {
@@ -10050,9 +10050,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "layer"
+      "early"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "layer"
   },
   {
@@ -10074,9 +10074,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "tatty"
+      "taata"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "tatty"
   },
   {
@@ -10182,9 +10182,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "river"
+      "revie"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "river"
   },
   {
@@ -10818,9 +10818,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "worst"
+      "strow"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "worst"
   },
   {
@@ -10842,9 +10842,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "alley"
+      "allee"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "alley"
   },
   {
@@ -10866,9 +10866,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "anime"
+      "amine"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "anime"
   },
   {
@@ -10998,9 +10998,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "delay"
+      "addle"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "delay"
   },
   {
@@ -11250,9 +11250,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "idyll"
+      "dilli"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "idyll"
   },
   {
@@ -11430,9 +11430,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "razor"
+      "razoo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "razor"
   },
   {
@@ -11646,9 +11646,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "pupil"
+      "pulli"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "pupil"
   },
   {
@@ -11670,9 +11670,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stony"
+      "snoot"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stony"
   },
   {
@@ -11730,9 +11730,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "polyp"
+      "polly"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "polyp"
   },
   {
@@ -11934,9 +11934,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "regal"
+      "argle"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "regal"
   },
   {
@@ -12066,9 +12066,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "level"
+      "levee"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "level"
   },
   {
@@ -12114,9 +12114,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "arena"
+      "anear"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "arena"
   },
   {
@@ -12174,9 +12174,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "pearl"
+      "lepra"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "pearl"
   },
   {
@@ -12222,9 +12222,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sepia"
+      "aspie"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sepia"
   },
   {
@@ -12282,9 +12282,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reign"
+      "ering"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "reign"
   },
   {
@@ -12474,9 +12474,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "shell"
+      "sheel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "shell"
   },
   {
@@ -12510,9 +12510,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "large"
+      "lager"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "large"
   },
   {
@@ -12618,9 +12618,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "coast"
+      "ascot"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "ascot"
   },
   {
@@ -12654,9 +12654,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "urban"
+      "unbar"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "urban"
   },
   {
@@ -12738,7 +12738,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "idyll"
+      "dilli"
     ],
     "result" : false,
     "wordToGuess" : "dilly"
@@ -13146,9 +13146,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "local"
+      "coala"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "local"
   },
   {
@@ -13194,9 +13194,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "modal"
+      "dolma"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "modal"
   },
   {
@@ -13566,9 +13566,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "roach"
+      "orach"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "roach"
   },
   {
@@ -13614,9 +13614,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ready"
+      "adder"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ready"
   },
   {
@@ -13638,9 +13638,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "strap"
+      "sprat"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "strap"
   },
   {
@@ -13650,9 +13650,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rupee"
+      "puree"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "puree"
   },
   {
@@ -13734,9 +13734,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "diary"
+      "ardri"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "diary"
   },
   {
@@ -13962,9 +13962,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rearm"
+      "meare"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rearm"
   },
   {
@@ -13986,9 +13986,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ramen"
+      "namer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ramen"
   },
   {
@@ -13998,9 +13998,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "worth"
+      "rowth"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "worth"
   },
   {
@@ -14046,9 +14046,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "mayor"
+      "maror"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "mayor"
   },
   {
@@ -14250,9 +14250,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "apply"
+      "appal"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "apply"
   },
   {
@@ -14670,9 +14670,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "boxer"
+      "berob"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "boxer"
   },
   {
@@ -14838,9 +14838,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "bible"
+      "belie"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "bible"
   },
   {
@@ -15042,9 +15042,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "mammy"
+      "mamma"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "mammy"
   },
   {
@@ -15342,9 +15342,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reset"
+      "ester"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "ester"
   },
   {
@@ -15354,9 +15354,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stale"
+      "least"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "least"
   },
   {
@@ -15426,9 +15426,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "meaty"
+      "amate"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "meaty"
   },
   {
@@ -15462,9 +15462,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "racer"
+      "carer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "racer"
   },
   {
@@ -15522,9 +15522,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rocky"
+      "corky"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rocky"
   },
   {
@@ -15606,9 +15606,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "truly"
+      "trull"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "truly"
   },
   {
@@ -15810,7 +15810,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "ridge"
+      "derig"
     ],
     "result" : false,
     "wordToGuess" : "dirge"
@@ -16158,9 +16158,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "posse"
+      "posey"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "posse"
   },
   {
@@ -16182,7 +16182,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "nerve"
+      "erven"
     ],
     "result" : false,
     "wordToGuess" : "never"
@@ -16242,9 +16242,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "fiery"
+      "fiere"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "fiery"
   },
   {
@@ -16542,9 +16542,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "dread"
+      "aread"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "dread"
   },
   {
@@ -16698,9 +16698,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "chair"
+      "archi"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "chair"
   },
   {
@@ -16866,9 +16866,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hussy"
+      "hushy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hussy"
   },
   {
@@ -16902,9 +16902,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "bowel"
+      "below"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "below"
   },
   {
@@ -17094,9 +17094,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "phony"
+      "phono"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "phony"
   },
   {
@@ -17118,9 +17118,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "large"
+      "lager"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "lager"
   },
   {
@@ -17130,9 +17130,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "swell"
+      "sweel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "swell"
   },
   {
@@ -17250,9 +17250,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "holly"
+      "hollo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "holly"
   },
   {
@@ -17622,9 +17622,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sally"
+      "lassy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sally"
   },
   {
@@ -17646,9 +17646,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "nerdy"
+      "derny"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "nerdy"
   },
   {
@@ -17946,9 +17946,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "broom"
+      "bromo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "broom"
   },
   {
@@ -18102,9 +18102,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "decor"
+      "coder"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "decor"
   },
   {
@@ -18198,9 +18198,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "erase"
+      "arsey"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "erase"
   },
   {
@@ -18246,9 +18246,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "scaly"
+      "scala"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "scaly"
   },
   {
@@ -18270,9 +18270,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hefty"
+      "hefte"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hefty"
   },
   {
@@ -18378,9 +18378,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "prude"
+      "perdu"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "prude"
   },
   {
@@ -18390,9 +18390,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "heavy"
+      "heave"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "heavy"
   },
   {
@@ -18474,9 +18474,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "spree"
+      "perse"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "spree"
   },
   {
@@ -18486,9 +18486,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "smoky"
+      "smoko"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "smoky"
   },
   {
@@ -18594,9 +18594,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "cocoa"
+      "accoy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "cocoa"
   },
   {
@@ -18714,9 +18714,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "elate"
+      "alate"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "elate"
   },
   {
@@ -18726,9 +18726,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "risen"
+      "resin"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "resin"
   },
   {
@@ -18762,9 +18762,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "pixel"
+      "pilei"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "pixel"
   },
   {
@@ -18786,9 +18786,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "hotel"
+      "helot"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "hotel"
   },
   {
@@ -18858,9 +18858,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "filly"
+      "filii"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "filly"
   },
   {
@@ -18870,9 +18870,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "billy"
+      "bilby"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "billy"
   },
   {
@@ -18942,9 +18942,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "chill"
+      "chili"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "chili"
   },
   {
@@ -19122,9 +19122,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "layer"
+      "early"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "early"
   },
   {
@@ -19242,7 +19242,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "sally"
+      "lassy"
     ],
     "result" : false,
     "wordToGuess" : "salsa"
@@ -19386,9 +19386,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "order"
+      "doree"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "order"
   },
   {
@@ -19434,9 +19434,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "widen"
+      "indew"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "widen"
   },
   {
@@ -19518,9 +19518,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "adobe"
+      "abode"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "abode"
   },
   {
@@ -19602,9 +19602,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sewer"
+      "resew"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sewer"
   },
   {
@@ -19686,9 +19686,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "moody"
+      "doomy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "moody"
   },
   {
@@ -20130,9 +20130,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "debar"
+      "ardeb"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "debar"
   },
   {
@@ -20142,9 +20142,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "tally"
+      "talaq"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "tally"
   },
   {
@@ -20826,9 +20826,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sense"
+      "eensy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sense"
   },
   {
@@ -20862,9 +20862,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "legal"
+      "aglee"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "legal"
   },
   {
@@ -21186,9 +21186,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "decoy"
+      "codec"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "decoy"
   },
   {
@@ -21306,7 +21306,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "order"
+      "doree"
     ],
     "result" : false,
     "wordToGuess" : "odder"
@@ -21318,9 +21318,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "terra"
+      "teary"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "terra"
   },
   {
@@ -21354,9 +21354,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "clack"
+      "alack"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "clack"
   },
   {
@@ -21414,9 +21414,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ladle"
+      "dalle"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ladle"
   },
   {
@@ -21426,9 +21426,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "strip"
+      "sprit"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "strip"
   },
   {
@@ -21510,9 +21510,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "dress"
+      "drees"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "dress"
   },
   {
@@ -21630,9 +21630,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "terra"
+      "teary"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "teary"
   },
   {
@@ -21690,9 +21690,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reply"
+      "leper"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "leper"
   },
   {
@@ -21894,7 +21894,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "sower"
+      "resow"
     ],
     "result" : false,
     "wordToGuess" : "worse"
@@ -21954,9 +21954,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "cobra"
+      "coarb"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "cobra"
   },
   {
@@ -22062,9 +22062,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "angle"
+      "angel"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "angel"
   },
   {
@@ -22218,9 +22218,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rarer"
+      "raree"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rarer"
   },
   {
@@ -22278,9 +22278,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "amiss"
+      "amias"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "amiss"
   },
   {
@@ -22398,9 +22398,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "bible"
+      "belie"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "belie"
   },
   {
@@ -22554,9 +22554,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "frail"
+      "filar"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "frail"
   },
   {
@@ -22602,9 +22602,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "motel"
+      "metol"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "motel"
   },
   {
@@ -22638,9 +22638,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "revel"
+      "lever"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "revel"
   },
   {
@@ -23250,7 +23250,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "rupee"
+      "puree"
     ],
     "result" : false,
     "wordToGuess" : "purer"
@@ -23370,9 +23370,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "papal"
+      "palay"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "papal"
   },
   {
@@ -23442,9 +23442,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "leggy"
+      "legge"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "leggy"
   },
   {
@@ -23562,9 +23562,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "gross"
+      "grogs"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "gross"
   },
   {
@@ -23754,9 +23754,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "liken"
+      "inkle"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "liken"
   },
   {
@@ -23778,9 +23778,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "gayer"
+      "gager"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "gayer"
   },
   {
@@ -24066,7 +24066,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "belly"
+      "belee"
     ],
     "result" : false,
     "wordToGuess" : "belle"
@@ -24114,9 +24114,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sappy"
+      "paspy"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sappy"
   },
   {
@@ -24186,9 +24186,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "reedy"
+      "dreer"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "reedy"
   },
   {
@@ -24222,9 +24222,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "heavy"
+      "heave"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "heave"
   },
   {
@@ -24366,9 +24366,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "corer"
+      "ceroc"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "corer"
   },
   {
@@ -24438,9 +24438,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "sheep"
+      "phese"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "sheep"
   },
   {
@@ -24450,9 +24450,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "kinky"
+      "kinin"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "kinky"
   },
   {
@@ -24630,9 +24630,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "milky"
+      "kilim"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "milky"
   },
   {
@@ -25158,9 +25158,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "testy"
+      "teste"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "testy"
   },
   {
@@ -25254,9 +25254,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "axion"
+      "anion"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "axion"
   },
   {
@@ -25278,9 +25278,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "occur"
+      "cruor"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "occur"
   },
   {
@@ -25578,9 +25578,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "mammy"
+      "mamma"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "mamma"
   },
   {
@@ -25638,9 +25638,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "antic"
+      "actin"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "antic"
   },
   {
@@ -25710,9 +25710,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "revel"
+      "lever"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "lever"
   },
   {
@@ -25806,9 +25806,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "spear"
+      "presa"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "spear"
   },
   {
@@ -25974,7 +25974,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "reply"
+      "leper"
     ],
     "result" : false,
     "wordToGuess" : "repel"
@@ -26298,9 +26298,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rider"
+      "direr"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rider"
   },
   {
@@ -26322,9 +26322,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "folio"
+      "fillo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "folio"
   },
   {
@@ -26334,9 +26334,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "upset"
+      "setup"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "setup"
   },
   {
@@ -26406,9 +26406,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "newly"
+      "newel"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "newly"
   },
   {
@@ -26754,9 +26754,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "press"
+      "prees"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "press"
   },
   {
@@ -26790,9 +26790,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stoop"
+      "spoot"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "stoop"
   },
   {
@@ -26826,9 +26826,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "eying"
+      "exing"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "eying"
   },
   {
@@ -26838,9 +26838,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "inlet"
+      "enlit"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "inlet"
   },
   {
@@ -26874,9 +26874,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "mossy"
+      "mosso"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "mossy"
   },
   {
@@ -26958,9 +26958,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "ripen"
+      "repin"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "ripen"
   },
   {
@@ -27162,9 +27162,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "basal"
+      "balsa"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "basal"
   },
   {
@@ -27198,7 +27198,7 @@
       "glitz",
       "twerk",
       "vamps",
-      "order"
+      "doree"
     ],
     "result" : false,
     "wordToGuess" : "rodeo"
@@ -27222,9 +27222,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "steer"
+      "reest"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "steer"
   },
   {
@@ -27306,9 +27306,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "organ"
+      "argon"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "organ"
   },
   {
@@ -27390,9 +27390,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "polka"
+      "pokal"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "polka"
   },
   {
@@ -27522,9 +27522,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "peace"
+      "apace"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "peace"
   },
   {
@@ -27582,9 +27582,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "roger"
+      "reggo"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "roger"
   },
   {
@@ -27678,9 +27678,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "stray"
+      "artsy"
     ],
-    "result" : false,
+    "result" : true,
     "wordToGuess" : "artsy"
   },
   {
@@ -27690,9 +27690,9 @@
       "glitz",
       "twerk",
       "vamps",
-      "rural"
+      "aural"
     ],
-    "result" : true,
+    "result" : false,
     "wordToGuess" : "rural"
   },
   {

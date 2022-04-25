@@ -9,6 +9,7 @@ import SwiftUI
 
 struct WordleBotView: View {
     @ObservedObject var wordleBot: WordleBotViewController = WordleBotViewController()
+    @State var guessMethodFrequency = false
     
     var body: some View {
         VStack {
@@ -23,7 +24,6 @@ struct WordleBotView: View {
             Spacer()
             
             Text("Remaining Possible Words: \(wordleBot.remainingPossibleWords())")
-//            Text("Remaining Possible Words: 234234)")
             
             VStack {
                 Spacer()
@@ -53,12 +53,14 @@ struct WordleBotView: View {
     
     
     var nextGuess: some View {
-        Button("Next Guess (Remaining: \(6-wordleBot.countOfGuesses()))") {
+        Button("Next Guess in Sequence") {
             wordleBot.guessWord()
+//            wordleBot.wordleBot.evaluateThePlausibilityOfPerfectFrequencyGames()
+//            wordleBot.wordleBot.guessByPosition()
         }
     }
     var guessByFrequency: some View {
-        Button("\(wordleBot.lastWordByFreq())") {
+        Button("Guess by Frequency: \(wordleBot.lastWordByFreq())") {
             wordleBot.guessByFrequency()
         }
         .disabled(wordleBot.countOfGuesses() < 5)
