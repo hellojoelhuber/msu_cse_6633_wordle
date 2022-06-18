@@ -7,11 +7,11 @@ This repo is for all files related to the MSU CSE 6633 AI group project.
 Our bot was written in Swift, which can be run with XCode on a Mac. 
 You can find it in the WordleBot/WordleBot folder. The main bot code is found in WordleBot.swift. 
 
-First, you will see the BotSettings private struct. This is so that we can adjust individual settings in the Bot and run the loop again. The description of each setting is provided.
+First, the WordleBotView contains visual toggles and steppers to adjust the BotSettings. The description of each setting is provided in WordleBot, and a brief description labels each control on the UI.
 
 Second, the main loop function is "autoPlay()." It first sets up the bot based on the settings, then begins playing once you get to the "repeat" loop. There are two repeat loops. The outer loop is to loop through multiple word sets. The inner loop is to loop through every possible game defined in the NYT source code. 
 
-The way the bot plays is to load the dictionary of possible words into its "profile" of the target word. It will guess a word based on the provided settings and update the known information about the target word. It will use that information to filter down the list of possible words. The bot will then select another word to guess and proceed in this fashion until it wins or plays 6 words without winning.
+The way the bot plays is to load the dictionary of possible words into its "profile" of the target word. It will guess a word based on the provided settings and update the known information about the target word. It will use that information to filter down the list of possible words. The bot will then select another word to guess and proceed in this fashion until it wins or plays 6 words without winning. The outcomes are exported to a local file for human review.
 
 Please note: Our WordleBot does not have 100% win rate! The win rate will vary by its strategy settings.
 
