@@ -33,7 +33,7 @@
 		74518A7F280B156A00DAC8E4 /* WordleBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBot.swift; sourceTree = "<group>"; };
 		74518A81280B157200DAC8E4 /* WordleBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleBotViewController.swift; sourceTree = "<group>"; };
 		74DBE1A12811D5F100AEE859 /* dict_freq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dict_freq.json; sourceTree = "<group>"; };
-		74DBE1CD28147C6000AEE859 /* letter_pos_count_large_sample.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = letter_pos_count_large_sample.csv; path = ../../data/letter_pos_count_large_sample.csv; sourceTree = "<group>"; };
+		74DBE1CD28147C6000AEE859 /* letter_pos_count_large_sample.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = letter_pos_count_large_sample.csv; path = "../../letter-position-data/letter_pos_count_large_sample.csv"; sourceTree = "<group>"; };
 		74DBE1CF28149CF200AEE859 /* combinedDictionary.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = combinedDictionary.csv; sourceTree = "<group>"; };
 		74DBE1D128149D2800AEE859 /* answers.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = answers.csv; sourceTree = "<group>"; };
 		74F1CDA22817518B0095EA6E /* WordleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleGame.swift; sourceTree = "<group>"; };

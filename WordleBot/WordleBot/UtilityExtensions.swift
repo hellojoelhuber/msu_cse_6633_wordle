@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 // This extension allows us to refer to a specific character in a string by its position, as if it were an array of letters.
 extension StringProtocol {
     subscript(offset: Int) -> Character {

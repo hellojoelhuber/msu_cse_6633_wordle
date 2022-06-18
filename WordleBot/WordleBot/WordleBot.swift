@@ -8,7 +8,7 @@
 import Foundation
 
 struct WordleBot {
-    private struct BotSettings {
+    struct BotSettings {
         let unluckiestBotInTheWorld: Bool // always guesses wrongly if given a choice.
         
         let perfectMemory: Bool // true == bot can remember past words
@@ -21,7 +21,6 @@ struct WordleBot {
         let limitCountIncludedLetters: Int // the included letter count limit
 
         let lengthOfSequence: Int // length of sub-sequences. Set to 3 for 3-word sequences.
-//        let onRails: Bool // refers to the 5-word sequences
         let oneLoop: Bool // Loop through all combinations, or only 1 loop through combos?
         
         // These two settings are for the special research-paper set of words.
@@ -30,35 +29,25 @@ struct WordleBot {
     }
     private let settings: BotSettings
 
-    // TASK: Need to code in a score-keeper to compare results between otherwise similar bots.
-    
-//    private var wordOfTheDay: String
-    
     var memoryOfPastWords = [String]()
     let knownPositions = [1,2,3,4,5]
     var totalGames = 0
     var winCounter = 0
     
-//    init(wordOfTheDay: String) {
-//        self.wordOfTheDay = wordOfTheDay
-    init() {
-        self.settings = BotSettings(unluckiestBotInTheWorld: false,
-                                    
-                                    perfectMemory: true,
-                                    answersSortedByFrequency: false,
-                                    totalCheater: false,
-                                    frequencyCheater: false,
-
-                                    guessMethodFrequency: true,
-                                    seekKnowledge: true,
-                                    limitCountIncludedLetters: 4,
-
-                                    lengthOfSequence: 5,
-//                                    onRails: true,
-                                    oneLoop: true,
-
-                                    specialGame: false
+    init(botSettings: BotSettings?) {
+        self.settings = botSettings ?? BotSettings(unluckiestBotInTheWorld: false,
+                                                   perfectMemory: true,
+                                                   answersSortedByFrequency: false,
+                                                   totalCheater: false,
+                                                   frequencyCheater: false,
+                                                   guessMethodFrequency: true,
+                                                   seekKnowledge: true,
+                                                   limitCountIncludedLetters: 4,
+                                                   lengthOfSequence: 5,
+                                                   oneLoop: true,
+                                                   specialGame: false
         )
+        print(self.settings)
     }
     
     mutating func autoplay() {
@@ -101,7 +90,7 @@ struct WordleBot {
         }
         
         let answerCount = answers.count
-        totalGames = answerCount
+        totalGames += answerCount
         
         // onRails
         var innerLoopCounter = 0
@@ -257,7 +246,7 @@ struct WordleBot {
                 exportGameResults(fileName: "\(guessSequence)-game-results.json", json: gameResults)
                 
                 innerLoopCounter += 1
-                winCounter = countOfWinningGames
+                winCounter += countOfWinningGames
             } while (innerLoopCounter < wordSets.count)
             outerLoopCounter += 1
         } while (outerLoopCounter < wordSets.count && !settings.oneLoop)
@@ -478,7 +467,6 @@ struct WordleBot {
     }
     
     // NOTE: This function was designed to tell the number of games where choosing the word by frequency, assuming the games were sorted by word frequency, would result in a loss. It was simply to prove a point to us, the researcher, that the "dog wouldn't hunt." As a function, it is deprecated because necessary pieces to make it function have been refactored out of the project. The function remains here, commented out, for posterity.
-    // If you really, really, really want to make it run, though, you can use git and find an older commit that preserves the necessary pieces.
 //    func evaluateThePlausibilityOfPerfectFrequencyGames() {
 //        var testProfiles: WordSet = WordSet(name: "", words: [])
 //        var sortedAnswers = sortDictionaryByFrequency(answersOnly: true)
