@@ -1,4 +1,4 @@
-# msu_cse_6633_wordle
+# CSE 6633 WordleBot
 
 This repo is for all files related to the MSU CSE 6633 AI group project. 
 
@@ -12,6 +12,8 @@ First, you will see the BotSettings private struct. This is so that we can adjus
 Second, the main loop function is "autoPlay()." It first sets up the bot based on the settings, then begins playing once you get to the "repeat" loop. There are two repeat loops. The outer loop is to loop through multiple word sets. The inner loop is to loop through every possible game defined in the NYT source code. 
 
 The way the bot plays is to load the dictionary of possible words into its "profile" of the target word. It will guess a word based on the provided settings and update the known information about the target word. It will use that information to filter down the list of possible words. The bot will then select another word to guess and proceed in this fashion until it wins or plays 6 words without winning.
+
+Please note: Our WordleBot does not have 100% win rate! The win rate will vary by its strategy settings.
 
 ### WordProfiler
 
