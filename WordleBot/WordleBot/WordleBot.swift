@@ -371,7 +371,6 @@ struct WordleBot {
                 let z = Int(columns[26]) ?? 0
                 
                 let frequencies = [pos, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
-//                let frequencies = LetterPosition(pos: pos, a: a, b: b, c: c, d: d, e: e, f: f, g: g, h: h, i: i, j: j, k: k, l: l, m: m, n: n, o: o, p: p, q: q, r: r, s: s, t: t, u: u, v: v, w: w, x: x, y: y, z: z)
                 letterFrequency.append(frequencies)
             }
         }
@@ -379,7 +378,6 @@ struct WordleBot {
     }
     func guessByPosition(remainingWords: [String], guessedWords: [String]) -> String {
         let letterFrequency = convertLetterPositionCSVIntoArray(hasHeader: true)
-        let letterValue = ["a": 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8, "i": 9, "j": 10, "k": 11, "l": 12, "m": 13, "n": 14, "o": 15, "p": 16, "q": 17, "r": 18, "s": 19, "t": 20, "u": 21, "v": 22, "w": 23, "x": 24, "y": 25, "z": 26]
         
         var guessedLetters: [String] = []
         for word in guessedWords {
@@ -402,8 +400,9 @@ struct WordleBot {
                 if tempGuessedLetters.contains(String(word[index])) {
                     tempGuessedLetters.remove(at: tempGuessedLetters.firstIndex(of: String(word[index]))!)
                 } else {
-                    let letterIndex = letterValue[String(word[index])]
-                    tempValue += letterFrequency[index][letterIndex!]
+                    if let letterIndex = LetterValue.init(rawValue: String(word[index]))?.intergerValue() {
+                        tempValue += letterFrequency[index][letterIndex]
+                    }
                 }
             }
             
@@ -620,32 +619,88 @@ struct WordProfile: Equatable, Codable {
     }
 }
 
-struct LetterPosition {
-    var pos: Int
-    var a: Int
-    var b: Int
-    var c: Int
-    var d: Int
-    var e: Int
-    var f: Int
-    var g: Int
-    var h: Int
-    var i: Int
-    var j: Int
-    var k: Int
-    var l: Int
-    var m: Int
-    var n: Int
-    var o: Int
-    var p: Int
-    var q: Int
-    var r: Int
-    var s: Int
-    var t: Int
-    var u: Int
-    var v: Int
-    var w: Int
-    var x: Int
-    var y: Int
-    var z: Int
+enum LetterValue: String {
+    case a
+    case b
+    case c
+    case d
+    case e
+    case f
+    case g
+    case h
+    case i
+    case j
+    case k
+    case l
+    case m
+    case n
+    case o
+    case p
+    case q
+    case r
+    case s
+    case t
+    case u
+    case v
+    case w
+    case x
+    case y
+    case z
+    
+    func intergerValue() -> Int {
+        switch self {
+        case .a:
+            return 1
+        case .b:
+            return 2
+        case .c:
+            return 3
+        case .d:
+            return 4
+        case .e:
+            return 5
+        case .f:
+            return 6
+        case .g:
+            return 7
+        case .h:
+            return 8
+        case .i:
+            return 9
+        case .j:
+            return 10
+        case .k:
+            return 11
+        case .l:
+            return 12
+        case .m:
+            return 13
+        case .n:
+            return 14
+        case .o:
+            return 15
+        case .p:
+            return 16
+        case .q:
+            return 17
+        case .r:
+            return 18
+        case .s:
+            return 19
+        case .t:
+            return 20
+        case .u:
+            return 21
+        case .v:
+            return 22
+        case .w:
+            return 23
+        case .x:
+            return 24
+        case .y:
+            return 25
+        case .z:
+            return 26
+        }
+    }
 }
